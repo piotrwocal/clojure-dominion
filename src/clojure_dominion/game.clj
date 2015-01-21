@@ -256,8 +256,8 @@
 (defn subsets
   [n items]
   (cond
-    (= n 0) '(())
     (empty? items) '()
+    (= n 1) (map list items)
     :else (concat (map
                     (partial cons (first items))
                     (subsets (dec n) (rest items)))
