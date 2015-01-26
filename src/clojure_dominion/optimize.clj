@@ -4,6 +4,8 @@
   (:use clojure.tools.trace))
 
 (defn count-points
+  "Takes all game moves, as returned by clojure.core.play,
+   and returns result as a map of name/points values"
   [moves]
   (let [n (->> moves (map :name) distinct count)
         final-moves (take n moves)
@@ -12,6 +14,8 @@
     (apply merge (map get-result final-moves))))
 
 (defn play-series
+  "Returns result of n games between input strategies as a map
+   'name/number of wins'. In case of tie both strategies wins"
   [n & strategies]
   (->> #(count-points (apply play strategies))
        repeatedly
@@ -21,17 +25,25 @@
        frequencies))
 
 (defn play-balanced-series
+  "Returns result of n games once with given input order once with reversed
+   order of strategies"
   [n & strategies]
   (merge-with + (apply play-series n strategies)
               (apply play-series n (reverse strategies))))
 
 (defn neighbours
+  "Takes vector of strategy params and returns list of lists of neighbour
+  values for each param. Filters out negative and bigger then 9 values.
+  Example: (neighbours [0 2]) => ((0 1) (1 2 3))"
   [params]
   (->> params
      (map #(map (partial + %) (range -1 2)))
      (map (partial filter #(and (>= % 0) (<= % 9))))))
 
 (defn permutations
+  "Takes coll of lists where each list is possible parameter value as returned
+  by neighbours fn. Returns all possible combinations of possible parameters values.
+  Example: (permutations [[1 2] [3 4]]) => ((1 3) (1 4) (2 3) (2 4))"
   [[params & params-seq]]
   (if (nil? params-seq)
     (map vector params)
@@ -44,13 +56,17 @@
   [(str params) (apply paramized-big-money* params)])
 
 (defn neighbour-results
-  [n current-params]
-  (let [candidates (-> current-params neighbours permutations)
-        current-startegy (params->strategy current-params)]
+  "Takes n and input params for strategy. For given input params
+  generates permutations of params neighbours and play n balanced
+  series games between current strategy and each generated strategy.
+  Returns sorted list of pairs 'strategy name/number of wins'"
+  [n input-params]
+  (let [candidates (-> input-params neighbours permutations)
+        current-startegy (params->strategy input-params)]
     (->> (map params->strategy candidates)
          (map (partial play-balanced-series n current-startegy))
          (map (partial apply max-key val))
-         (remove #(= (str current-params) (first %)))
+         (remove #(= (str input-params) (first %)))
          (sort-by second >))))
 
 (defn next-best-params
