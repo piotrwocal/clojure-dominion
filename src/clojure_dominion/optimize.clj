@@ -56,10 +56,10 @@
   [(str params) (apply paramized-big-money* params)])
 
 (defn neighbour-results
-  "Takes n and input params for strategy. For given input params
-  generates permutations of params neighbours and play n balanced
-  series games between current strategy and each generated strategy.
-  Returns sorted list of pairs 'strategy name/number of wins'"
+  "Takes n and input params for strategy. For given input params generates
+   permutations of params neighbours and play n balanced series games
+   between input params strategy and each generated strategy.
+   Returns sorted list of pairs 'strategy name/number of wins'"
   [n input-params]
   (let [candidates (-> input-params neighbours permutations)
         current-startegy (params->strategy input-params)]
@@ -69,7 +69,7 @@
          (remove #(= (str input-params) (first %)))
          (sort-by second >))))
 
-(defn next-best-params
+(defn best-neighbour-params
   [n params]
   (->> (neighbour-results n params) first key read-string vec))
 
@@ -86,6 +86,11 @@
 (defn results->params
   [results]
   (map (comp vec read-string first) results))
+
+(->> [5 5 2 3]
+     (iterate (partial best-neighbour-params 5))
+     (take 10)
+     pprint)
 
 (->> (neighbour-results 10 [5 7 2 1])
      (take 3)

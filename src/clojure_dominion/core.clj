@@ -167,7 +167,8 @@
 (defn play
   "Plays game between strategies arguments. Strategy is pair name/action.
    Returns list of all game moves starting from last one. Move is defined
-   as new player state after executing his action"
+   as new player state after executing his actionis player
+   state at given moment of game"
   [& strategies]
   (let [board (atom init-board)
         players (map new-player strategies)]
