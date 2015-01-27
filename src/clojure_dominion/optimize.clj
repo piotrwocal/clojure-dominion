@@ -10,7 +10,7 @@
   (let [n (->> moves (map :name) distinct count)
         final-moves (take n moves)
         get-result (fn [move]
-                        {(:name move) (count-type move :points)})]
+                     {(:name move) (count-type move :points)})]
     (apply merge (map get-result final-moves))))
 
 (defn play-series
@@ -37,8 +37,8 @@
   Example: (neighbours [0 2]) => ((0 1) (1 2 3))"
   [params]
   (->> params
-     (map #(map (partial + %) (range -1 2)))
-     (map (partial filter #(and (>= % 0) (<= % 9))))))
+       (map #(map (partial + %) (range -1 2)))
+       (map (partial filter #(and (>= % 0) (<= % 9))))))
 
 (defn permutations
   "Takes coll of lists where each list is possible parameter value as returned
@@ -86,6 +86,16 @@
 (defn results->params
   [results]
   (map (comp vec read-string first) results))
+
+(defn find-duplicate
+  ([coll max]
+    (find-duplicate coll [] max))
+  ([coll elements max]
+    (let [x (first coll)]
+      (if (or (contains? elements x)
+              (= (count elements) max))
+        [x elements]
+        (recur (rest coll) (conj elements x) max)))))
 
 (->> [5 5 2 3]
      (iterate (partial best-neighbour-params 5))
