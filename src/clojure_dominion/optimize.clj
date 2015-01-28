@@ -13,6 +13,13 @@
                      {(:name move) (count-type move :points)})]
     (apply merge (map get-result final-moves))))
 
+(defn count-series-wins
+  [result]
+  (->> result
+       (map (partial apply max-key val))
+       (map key)
+       frequencies))
+
 (defn play-series
   "Returns result of n games between input strategies as a map
    'name/number of wins'. In case of tie both strategies wins"
@@ -20,9 +27,7 @@
   (->> #(count-points (apply play strategies))
        repeatedly
        (take n)
-       (map (partial apply max-key val))
-       (map key)
-       frequencies))
+       count-series-wins))
 
 (defn play-balanced-series
   "Returns result of n games once with given input order once with reversed
@@ -84,34 +89,46 @@
                   (subsets n (rest items)))))
 
 (defn results->params
-  [results]
-  (map (comp vec read-string first) results))
+  [result]
+  (map (comp vec read-string first) result))
 
 (defn find-duplicate
-  ([coll max]
-    (find-duplicate coll [] max))
-  ([coll elements max]
+  ([max coll]
+    (find-duplicate max coll []))
+  ([max coll elements]
     (let [x (first coll)]
-      (if (or (contains? elements x)
+      (if (or (some #{x} elements)
               (= (count elements) max))
-        [x elements]
-        (recur (rest coll) (conj elements x) max)))))
+        [x (conj elements x)]
+        (recur max (rest coll) (conj elements x))))))
 
-(->> [5 5 2 3]
-     (iterate (partial best-neighbour-params 5))
-     (take 10)
-     pprint)
+(defn optimize-iteratively
+  [max-steps params f]
+  (->> params
+       (iterate f)
+       (find-duplicate max-steps)))
 
-(->> (neighbour-results 10 [5 7 2 1])
-     (take 3)
-     results->params
-     (map params->strategy)
-     (subsets 2)
-     (map (partial apply play-balanced-series 10))
-     pprint)
+;(optimize-iteratively 10 [5 4 3 2]
+;                      (partial best-neighbour-params 10))
 
 
-;------------
+(defn best-tournament-params
+  [neighbour-plays tournament-plays tournament-players params]
+  (->> (neighbour-results neighbour-plays params)
+       (take tournament-players)
+       results->params
+       (cons params)
+       (map params->strategy)
+       (subsets 2)
+       (map (partial apply play-balanced-series tournament-plays))
+       count-series-wins
+       (sort-by val >)
+       ((comp read-string key first))))
+
+;(optimize-iteratively 5 [5 5 3 3]
+;                      (partial best-tournament-params 5 5 3))
+
+
 
 
 
