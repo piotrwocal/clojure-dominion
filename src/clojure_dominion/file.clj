@@ -5,7 +5,7 @@
   (:require [clojure.string :as str])
   (:use clojure.pprint))
 
-(defn persisted-action
+(defn saving-action*
   [file-name move-prefix action]
   (fn [board hand]
     (let [hand (action board hand)
@@ -18,22 +18,40 @@
 (defn line->prefix-buy
   [line]
   (let [tokens (str/split line #"\{")]
-    [(.trim (first tokens)) (str "{" (second tokens))]))
+    [(.trim (first tokens)) (read-string (str "{" (second tokens)))]))
 
-(defn line->buy
-  [line]
-  (->> (str/split line #"\{") last (str "{") (read-string)))
+(defn read-last-prefix-buy
+  [file-name]
+  (with-open [rdr (reader file-name)]
+    (let [last-line (last (line-seq rdr))]
+      (line->prefix-buy last-line))))
 
-; template for read-file-action
-(with-open [rdr (reader "someFileName")]
-  (let [last-line (last (line-seq rdr))
-        prefix-buy (line->prefix-buy last-line)
-        prefix (first prefix-buy)
-        buy (read-string (second prefix-buy))]
-    ))
+(defn reading-action*
+  [file-name move-prefix interval]
+  (fn [board hand]
+    (loop [[prefix buy] (read-prefix-buy file-name)]
+      (if (= prefix move-prefix)
+        buy
+        (do
+          (Thread/sleep interval)
+          (recur (read-prefix-buy file-name)))))))
+
+(defn reading-action2*
+  [file-name move-prefix interval]
+  (fn [board hand]
+    (->> (fn [] (Thread/sleep interval) (read-prefix-buy file-name))
+         repeatedly
+         (filter #(= move-prefix (first %)))
+         first
+         second)))
+
 
 ;(def verbose-pgds
 ;  (file-persisted-action "someFileName" "verbose" province-gold-duchy-silver))
-;
+
 ;(pprint (play ["1" verbose-pgds]
 ;              ["2" province-gold-silver]))
+
+
+
+
