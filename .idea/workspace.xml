@@ -42,8 +42,8 @@
       <file leaf-file-name="file.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84565496" vertical-offset="28" max-vertical-offset="1071">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.53696495" vertical-offset="351" max-vertical-offset="1122">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -605,7 +605,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422568045635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="daily update">
+      <created>1422994882806</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1422994882806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1104,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84565496" vertical-offset="28" max-vertical-offset="1071">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.53696495" vertical-offset="351" max-vertical-offset="1122">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -46,8 +46,11 @@
          second)))
 
 
-;(def verbose-pgds
-;  (file-persisted-action "someFileName" "verbose" province-gold-duchy-silver))
+(def saving-pgds
+  (saving-action* "someFileName" "saving" province-gold-duchy-silver))
+
+(def reading-pgds
+  (reading-action* "someFileName" "reading" 1000))
 
 ;(pprint (play ["1" verbose-pgds]
 ;              ["2" province-gold-silver]))
