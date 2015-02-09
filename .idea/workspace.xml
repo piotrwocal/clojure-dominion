@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/functional_patterns/patterns.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interesting-stuff.txt" afterPath="$PROJECT_DIR$/interesting-stuff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functional_patterns/patterns.clj" afterPath="$PROJECT_DIR$/src/functional_patterns/patterns.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,8 +32,8 @@
       <file leaf-file-name="patterns.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95590144" vertical-offset="1575" max-vertical-offset="2414">
-              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6692607" vertical-offset="1949" max-vertical-offset="2788">
+              <caret line="145" column="42" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -633,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423085555735</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="daily update">
+      <created>1423516155871</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1423516155871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1114,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95590144" vertical-offset="1575" max-vertical-offset="2414">
-          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6692607" vertical-offset="1949" max-vertical-offset="2788">
+          <caret line="145" column="42" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
           <folding />
         </state>
       </provider>

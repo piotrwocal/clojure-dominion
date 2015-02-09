@@ -134,4 +134,26 @@
 
 
 ; Strategy pattern
-k
+(defprotocol Strategy
+  (step-one [this operation])
+  (step-two [this operation])
+  (step-three [this operation]))
+
+(defn process [strategy]
+  (->> (initialize-operation)
+       (step-one strategy)
+       (step-two strategy)
+       (step-three strategy)))
+
+
+; multimethod variant
+(defmulti extensible-step (fn [strategy input] strategy))
+(defn process [input strategy]
+  ;; ... common behavior ...
+  (extensible-step strategy input)
+  ;; ... common behavior ...
+  )
+
+(defmethod extensible-step :strategy-one [_ input] ...)
+(defmethod extensible-step :strategy-two [_ input] ...)
+(defmethod extensible-step :strategy-three [_ input] ...)
