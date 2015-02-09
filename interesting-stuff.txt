@@ -1,7 +1,14 @@
+http://www.infoq.com/presentations/Clojure-Design-Patterns
+https://strange-loop-2012-notes.readthedocs.org/en/latest/monday/functional-design-patterns.html
+
 http://daveyarwood.github.io/2014/07/30/20-cool-clojure-functions/
+
+http://adambard.com/blog/clojure-reducers-for-mortals/
 
 http://adambard.com/blog/greatest-clojure-hits/
 
 http://www.railslove.com/stories/my-way-into-clojure-building-a-card-game-with-om-part-1
 
-http://www.infoq.com/presentations/Clojure-Design-Patterns
+http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/
+
+http://www.slideshare.net/MarkusWinand/modern-sql
