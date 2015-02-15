@@ -88,6 +88,11 @@
                     (subsets (dec n) (rest items)))
                   (subsets n (rest items)))))
 
+;(trace-vars subsets)
+;=> #'clojure-dominion.optimize/subsets
+
+; (defmacro dbg[x] `(let [x# ~x] (println "dbg:" '~x "=" x#) x#))
+
 (defn results->params
   [result]
   (map (comp vec read-string first) result))

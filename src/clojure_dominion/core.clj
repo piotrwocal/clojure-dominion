@@ -61,18 +61,15 @@
     (if (zero? n)
       result
       (let [selected (select-card cards)]
-        (recur
-          (dec n)
-          (merge-with - cards selected)
-          (merge-with + result selected))))))
+        (recur (dec n)
+               (merge-with - cards selected)
+               (merge-with + result selected))))))
 
 (defn count-of
   "Returns counts of all statistics like :points/:value for given cards."
   [stat cards]
-  (apply +
-         (map
-           (fn [[card count]] (* (stat (cards-stats card)) count))
-           cards)))
+  (apply + (map (fn [[card count]] (* (stat (cards-stats card)) count))
+                cards)))
 
 (defn take-cards!
   "Take n cards from player cards, ignore discarded cards"

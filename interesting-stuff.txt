@@ -3,6 +3,12 @@ https://strange-loop-2012-notes.readthedocs.org/en/latest/monday/functional-desi
 
 http://daveyarwood.github.io/2014/07/30/20-cool-clojure-functions/
 
+------
+
+https://aphyr.com/posts/319-clojure-from-the-ground-up-debugging
+
+http://brownsofa.org/blog/2014/08/03/debugging-in-clojure-tools/
+
 http://adambard.com/blog/clojure-reducers-for-mortals/
 
 http://adambard.com/blog/greatest-clojure-hits/

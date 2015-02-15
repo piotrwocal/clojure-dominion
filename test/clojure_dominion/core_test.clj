@@ -1,4 +1,4 @@
-(ns clojure-dominion.game-test
+(ns clojure-dominion.core-test
   (:use clojure-dominion.core)
   (:use [clojure.test :only [deftest is are]]))
 
