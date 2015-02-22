@@ -103,9 +103,8 @@
         missing-cards (- 5 (count-cards hand))]
     (if (and (pos? missing-cards)
              (has-discarded? @player))
-      (do
-        (discarded->cards! player)
-        (merge-with + hand (take-cards! missing-cards player)))
+      (do (discarded->cards! player)
+          (merge-with + hand (take-cards! missing-cards player)))
       hand)))
 
 (defn can-buy?

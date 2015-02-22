@@ -54,7 +54,7 @@
   (let [actions (filter-actions hand)]
     (if (and (pos? (:free-action state))
              (seq actions))
-      (first actions))))
+      (eval-action-card-cost actions))))
 
 (defn single-action!
   [board player hand state]
