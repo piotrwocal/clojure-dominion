@@ -18,3 +18,5 @@ http://www.railslove.com/stories/my-way-into-clojure-building-a-card-game-with-o
 http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/
 
 http://www.slideshare.net/MarkusWinand/modern-sql
+
+http://www.oliverelliott.org/article/computing/tut_unix/

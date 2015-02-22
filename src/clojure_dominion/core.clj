@@ -1,6 +1,6 @@
 (ns clojure-dominion.core)
 
-(def cards-stats
+(def base-cards-stats
   "Cards statistics as a map of cards type (:copper etc) to stats map"
   {:copper   {:cost 0 :value 1 :points 0}
    :silver   {:cost 3 :value 2 :points 0}
@@ -68,7 +68,7 @@
 (defn count-of
   "Returns counts of all statistics like :points/:value for given cards."
   [stat cards]
-  (apply + (map (fn [[card count]] (* (stat (cards-stats card)) count))
+  (apply + (map (fn [[card count]] (* (stat (base-cards-stats card 0)) count))
                 cards)))
 
 (defn take-cards!
@@ -112,7 +112,7 @@
   "Test if with board and money one can buy card"
   [board card money]
   (and (pos? (card board 0))
-       (>= money (-> cards-stats card :cost))))
+       (>= money (-> base-cards-stats card :cost))))
 
 (defn paramized-big-money*
   [gold-min-p duchy-max-p silver-min-p estate-max-p]
