@@ -71,12 +71,16 @@
   (apply + (map (fn [[card count]] (* (stat (base-cards-stats card 0)) count))
                 cards)))
 
-(defn take-cards!
+(defn remove-zero-cards
+  [cards]
+  (into {} (remove (comp zero? val) cards)))
+
+(defn take-from-deck!
   "Take n cards from player cards, ignore discarded cards"
   [n player]
   (let [hand (select-cards n (@player :cards))
         new-cards (merge-with - (@player :cards) hand)]
-    (swap! player assoc :cards new-cards)
+    (swap! player assoc :cards (remove-zero-cards new-cards))
     hand))
 
 (defn discard-cards!
@@ -86,26 +90,31 @@
     (swap! player assoc :discarded discarded)))
 
 (defn discarded->cards!
-  "Switches player discarded cards to current, sets discarded map to empty"
+  "Switches player discarded cards to deck, sets discarded map to empty"
   [player]
-  (swap! player assoc :cards (@player :discarded))
-  (swap! player assoc :discarded {}))
+  (let [all-cards (merge-with + (:cards @player) (:discarded @player))
+        _ (println "discarded->cards! all-cards=" all-cards)]
+    (swap! player assoc :cards all-cards)
+    (swap! player assoc :discarded {})))
 
 (defn has-discarded?
   "Check if player has discarded cards"
   [player]
   (-> (player :discarded) count-cards pos?))
 
-(defn take-hand!
-  "Takes next player hand swichting discarded to current cards when current empty"
-  [player]
-  (let [hand (take-cards! 5 player)
-        missing-cards (- 5 (count-cards hand))]
+(defn take-cards!
+  "Takes next player n cards swichting discarded to deck when deck is empty"
+  [n player]
+  (let [hand (take-from-deck! n player)
+        missing-cards (- n (count-cards hand))]
     (if (and (pos? missing-cards)
              (has-discarded? @player))
       (do (discarded->cards! player)
-          (merge-with + hand (take-cards! missing-cards player)))
+          (merge-with + hand (take-from-deck! missing-cards player)))
       hand)))
+
+(def take-hand!
+  (partial take-cards! 5))
 
 (defn can-buy?
   "Test if with board and money one can buy card"
