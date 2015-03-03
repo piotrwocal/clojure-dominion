@@ -44,10 +44,18 @@
     {:chancellor 1 :silver 1} {:cards {:copper 2} :discarded {:gold 1}}
     {:cards {:copper 2 :gold 1} :discarded {:chancellor 1 :silver 1}}
 
-    {:chancellor 1 :silver 1} {:cards {:copper 2} :discarded {:gold 1}}
-    {:cards {:copper 2 :gold 1} :discarded {:chancellor 1 :silver 1}}
+    {:chancellor 1 :silver 1} {:cards {:gold 1} :discarded {:copper 2}}
+    {:cards {:gold 1} :discarded {:copper 2 :chancellor 1 :silver 1}}
 
+    {:cellar 1 :estate 2} {:cards {:gold 1} :discarded {:gold 2}}
+    {:cards {:gold 1} :discarded {:gold 2 :estate 2 :cellar 1}}
 
+    {:cellar 3} {:cards {:gold 2} :discarded {}}
+    {:cards {} :discarded {:gold 2 :cellar 3}}
+
+    ; not optimal example of cellar
+    {:village 1 :smithy 1 :cellar 1} {:cards {:estate 4} :discarded {:gold 5}}
+    {:cards {:gold 4} :discarded {:cellar 1 :estate 4 :gold 1 :smithy 1 :village 1}}
     ))
 
 

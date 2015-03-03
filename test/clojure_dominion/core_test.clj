@@ -23,7 +23,7 @@
 
 (deftest test-count-of
   (are [n stats cards]
-    (= n (count-of stats cards))
+    (= n (count-of-base stats cards))
     7 :value init-cards
     3 :points init-cards
     14 :value test-cards

@@ -36,6 +36,14 @@
 (def init-move-state
   {:free-action 1 :free-buy 1 :virtual-money 0 :played []})
 
+(def count-of-all
+  (partial count-of (into base-cards-stats action-stats)))
+
+(defn filter-points
+  [cards]
+  (into {} (filter (comp #{:estate :duchy :province} key)
+                   (filter (comp pos? val) cards))))
+
 (defn filter-actions
   "Takes cards and returns action cards for which cards count is positive"
   [cards]
@@ -61,6 +69,15 @@
 
 (def single-action)
 
+; helpers for actions
+(defn weighted-money-generation
+  [cards]
+  (if (zero? (count-cards cards ))
+    0
+  (/ (+ (count-of-all :value cards)
+        (/ (count-of-all :cost (filter-actions cards)) 2))
+     (count-cards cards))))
+
 ; >>> play-card multimethod
 (defmulti play-card
           "Plays single card according to rules modifying accordingly board/player/state."
@@ -71,11 +88,26 @@
   [card board player hand state]
   (single-action board player hand state))
 
+(defmethod play-card :cellar
+  [card board player hand state]
+  (let [_ (println "play cellar, hand=" hand " state=" state)
+        point-cards (filter-points hand)
+        to-discard-cards (if (zero? (:free-action state))
+                           (conj (filter-actions hand) point-cards)
+                           point-cards)
+        new-hand (apply dissoc hand (keys to-discard-cards))]
+    (single-action board player
+                   (merge-with + new-hand
+                               (take-cards! (count-cards to-discard-cards) player))
+                   (update-in state [:played] conj to-discard-cards))))
+
 (defmethod play-card :chancellor
   [card board player hand state]
   (do
     (println "play chancelor, hand=" hand " state=" state)
-    (discarded->cards! player)
+    (if (> (weighted-money-generation (:discarded @player))
+           (weighted-money-generation (:cards @player)))
+      (discarded->cards! player))
     (single-action board player hand
                    (merge-with + state {:virtual-money 2}))))
 
@@ -96,8 +128,6 @@
                    state)))
 ; <<< play-card multimethod
 
-; helpers for actions
-
 
 ; play mechanics
 (defn buy-card
@@ -115,7 +145,7 @@
   "Executes single player action as play card or single buy.
    Modifies board and player state"
   [board player hand state]
-  (let [ _ (println "single-action: player=" player ",hand=" hand ",state=" state)
+  (let [_ (println "single-action: player=" player ",hand=" hand ",state=" state)
         action-card (choose-action @board @player hand state)]
     (if action-card
       (play-card action-card board player

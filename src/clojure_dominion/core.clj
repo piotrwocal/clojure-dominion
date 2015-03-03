@@ -67,9 +67,12 @@
 
 (defn count-of
   "Returns counts of all statistics like :points/:value for given cards."
-  [stat cards]
-  (apply + (map (fn [[card count]] (* (stat (base-cards-stats card 0)) count))
+  [stats stat cards]
+  (apply + (map (fn [[card count]] (* (stat (stats card {}) 0) count))
                 cards)))
+
+(def count-of-base
+  (partial count-of base-cards-stats))
 
 (defn remove-zero-cards
   [cards]
@@ -125,7 +128,7 @@
 (defn paramized-big-money*
   [gold-min-p duchy-max-p silver-min-p estate-max-p]
   (fn [board hand]
-    (let [value (count-of :value hand)
+    (let [value (count-of-base :value hand)
           provinces (:province board 0)]
       (cond
         (can-buy? board :province value) {:province 1}
@@ -141,7 +144,7 @@
 (defn simple-buy*
   [& prefered]
   (fn [board hand]
-    (let [money (count-of :value hand)
+    (let [money (count-of-base :value hand)
           buy (first (filter #(can-buy? board % money) prefered))]
       (if buy {buy 1} {}))))
 
@@ -153,8 +156,8 @@
 
 (defn count-type
   [player type]
-  (+ (count-of type (:cards player))
-     (count-of type (:discarded player))))
+  (+ (count-of-base type (:cards player))
+     (count-of-base type (:discarded player))))
 
 (defn game-finish?
   [board]
