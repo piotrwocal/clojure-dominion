@@ -129,14 +129,15 @@
   [gold-min-p duchy-max-p silver-min-p estate-max-p]
   (fn [board hand]
     (let [value (count-of-base :value hand)
-          provinces (:province board 0)]
+          provinces (:province board 0)
+          _ (println "executed paramized-big-money hand=" hand)]
       (cond
         (can-buy? board :province value) {:province 1}
         (and (can-buy? board :gold value) (>= provinces gold-min-p)) {:gold 1}
         (and (can-buy? board :duchy value) (<= provinces duchy-max-p)) {:duchy 1}
         (and (can-buy? board :silver value) (>= provinces silver-min-p)) {:silver 1}
         (and (can-buy? board :estate value) (<= provinces estate-max-p)) {:estate 1}
-        :else {}))))
+        :else {:cannot-buy 1}))))
 
 (def optimized-big-money
   (paramized-big-money* 4 5 2 3))

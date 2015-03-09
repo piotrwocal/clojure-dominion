@@ -13,10 +13,10 @@
   (are [n cards result]
     (= (select-cards n cards) result)
     1 {:copper 2} {:copper 1}
-    3 {:cooper 1 :silver 2} {:cooper 1 :silver 2}
-    10 {:cooper 2} {:cooper 2}
+    3 {:copper 1 :silver 2} {:copper 1 :silver 2}
+    10 {:copper 2} {:copper 2}
     10 {} {}
-    0 {:cooper 1} {}))
+    0 {:copper 1} {}))
 
 (def test-cards
   {:copper 1 :silver 2 :gold 3 :estate 1 :duchy 2})

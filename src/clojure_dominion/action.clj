@@ -72,12 +72,13 @@
 ; helpers for actions
 (defn weighted-money-generation
   [cards]
-  (if (zero? (count-cards cards ))
+  (if (zero? (count-cards cards))
     0
-  (/ (+ (count-of-all :value cards)
-        (/ (count-of-all :cost (filter-actions cards)) 2))
-     (count-cards cards))))
+    (/ (+ (count-of-all :value cards)
+          (/ (count-of-all :cost (filter-actions cards)) 2))
+       (count-cards cards))))
 
+; -------------------------------------------------------
 ; >>> play-card multimethod
 (defmulti play-card
           "Plays single card according to rules modifying accordingly board/player/state."
@@ -90,8 +91,7 @@
 
 (defmethod play-card :cellar
   [card board player hand state]
-  (let [_ (println "play cellar, hand=" hand " state=" state)
-        point-cards (filter-points hand)
+  (let [point-cards (filter-points hand)
         to-discard-cards (if (zero? (:free-action state))
                            (conj (filter-actions hand) point-cards)
                            point-cards)
@@ -101,10 +101,19 @@
                                (take-cards! (count-cards to-discard-cards) player))
                    (update-in state [:played] conj to-discard-cards))))
 
+(defmethod play-card :chapel
+  [card board player hand state]
+  (single-action board player (dissoc hand :estate) state))
+
+(defmethod play-card :moat
+  [card board player hand state]
+  (single-action board player
+                 (merge-with + hand (take-cards! 2 player))
+                 state))
+
 (defmethod play-card :chancellor
   [card board player hand state]
   (do
-    (println "play chancelor, hand=" hand " state=" state)
     (if (> (weighted-money-generation (:discarded @player))
            (weighted-money-generation (:cards @player)))
       (discarded->cards! player))
@@ -113,28 +122,32 @@
 
 (defmethod play-card :village
   [card board player hand state]
-  (do
-    (println "play village, hand=" hand " state=" state)
-    (single-action board player
-                   (merge-with + hand (take-cards! 1 player))
-                   (merge-with + state {:free-action 2}))))
+  (single-action board player
+                 (merge-with + hand (take-cards! 1 player))
+                 (merge-with + state {:free-action 2})))
+
+(defmethod play-card :woodcutter
+  [card board player hand state]
+  (single-action board player hand
+                 (merge-with + state {:virtual-money 2 :free-buy 1})))
 
 (defmethod play-card :smithy
   [card board player hand state]
-  (do
-    (println "play smithy, hand=" hand " state=" state)
-    (single-action board player
-                   (merge-with + hand (take-cards! 3 player))
-                   state)))
+  (single-action board player
+                 (merge-with + hand (take-cards! 3 player))
+                 state))
 ; <<< play-card multimethod
+; -------------------------------------------------------
 
 
 ; play mechanics
 (defn buy-card
   [board player hand state]
-  (do
-    (println "buy-card executed, hand=" hand ", state=" state)
-    (single-action board player hand state)))
+  (let [action (:action @player)
+        buy (if action (action @board hand) {})
+        _ (println "buy-card executed, hand=" hand ", state=" state ", action=" action ",buy" buy)]
+    (single-action board player hand
+                   (update-in state [:played] conj buy))))
 
 (defn update-move-state
   [state action]
@@ -148,9 +161,11 @@
   (let [_ (println "single-action: player=" player ",hand=" hand ",state=" state)
         action-card (choose-action @board @player hand state)]
     (if action-card
-      (play-card action-card board player
-                 (merge-with - hand {action-card 1})
-                 (update-move-state state action-card))
+      (do
+        (println "play card= " action-card ", hand=" hand " state=" state)
+        (play-card action-card board player
+                   (merge-with - hand {action-card 1})
+                   (update-move-state state action-card)))
       (if (pos? (:free-buy state 0))
         (buy-card board player hand
                   (merge-with - state {:free-buy 1}))
