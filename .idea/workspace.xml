@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clojure_dominion/action-cards.clj" />
+    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="daily update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clojure_dominion/action.clj" afterPath="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clojure_dominion/action_test.clj" afterPath="$PROJECT_DIR$/test/clojure_dominion/action_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clojure_dominion/core.clj" afterPath="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
@@ -36,28 +35,38 @@
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1309">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="action.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="3128">
-              <caret line="131" column="70" selection-start-line="131" selection-start-column="70" selection-end-line="131" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.26459143" vertical-offset="2533" max-vertical-offset="3315">
+              <caret line="161" column="13" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action_test.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="96407" max-vertical-offset="119680">
+              <caret line="5677" column="6" selection-start-line="5677" selection-start-column="6" selection-end-line="5677" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/clojure_dominion/action_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58106357" vertical-offset="946" max-vertical-offset="1717">
-              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="1734">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,8 +85,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1902" max-vertical-offset="3298">
-              <caret line="139" column="33" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="3264">
+              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -124,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" />
         <option value="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
-        <option value="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/action_test.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
       </list>
     </option>
   </component>
@@ -293,7 +302,7 @@
       <recent name="$PROJECT_DIR$/test/clojure_dominion" />
     </key>
   </component>
-  <component name="RunManager" selected="Clojure REPL.REPL for clojure_dominion">
+  <component name="RunManager" selected="Leiningen.lein test">
     <configuration default="false" name="REPL for clojure_dominion" type="ClojureREPL" factoryName="Local" temporary="true">
       <setting name="useLein" value="false" />
       <setting name="leinProjectName" value="" />
@@ -710,7 +719,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425422305147</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="daily update">
+      <created>1425931206881</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1425931206881</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -756,7 +771,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22453372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5050215" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48995695" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30702835" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -807,7 +822,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/clojure_dominion/core.clj</url>
-          <line>135</line>
+          <line>134</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -1181,14 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1197,34 +1204,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1309">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3527886" vertical-offset="43452" max-vertical-offset="119680">
-          <caret line="2572" column="6" selection-start-line="2572" selection-start-column="6" selection-end-line="2572" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="96407" max-vertical-offset="119680">
+          <caret line="5677" column="6" selection-start-line="5677" selection-start-column="6" selection-end-line="5677" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1902" max-vertical-offset="3298">
-          <caret line="139" column="33" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="3128">
-          <caret line="131" column="70" selection-start-line="131" selection-start-column="70" selection-end-line="131" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="3264">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/action_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58106357" vertical-offset="946" max-vertical-offset="1717">
-          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="1734">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26459143" vertical-offset="2533" max-vertical-offset="3315">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding />
         </state>
       </provider>

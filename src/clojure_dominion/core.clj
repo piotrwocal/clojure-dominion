@@ -127,26 +127,24 @@
 
 (defn paramized-big-money*
   [gold-min-p duchy-max-p silver-min-p estate-max-p]
-  (fn [board hand]
-    (let [value (count-of-base :value hand)
-          provinces (:province board 0)
-          _ (println "executed paramized-big-money hand=" hand)]
+  (fn [board money]
+    (let [provinces (:province board 0)
+          _ (println "executed paramized-big-money money=" money)]
       (cond
-        (can-buy? board :province value) {:province 1}
-        (and (can-buy? board :gold value) (>= provinces gold-min-p)) {:gold 1}
-        (and (can-buy? board :duchy value) (<= provinces duchy-max-p)) {:duchy 1}
-        (and (can-buy? board :silver value) (>= provinces silver-min-p)) {:silver 1}
-        (and (can-buy? board :estate value) (<= provinces estate-max-p)) {:estate 1}
-        :else {:cannot-buy 1}))))
+        (can-buy? board :province money) {:province 1}
+        (and (can-buy? board :gold money) (>= provinces gold-min-p)) {:gold 1}
+        (and (can-buy? board :duchy money) (<= provinces duchy-max-p)) {:duchy 1}
+        (and (can-buy? board :silver money) (>= provinces silver-min-p)) {:silver 1}
+        (and (can-buy? board :estate money) (<= provinces estate-max-p)) {:estate 1}
+        :else {}))))
 
 (def optimized-big-money
   (paramized-big-money* 4 5 2 3))
 
 (defn simple-buy*
   [& prefered]
-  (fn [board hand]
-    (let [money (count-of-base :value hand)
-          buy (first (filter #(can-buy? board % money) prefered))]
+  (fn [board money]
+    (let [buy (first (filter #(can-buy? board % money) prefered))]
       (if buy {buy 1} {}))))
 
 (def province-gold-duchy-silver
@@ -169,7 +167,7 @@
    Returns new player state"
   [board player]
   (let [hand (take-hand! player)
-        buy ((:action @player) @board hand)]
+        buy ((:action @player) @board (count-of-base :value hand))]
     (swap! board (partial merge-with -) buy)
     (discard-cards! player (merge-with + hand buy))))
 

@@ -48,18 +48,16 @@
     false init-cards :province 8))
 
 (deftest test-optimized-big-money
-  (are [card board hand]
-    (= card (optimized-big-money board hand))
-    {:province 1} init-board {:copper 8}
-    {:gold 1} init-board {:copper 6}
-    {:duchy 1} {:province 3 :gold 1 :duchy 1} {:copper 6}
-    {:silver 1} init-board {:copper 5}
-    {:silver 1} init-board {:copper 3}
-    {:silver 1} {:province 3 :gold 0 :duchy 1
-                 :silver   1 :estate 1} {:copper 3}
-    {:estate 1} {:province 2 :gold 0 :duchy 1
-                 :silver   1 :estate 1} {:copper 2}
-    {} init-board {:copper 2}))
+  (are [card money board]
+    (= card (optimized-big-money board money))
+    {:province 1} 8 init-board
+    {:gold 1}     6 init-board
+    {:duchy 1}    6 {:province 3 :gold 1 :duchy 1}
+    {:silver 1}   5 init-board
+    {:silver 1}   3 init-board
+    {:silver 1}   3 {:province 3 :gold 0 :duchy 1 :silver 1 :estate 1}
+    {:estate 1}   2 {:province 2 :gold 0 :duchy 1 :silver 1 :estate 1}
+    {}            2 init-board))
 
 ; TODO: have a look at test.generative lib
 

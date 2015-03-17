@@ -139,15 +139,26 @@
 ; <<< play-card multimethod
 ; -------------------------------------------------------
 
+(defn update-state-for-buy
+  [state buy]
+  (let [buy-cost (count-of-all :cost buy)]
+    (-> (update-in state [:played] conj buy)
+        (update-in [:virtual-money] - buy-cost))))
+
+(defn update-state-for-discard
+  [state hand]
+  (-> (update-in state [:played] conj hand)
+      (update-in [:virtual-money] + (count-of-all :value hand))))
 
 ; play mechanics
 (defn buy-card
   [board player hand state]
-  (let [action (:action @player)
-        buy (if action (action @board hand) {})
-        _ (println "buy-card executed, hand=" hand ", state=" state ", action=" action ",buy" buy)]
-    (single-action board player hand
-                   (update-in state [:played] conj buy))))
+  (println "buy-card player=" player ", hand=" hand ", state=" state)
+  (if (pos? (count-cards hand))
+    (buy-card board player {} (update-state-for-discard state hand))
+    (let [action (:action @player (constantly {}))
+          buy (action @board (:virtual-money state))]
+      (single-action board player hand (update-state-for-buy state buy)))))
 
 (defn update-move-state
   [state action]
