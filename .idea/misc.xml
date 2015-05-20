@@ -27,10 +27,10 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
+  <component name="LeiningenProjectsManager">
+    <option name="projectFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="file://$PROJECT_DIR$/project.clj" />
       </list>
     </option>
   </component>
