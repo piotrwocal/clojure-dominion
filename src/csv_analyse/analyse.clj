@@ -1,4 +1,4 @@
-(ns clojure-dominion.analyse
+(ns csv-analyse.analyse
   (:use clojure.pprint)
   (:use clojure.java.io)
   (:require [clojure.string :as str]))
@@ -26,12 +26,12 @@
             (#(assoc % :total-time (* (:count %) (:avg-processing %)))))
        (catch Exception ex {:total-time 0})))
 
-(->> (file->lines "/opt/data/tmp/top25_channels.csv")
-     (map line->entry-strings)
-     (mapcat (partial map entry-string->entry))
-     (map calculate-total-time)
-     (group-by :channel-id)
-     (mapcat (fn [[k v]] {k (apply + (map :total-time v))}))
-     (sort-by val >)
-     (take 20)
-     pprint)
+;(->> (file->lines "/opt/data/tmp/top25_channels.csv")
+;     (map line->entry-strings)
+;     (mapcat (partial map entry-string->entry))
+;     (map calculate-total-time)
+;     (group-by :channel-id)
+;     (mapcat (fn [[k v]] {k (apply + (map :total-time v))}))
+;     (sort-by val >)
+;     (take 20)
+;     pprint)

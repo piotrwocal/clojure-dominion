@@ -56,8 +56,8 @@
   [cards]
   (let [add-action-cards (filter #(:add-action (action-stats %)) cards)]
     (if (seq add-action-cards)
-      (->> add-action-cards (sort-by #(:add-card (action-stats %) 0) >))
-      (->> cards (sort-by #(:cost (action-stats %)) >)))))
+      (sort-by #(:add-card (action-stats %) 0) > add-action-cards)
+      (sort-by #(:cost (action-stats %)) > cards))))
 
 (defn choose-action
   "Returns selected card to play from hand as keyword"
@@ -81,7 +81,7 @@
 ; -------------------------------------------------------
 ; >>> play-card multimethod
 (defmulti play-card
-          "Plays single card according to rules modifying accordingly board/player/state."
+          "Plays single card according to rules. Modifies accordingly board/player/state."
           (fn [card board player hand state] card)
           :default nil)
 
