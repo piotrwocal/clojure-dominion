@@ -160,10 +160,10 @@
           buy (action @board (:virtual-money state))]
       (single-action board player hand (update-state-for-buy state buy)))))
 
-(defn update-move-state
+(defn update-state-for-move
   [state action]
-  (let [new-state (merge-with - state {:free-action 1})]
-    (update-in new-state [:played] conj {action 1})))
+  (-> (merge-with - state {:free-action 1})
+    (update-in [:played] conj {action 1})))
 
 (defn single-action
   "Executes single player action as play card or single buy.
@@ -176,7 +176,7 @@
         (println "play card= " action-card ", hand=" hand " state=" state)
         (play-card action-card board player
                    (merge-with - hand {action-card 1})
-                   (update-move-state state action-card)))
+                   (update-state-for-move state action-card)))
       (if (pos? (:free-buy state 0))
         (buy-card board player hand
                   (merge-with - state {:free-buy 1}))
