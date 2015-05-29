@@ -35,3 +35,15 @@
 ;     (sort-by val >)
 ;     (take 20)
 ;     pprint)
+
+(defn unique-head [xs]
+  (if (= (count xs) (count (set xs)))
+    xs
+    (recur (butlast xs))))
+
+(defn longest-unique [xs]
+  (->> (take-while not-empty (iterate rest (seq xs)))
+       (map unique-head)
+       (sort-by count >)
+       first))
+
