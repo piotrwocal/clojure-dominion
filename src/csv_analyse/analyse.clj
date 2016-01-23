@@ -37,7 +37,7 @@
 ;     pprint)
 
 (defn unique-head [xs]
-  (if (= (count xs) (count (set xs)))
+  (if (= (count xs) (count (distinct xs)))
     xs
     (recur (butlast xs))))
 

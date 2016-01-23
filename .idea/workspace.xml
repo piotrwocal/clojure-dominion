@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csv_analyse/analyse.clj" afterPath="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
+    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="daily update">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_3.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clojure_dominion.iml" afterPath="$PROJECT_DIR$/clojure-dominion.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" afterPath="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csv_analyse/analyse.clj" afterPath="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
     </list>
     <ignored path="clojure-dominion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,90 +26,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="clojure-dominion" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="3315">
-              <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="optimize_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="optimize.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="optimize.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2686">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1309">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyse.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81841767" vertical-offset="151" max-vertical-offset="935">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="3264">
-              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patterns.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2788">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state vertical-scroll-proportion="1.9684211">
+              <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,6 +46,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,14 +62,15 @@
         <option value="$PROJECT_DIR$/src/clojure_dominion/file.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj" />
         <option value="$PROJECT_DIR$/interesting-stuff.txt" />
-        <option value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/action_test.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/functional_patterns/patterns.clj" />
-        <option value="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
         <option value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
+        <option value="$PROJECT_DIR$/src/ulf/minesweeper.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
       </list>
     </option>
   </component>
@@ -164,9 +103,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,9 +129,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectFilesBackup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-dominion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,14 +189,13 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="Clojure.Project" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesClojure" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="141" />
@@ -225,59 +212,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29229" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/clojure_dominion" />
     </key>
   </component>
-  <component name="RunManager" selected="Clojure REPL.REPL for clojure_dominion">
-    <configuration default="false" name="analyse" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure_dominion" />
-      <setting name="path" value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/csv_analyse" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure_dominion" />
-      <setting name="path" value="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_dominion" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="false" name="core_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure_dominion" />
-      <setting name="path" value="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_dominion" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Clojure REPL.REPL for clojure-dominion">
     <configuration default="false" name="file" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojure_dominion" />
       <setting name="path" value="$PROJECT_DIR$/src/clojure_dominion/file.clj" />
@@ -292,14 +239,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="false" name="optimize" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_dominion" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="REPL for clojure-dominion" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="clojure-dominion" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
     <configuration default="false" name="REPL for clojure_dominion" type="ClojureREPL" factoryName="Local" temporary="true">
-      <setting name="useLein" value="false" />
-      <setting name="useClojureMain" value="false" />
-      <setting name="leinProjectName" value="" />
+      <setting name="replType" value="0" />
       <module name="clojure_dominion" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -313,10 +277,223 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="false" name="analyse" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="path" value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/csv_analyse" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="clojure-dominion" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="myGoals">
+          <list />
+        </option>
+        <option name="myWorkingDirectory" value="" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
+      </LeiningenRunnerParameters>
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -341,33 +518,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="" />
-      <setting name="repl" value="false" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <LeiningenRunnerParameters>
-        <option name="goals">
-          <list />
-        </option>
-        <option name="workingDirectory" value="" />
-      </LeiningenRunnerParameters>
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -398,138 +554,42 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="useLein" value="true" />
-      <setting name="useClojureMain" value="false" />
-      <setting name="leinProjectName" value="" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="lein kibit" type="LeiningenRunConfiguration" factoryName="Leiningen">
       <LeiningenRunnerParameters>
-        <option name="goals">
-          <list>
-            <option value="kibit" />
-          </list>
+        <option name="myGoals">
+          <list />
         </option>
-        <option name="workingDirectory" value="$PROJECT_DIR$" />
+        <option name="myWorkingDirectory" value="" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
       </LeiningenRunnerParameters>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -537,12 +597,12 @@
     </configuration>
     <configuration default="false" name="lein test" type="LeiningenRunConfiguration" factoryName="Leiningen">
       <LeiningenRunnerParameters>
-        <option name="goals">
-          <list>
-            <option value="test" />
-          </list>
+        <option name="myGoals">
+          <list />
         </option>
-        <option name="workingDirectory" value="$PROJECT_DIR$" />
+        <option name="myWorkingDirectory" value="" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
       </LeiningenRunnerParameters>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -551,16 +611,17 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Leiningen.lein kibit" />
       <item index="1" class="java.lang.String" itemvalue="Leiningen.lein test" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application.analyse" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Application.core" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Application.core_test" />
-      <item index="5" class="java.lang.String" itemvalue="Clojure Application.file" />
-      <item index="6" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure_dominion" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Application.file" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Application.optimize" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-dominion" />
+      <item index="5" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure_dominion" />
+      <item index="6" class="java.lang.String" itemvalue="Clojure Application.analyse" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure_dominion" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-dominion" />
         <item index="1" class="java.lang.String" itemvalue="Clojure Application.analyse" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application.optimize" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -705,7 +766,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432158105523</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="daily update">
+      <created>1432928886159</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1432928886159</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -732,28 +799,29 @@
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.49815044" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20961775" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22381635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5215208" sideWeight="0.50061655" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3057953" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.664405" sideWeight="0.50061655" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20961775" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.49815044" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3043478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -775,9 +843,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="added tests, refactored count-points" />
     <MESSAGE value="file split" />
     <MESSAGE value="extended docs" />
@@ -788,29 +853,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj</url>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj</url>
-          <line>3</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/clojure_dominion/core.clj</url>
-          <line>125</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/clojure_dominion/core.clj</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/clojure_dominion/core.clj</url>
           <line>33</line>
@@ -827,379 +869,569 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2788">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1037">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4097">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="6953">
-          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37547" max-vertical-offset="119680">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4097">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="6953">
+        <state vertical-scroll-proportion="0.0">
           <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37547" max-vertical-offset="119680">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4097">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="6953">
+        <state vertical-scroll-proportion="0.0">
           <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37547" max-vertical-offset="119680">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4097">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="6953">
+        <state vertical-scroll-proportion="0.0">
           <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37547" max-vertical-offset="119680">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/lispcast/org.apache.commons.lang/2.5.0/org.apache.commons.lang-2.5.0.jar!/org/apache/commons/lang/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34387353" vertical-offset="9208" max-vertical-offset="35207">
+        <state vertical-scroll-proportion="0.34387353">
           <caret line="595" column="25" selection-start-line="595" selection-start-column="25" selection-end-line="595" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/replstate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clojure_dominion.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="6953">
+        <state vertical-scroll-proportion="0.0">
           <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/java/browse.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4094387" vertical-offset="0" max-vertical-offset="1394">
+        <state vertical-scroll-proportion="1.4094387">
           <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/string.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67984694" vertical-offset="3411" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.67984694">
           <caret line="232" column="44" selection-start-line="232" selection-start-column="44" selection-end-line="232" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="771">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/intro.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044795785" vertical-offset="0" max-vertical-offset="759">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/someFileName">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/tools.trace/0.7.8/tools.trace-0.7.8.jar!/clojure/tools/trace.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57587546" vertical-offset="5081" max-vertical-offset="7174">
+        <state vertical-scroll-proportion="0.57587546">
           <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interesting-stuff.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13488975" vertical-offset="8073" max-vertical-offset="13396">
+        <state vertical-scroll-proportion="0.13488975">
           <caret line="481" column="26" selection-start-line="481" selection-start-column="26" selection-end-line="481" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo.txt">
+    <entry file="jar://$MAVEN_REPOSITORY$/clojure-complete/clojure-complete/0.2.3/clojure-complete-0.2.3.jar!/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="96407" max-vertical-offset="119680">
-          <caret line="5677" column="6" selection-start-line="5677" selection-start-column="6" selection-end-line="5677" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46303502" vertical-offset="0" max-vertical-offset="1989">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/action_test.clj">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1734">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clojure-dominion.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/doc/intro.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1309">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2788">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.044678055">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state vertical-scroll-proportion="0.03976608">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3315">
-          <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.5368421">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
+    <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2686">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.5169591">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+    <entry file="file://$PROJECT_DIR$/src/ulf/minesweeper.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="3264">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.5368421">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/lang/RT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3437877">
+          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="5078" column="6" selection-start-line="5078" selection-start-column="6" selection-end-line="5078" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81841767" vertical-offset="151" max-vertical-offset="935">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7062802">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <marker date="1433625418000" expanded="true" signature="0:111" placeholder="(ns csv-analyse.analyse ...)" />
+            <marker date="1433625418000" expanded="true" signature="113:218" placeholder="(defn file-&gt;lines ...)" />
+            <marker date="1433625418000" expanded="true" signature="220:315" placeholder="(defn line-&gt;entry-strings ...)" />
+            <marker date="1433625418000" expanded="true" signature="317:567" placeholder="(defn entry-string-&gt;entry ...)" />
+            <marker date="1433625418000" expanded="true" signature="569:849" placeholder="(defn calculate-total-time ...)" />
+            <marker date="1433625418000" expanded="true" signature="1164:1263" placeholder="(defn unique-head ...)" />
+            <marker date="1433625418000" expanded="true" signature="1265:1409" placeholder="(defn longest-unique ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/action_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3140097">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interesting-stuff.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21352658">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someFileName">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73913044">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9217391">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <marker date="1443948203000" expanded="true" signature="28:374" placeholder="(def base-cards-stats ...)" />
+            <marker date="1443948203000" expanded="true" signature="376:514" placeholder="(def init-board ...)" />
+            <marker date="1443948203000" expanded="true" signature="516:587" placeholder="(def init-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="589:671" placeholder="(def init-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="673:897" placeholder="(defn new-player ...)" />
+            <marker date="1443948203000" expanded="true" signature="899:1022" placeholder="(defn count-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1024:1366" placeholder="(defn select-card ...)" />
+            <marker date="1443948203000" expanded="true" signature="1368:1697" placeholder="(defn select-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="1699:1904" placeholder="(defn count-of ...)" />
+            <marker date="1443948203000" expanded="true" signature="1906:1963" placeholder="(def count-of-base ...)" />
+            <marker date="1443948203000" expanded="true" signature="1965:2043" placeholder="(defn remove-zero-cards ...)" />
+            <marker date="1443948203000" expanded="true" signature="2045:2314" placeholder="(defn take-from-deck! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2316:2560" placeholder="(defn discard-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2562:2885" placeholder="(defn discarded-&gt;cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="2887:3003" placeholder="(defn has-discarded? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3005:3394" placeholder="(defn take-cards! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3396:3438" placeholder="(def take-hand! ...)" />
+            <marker date="1443948203000" expanded="true" signature="3440:3607" placeholder="(defn can-buy? ...)" />
+            <marker date="1443948203000" expanded="true" signature="3609:4234" placeholder="(defn paramized-big-money* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4236:4294" placeholder="(def optimized-big-money ...)" />
+            <marker date="1443948203000" expanded="true" signature="4296:4444" placeholder="(defn simple-buy* ...)" />
+            <marker date="1443948203000" expanded="true" signature="4446:4525" placeholder="(def province-gold-duchy-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4527:4593" placeholder="(def province-gold-silver ...)" />
+            <marker date="1443948203000" expanded="true" signature="4595:4717" placeholder="(defn count-type ...)" />
+            <marker date="1443948203000" expanded="true" signature="4719:4777" placeholder="(defn game-finish? ...)" />
+            <marker date="1443948203000" expanded="true" signature="4779:5110" placeholder="(defn turn ...)" />
+            <marker date="1443948203000" expanded="true" signature="5112:5630" placeholder="(defn play ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96714973">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <marker date="1443949200000" expanded="true" signature="0:112" placeholder="(ns clojure-dominion.action ...)" />
+            <marker date="1443949200000" expanded="true" signature="166:1204" placeholder="(def action-stats ...)" />
+            <marker date="1443949200000" expanded="true" signature="1206:1286" placeholder="(def init-move-state ...)" />
+            <marker date="1443949200000" expanded="true" signature="1288:1364" placeholder="(def count-of-all ...)" />
+            <marker date="1443949200000" expanded="true" signature="1366:1506" placeholder="(defn filter-points ...)" />
+            <marker date="1443949200000" expanded="true" signature="1508:1715" placeholder="(defn filter-actions ...)" />
+            <marker date="1443949200000" expanded="true" signature="1717:2107" placeholder="(defn eval-actions ...)" />
+            <marker date="1443949200000" expanded="true" signature="2109:2371" placeholder="(defn choose-action ...)" />
+            <marker date="1443949200000" expanded="true" signature="2416:2626" placeholder="(defn weighted-money-generation ...)" />
+            <marker date="1443949200000" expanded="true" signature="2714:2899" placeholder="(defmulti play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="2901:3001" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="3003:3563" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="3565:3686" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="3688:3862" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="3864:4185" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="4187:4396" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="4398:4569" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="4571:4747" placeholder="(defmethod play-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="4835:5014" placeholder="(defn update-state-for-buy ...)" />
+            <marker date="1443949200000" expanded="true" signature="5016:5171" placeholder="(defn update-state-for-discard ...)" />
+            <marker date="1443949200000" expanded="true" signature="5190:5584" placeholder="(defn buy-card ...)" />
+            <marker date="1443949200000" expanded="true" signature="5586:5718" placeholder="(defn update-state-for-move ...)" />
+            <marker date="1443949200000" expanded="true" signature="5720:6466" placeholder="(defn single-action ...)" />
+            <marker date="1443949200000" expanded="true" signature="6468:6640" placeholder="(defn action-round ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9684211">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1213,7 +1445,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29229" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1225,7 +1457,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29229" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1236,7 +1468,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29229" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1248,7 +1480,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29229" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1280,7 +1512,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Leiningen: clojure-complete:0.2.3</last-edited>
+          <last-edited>Leiningen: org.clojure/clojure:1.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

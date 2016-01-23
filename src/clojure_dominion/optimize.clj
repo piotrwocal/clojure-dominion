@@ -109,7 +109,7 @@
 
 (defn optimize-iteratively
   [max-steps params f]
-  (->> params
+  (->> (params)
        (iterate f)
        (find-duplicate max-steps)))
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/clojure_dominion.iml" filepath="$PROJECT_DIR$/clojure_dominion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clojure-dominion.iml" filepath="$PROJECT_DIR$/clojure-dominion.iml" />
     </modules>
   </component>
 </project>
