@@ -20,3 +20,7 @@ http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-cloju
 http://www.slideshare.net/MarkusWinand/modern-sql
 
 http://www.oliverelliott.org/article/computing/tut_unix/
+
+http://www.ibm.com/developerworks/java/library/j-codetoheap/index.html
+
+http://blog.takipi.com/13-decks-java-developers-must-see-to-stay-updated/

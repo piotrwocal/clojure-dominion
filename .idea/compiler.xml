@@ -24,8 +24,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="clojure-dominion" />
         <module name="clojure_dominion" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clojure-dominion" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
