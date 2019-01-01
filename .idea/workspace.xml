@@ -5,59 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="\">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojurewerkz_elastisch_6_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/elastic_test.clj" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_10.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clojure-dominion.iml" afterPath="$PROJECT_DIR$/clojure-dominion.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interesting-stuff.txt" afterPath="$PROJECT_DIR$/interesting-stuff.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" afterPath="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" />
+      <change afterPath="$PROJECT_DIR$/src/git_digger/digger.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/git_digger/git_digger.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojurewerkz_elastisch_6_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojure-dominion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-dominion.iml" afterDir="false" />
     </list>
     <ignored path="clojure-dominion.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="clojure-dominion" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="elastic_test.clj" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2176">
+              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46172">
+              <caret line="2716" column="6" selection-start-line="2716" selection-start-column="6" selection-end-line="2716" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/someFileName">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trace</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,21 +149,19 @@
         <option value="$PROJECT_DIR$/test/clojure_dominion/action_test.clj" />
         <option value="$PROJECT_DIR$/src/clojure_dominion/action.clj" />
         <option value="$PROJECT_DIR$/src/clojure_dominion/core.clj" />
-        <option value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
         <option value="$PROJECT_DIR$/test/clojure_dominion/core_test.clj" />
         <option value="$PROJECT_DIR$/test/rushhour/solver_test.clj" />
         <option value="$PROJECT_DIR$/src/rushhour/solver.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/elastic/elastic_test.clj" />
+        <option value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
+        <option value="$PROJECT_DIR$/src/git_digger.clj" />
+        <option value="$PROJECT_DIR$/src/git_digger/git_digger.clj" />
+        <option value="$PROJECT_DIR$/src/git_digger/digger.clj" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -100,203 +171,80 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
-    <option name="width" value="1915" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="960" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-dominion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csv_analyse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="LayoutCode.rearrangeEntriesClojure" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="149" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="949" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="949" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="949" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="949" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToNamespace.includeLibraries" value="false" />
+    <property name="LayoutCode.rearrangeEntriesClojure" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546194462663" />
+    <property name="cursive.last.file.extension./home/piotr/Workplace/projects/clojure-dominion/src" value="clj" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29229" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/clojure_programming" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/clojure_dominion" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/git_digger" />
+      <recent name="$PROJECT_DIR$/test/clojure_programming" />
+    </key>
   </component>
-  <component name="ReplState" timestamp="1517662900408">{:repl-history {:ide [], :local [&quot;(= (find-moves [ \\A \\A \\_ \\_ \\_ \\O], 2) nil)&quot; &quot;(= (find-moves [ \\A \\A \\_ \\_ \\_ \\O], 2) \n\t \t\t\t\t\t\t [ \\_ \\A \\A \\_ \\_ \\O])&quot; &quot;(range 6)&quot; &quot;(get init-board 6)&quot; &quot;(def first-line (take 6 init-board))&quot; &quot;(print first-line)&quot; &quot;(= (find-moves [ \\A \\A \\_ \\_ \\_ \\O], 2)\n\t \t\t\t\t\t\t [ \\_ \\A \\A \\_ \\_ \\O])&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t[let current (get idx (result :board))])\n\t\t\t\t{:board first-line} (range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t([let current (get idx (result :board))])\n\t\t\t\t{:board first-line} (range 6)))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))]\n\t\t\t\t\t\t(update-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))]\n\t\t\t\t\t\t(update-in result [:result] (partial cons current))))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))]\n\t\t\t\t\t\t(associ-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 5))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))\n\t\t\t\t\t\t\t\t_ (print result idx)]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 5))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))\n\t\t\t\t\t\t\t\t_ (println result idx)]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 5))&quot; &quot;(get 3 (:board {:board first-line}))&quot; &quot;(:board {:board first-line})&quot; &quot;(vec (:board {:board first-line}))&quot; &quot;(get 3 (vec (:board {:board first-line})))&quot; &quot;(get (vec (:board {:board first-line})) 3)&quot; &quot;(get (:board {:board first-line}) 3)&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get idx (:board result))\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 5))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 5))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(assoc-in result [:previous] current)\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result []}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(assoc-in result [:previous] current)\n\t\t\t\t\t\t(assoc-in result [:result] current)))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(-&gt; result\n\t\t\t\t\t\t\t\t(assoc-in [:previous] current)\n\t\t\t\t\t\t\t  (assoc-in [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:previous] current))\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:previous] current) val)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:previous] \\x) \\y)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:previous] \\x) val)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:previous] idx) val)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :previous nil}\n\t\t\t\t(range 6))&quot; &quot;(def first-line (vec (take 6 init-board)))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (= (:last board) current) (update-in val [:last] idx))\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (= (:last result) current) (update-in val [:last] idx))\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(update-in val [:last] idx)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(assoc-in val [:last] idx)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:last] idx))\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(reduce (fn [result idx]\n\t\t\t\t\t(let [current (get (:board result) idx)\n\t\t\t\t\t\t\t\t_ (println result idx current)]\n\t\t\t\t\t\t(as-&gt; result val\n\t\t\t\t\t\t\t\t\t(if (even? idx) (assoc-in val [:last] idx) val)\n\t\t\t\t\t\t\t  \t(assoc-in val [:result] current))))\n\t\t\t\t{:board first-line :result [] :last nil}\n\t\t\t\t(range 6))&quot; &quot;(let [conn (esr/connect \&quot;http://127.0.0.1:9200\&quot;)])&quot; &quot;(esd/get conn \&quot;myapp\&quot; \&quot;articles\&quot; \&quot;521f246bc6d67300f32d2ed60423dec4740e50f5\&quot; )&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (source))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (apply source))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t ( :_source ))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t ( :_source :age))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t ( get :_source :age))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (comp :_source :age))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t ((:_source) :age))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (-&gt; :_source :age))&quot; &quot;(def test-data {:age 39 :name Piotr})&quot; &quot;(def test-data {:age 39 :name \&quot;Piotr\&quot;})&quot; &quot;(print test-data\n\t\t\t )&quot; &quot;(pprint test-data\n\t\t\t )&quot; &quot;(clojure.pprint test-data)&quot; &quot;(use 'clojure.repl.*\n\t\t \n\t\t )&quot; &quot;(use 'clojure.repl)&quot; &quot;(doc map)&quot; &quot;(doc pprint)&quot; &quot;(use 'clojure.pprint)&quot; &quot;(def test-data {data {:age 39, :name \&quot;Piotr\&quot;}})&quot; &quot;(def test-data {:data {:age 39, :name \&quot;Piotr\&quot;}})&quot; &quot;(pprint test-data)&quot; &quot;((comp :data) test-data)&quot; &quot;(doc comp)&quot; &quot;((comp :name :data) test-data)&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (:_source))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (comp :age :_source))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t (partial (comp :age :_source)))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;))&quot; &quot;(-&gt;&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t :_source)&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t(-&gt; :_source))&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t(-&gt; :_source :age))&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source :age)&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source \n\t\t:age)&quot; &quot;(-&gt; (esd/search conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source :age)&quot; &quot;(-&gt; (esd/search conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source \n\t\t:age)&quot; &quot;(def conn (esr/connect \&quot;http://127.0.0.1:9200\&quot;))&quot; &quot;(-&gt; (esd/search conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source)&quot; &quot;(esr/connect \&quot;http://127.0.0.1:9200\&quot;\n             {:connection-manager (clj-http.conn-mgr/make-reusable-conn-manager {:timeout 10})})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)&quot; &quot;(esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t\t\t:filter {:range {:age {:from 25 :to 30}}})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t:query (q/query-string :biography \&quot;New York OR Austin\&quot;)\n\t\t\t\t\t\t:filter {:range {:age {:from 25 :to 30}}})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t:query (q/prefix {:username \&quot;Oli\&quot;}))&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t:query (q/prefix {:username \&quot;Oli\&quot;})\n\t\t\t\t\t\t:size 10)&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t{:query (q/prefix {:username \&quot;Oli\&quot;})\n\t\t\t\t\t\t:size 10})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t{:query (q/prefix {:username \&quot;Oli\&quot;})})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;\n\t\t\t\t\t\t{ :query (q/prefix {:username \&quot;Oli\&quot;})})&quot; &quot;(esd/search conn \&quot;bank\&quot; \&quot;_all\&quot;)&quot; &quot;∏&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source :firstname)&quot; &quot;(-&gt; (esd/get conn \&quot;bank\&quot; \&quot;_all\&quot; \&quot;1\&quot;)\n\t\t:_source)&quot; &quot;(client/get \&quot;localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)&quot; &quot;(client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)&quot; &quot;(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t:body)&quot; &quot;(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t\t:body\n\t\tjson/read-str)&quot; &quot;(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t\t:body\n\t\tjson/read-str\n\t\t(get \&quot;hits\&quot;))&quot; &quot;(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t\t:body\n\t\tjson/read-str\n\t\t(get-in  [\&quot;hits\&quot; \&quot;hits\&quot;]))&quot; &quot;(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t\t:body\n\t\tjson/read-str\n\t\t(get-in  [\&quot;hits\&quot; \&quot;hits\&quot;])\n\t\t)&quot; &quot;(def result \n(-&gt; (client/get \&quot;http://localhost:9200/bank/_search?q=*&amp;sort=account_number:asc&amp;pretty&amp;pretty\&quot;)\n\t\t:body\n\t\tjson/read-str\n\t\t(get-in  [\&quot;hits\&quot; \&quot;hits\&quot;])\n\t\t))&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1546198202824">{:repl-history {:ide [], :local [{:command &quot;(longest-unique \&quot;poszla ola do przedszkola\&quot;)&quot;, :offset 42, :ns &quot;csv-analyse.analyse&quot;} {:command &quot;(fn call-git-log [] \n  (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log [] \n  (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;))&quot;, :offset 102, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n  :out)&quot;, :offset 89, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n  :out\n   str/split #\&quot;\\n\&quot;)&quot;, :offset 107, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n  :out)&quot;, :offset 88, :ns &quot;git-digger.digger&quot;} {:command &quot;(str/split \&quot;abc sdfs sdfsdf\&quot; #\&quot; \&quot;)&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n  :out\n  str/split #\&quot;\\n\&quot;)&quot;, :offset 106, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\&quot;))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(def single-entry\n  \&quot;'[82fe42f] piotr.wocal@gmail.com 2015-01-26'\n    1\\t1\\t.idea/replstate.xml\n    44\\t21\\t.idea/workspace.xml\n    20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 174, :ns &quot;git-digger.digger&quot;} {:command &quot;(print single-entry)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;(str/split single-entry #\&quot;\\n\&quot;)&quot;, :offset 30, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [header entry-lines] (str/split single-entry #\&quot;\\n\&quot;))&quot;, :offset 57, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  )&quot;, :offset 62, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; entry-lines))&quot;, :offset 103, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; (count entry-lines)))&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp;entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println (count entry-lines))))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;))&quot;, :offset 101, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;giit\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;logg\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;---pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 194, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;))]\n    header))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [x]\n  (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;)))&quot;, :offset 73, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n    header))&quot;, :offset 93, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot; \&quot;)))&quot;, :offset 77, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;)))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] int)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] str)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))))&quot;, :offset 81, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] str)&quot;, :offset 117, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/valueOf)&quot;, :offset 129, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/getInteger)&quot;, :offset 132, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/parseInt)&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(Integer/parseInt \&quot;12\&quot;)&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] #(Integer/parseInt %))&quot;, :offset 135, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] read-string)&quot;, :offset 125, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 122, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 120, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] identity)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] Integer/parseInt)&quot;, :offset 119, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted ] read-string)&quot;, :offset 124, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] read-string)&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted] read-string)&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted :added] read-string)&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(update  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            :deleted read-string)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 151, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-line \&quot;20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 55, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n       [entries (map parse-line xs)]\n       entries))&quot;, :offset 134, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n     entries))&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(call-git-log)&quot;, :offset 14, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n    (assoc header :entries entries)))&quot;, :offset 153, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (when (empty? err) out)))&quot;, :offset 196, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [header]\n  (zipmap [:hash :mail :date] (str/split header #\&quot; \&quot;)))&quot;, :offset 83, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [line]\n  (-&gt; (zipmap [:added :deleted :file] (str/split line #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 157, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-entry [entry]\n  (let [[x &amp; xs] (str/split entry #\&quot;\\n\&quot;)]\n    (let [header (parse-header x )\n          entries (map parse-line xs)]\n      (assoc header :entries entries))))&quot;, :offset 182, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (map parse-entry))&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 43, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    parse-entry)&quot;, :offset 59, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    0\n    parse-entry)&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 0)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 1)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    #(str/split % #\&quot;\\n\\n\&quot;))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (#(str/split % #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;))\n     )&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 54, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 51, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; x (call-git-log) \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; (call-git-log) x \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-log [] \n  (as-&gt; (call-git-log) x\n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x)))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-log)&quot;, :offset 11, :ns &quot;git-digger.digger&quot;} {:command &quot;(def parsed-log (parse-log))&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint parsed-log)&quot;, :offset 19, :ns &quot;git-digger.digger&quot;} {:command &quot;(count parsed-log)&quot;, :offset 18, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :entries parsed-log)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added (mapcat :entries parsed-log))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(mapcat :entries parsed-log)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (partial :added +) 0 (mapcat :entries parsed-log))&quot;, :offset 58, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp :added +)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :added flat-changes)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added flat-changes)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added) 0 flat-changes)&quot;, :offset 39, :ns &quot;git-digger.digger&quot;} {:command &quot;(print flat-changes)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file .idea/compiler.xml})&quot;, :offset 66, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file \&quot;.idea/compiler.xml\&quot;})&quot;, :offset 68, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (reduce +))&quot;, :offset 49, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added))&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added))&quot;, :offset 35, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added)\n     (apply +))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n  (map :deleted) \n  (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(def flat-changes (mapcat :entries parsed-log))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Clojure REPL.REPL for clojure-dominion">
-    <configuration default="false" name="analyse" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure-dominion" />
-      <setting name="path" value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/csv_analyse" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="clojure_programming" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure-dominion" />
-      <setting name="path" value="$PROJECT_DIR$/test/clojure_programming/clojure_programming.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_programming" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="optimize" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure-dominion" />
-      <setting name="path" value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_dominion" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="REPL for clojure-dominion" type="ClojureREPL" factoryName="Local" temporary="true">
-      <setting name="replType" value="1" />
-      <module name="clojure-dominion" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="REPL for clojure_dominion" type="ClojureREPL" factoryName="Local" temporary="true">
-      <setting name="replType" value="0" />
-      <module name="clojure_dominion" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Local REPL Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Local REPL Run" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -334,85 +282,6 @@
       <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="1" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
-      <setting name="profiles" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -432,121 +301,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="clojure-dominion" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <LeiningenRunnerParameters>
-        <option name="myGoals">
-          <list />
-        </option>
-        <option name="myWorkingDirectory" value="" />
-        <option name="profiles" value="" />
-        <option name="trampoline" value="false" />
-      </LeiningenRunnerParameters>
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
@@ -577,53 +331,202 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="lein kibit" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <LeiningenRunnerParameters>
-        <option name="myGoals">
-          <list />
-        </option>
-        <option name="myWorkingDirectory" value="" />
-        <option name="profiles" value="" />
-        <option name="trampoline" value="false" />
-      </LeiningenRunnerParameters>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lein test" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <LeiningenRunnerParameters>
-        <option name="myGoals">
-          <list />
-        </option>
-        <option name="myWorkingDirectory" value="" />
-        <option name="profiles" value="" />
-        <option name="trampoline" value="false" />
-      </LeiningenRunnerParameters>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Leiningen.lein kibit" />
-      <item index="1" class="java.lang.String" itemvalue="Leiningen.lein test" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application.analyse" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Application.clojure_programming" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Application.optimize" />
-      <item index="5" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-dominion" />
-      <item index="6" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure_dominion" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-dominion" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REPL for clojure-dominion" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="REPL for clojure_dominion" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="clojure_dominion" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Local REPL Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Local REPL Run" />
+      <method v="2">
+        <option name="Synchronize Leiningen" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analyse" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="path" value="$PROJECT_DIR$/src/csv_analyse/analyse.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/csv_analyse" />
+      <method v="2" />
+    </configuration>
+    <configuration name="clojure_programming" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="path" value="$PROJECT_DIR$/test/clojure_programming/clojure_programming.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_programming" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optimize" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-dominion" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_dominion/optimize.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_dominion" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lein kibit" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <module name="" />
+      <setting name="profiles" value="" />
+      <setting name="trampoline" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lein test" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <module name="" />
+      <setting name="profiles" value="" />
+      <setting name="trampoline" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.analyse" />
+      <item itemvalue="Clojure Application.clojure_programming" />
+      <item itemvalue="Clojure Application.optimize" />
+      <item itemvalue="Clojure REPL.REPL for clojure-dominion" />
+      <item itemvalue="Clojure REPL.REPL for clojure_dominion" />
+      <item itemvalue="Leiningen.lein kibit" />
+      <item itemvalue="Leiningen.lein test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for clojure-dominion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -842,35 +745,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1915" height="1057" extended-state="6" />
-    <editor active="false" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46475196" sideWeight="0.50061655" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20935673" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30409357" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.49815044" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2073107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15910333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.32998565" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Palette&#9;" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32998565" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.30409357" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32943925" />
+      <window_info anchor="bottom" id="Changes" order="2" weight="0.3292232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3292232" />
+      <window_info anchor="bottom" id="Application Servers" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.20935673" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3292232" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32865497" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="right" id="Ant Build" order="0" />
+      <window_info anchor="right" id="Commander" order="1" />
+      <window_info anchor="right" id="REPL" order="2" sideWeight="0.50061655" side_tool="true" weight="0.52214324" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Leiningen" order="4" sideWeight="0.49815044" weight="0.32998565" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32998565" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Dynamic Properties" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15910333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.32998565" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Palette&#9;" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32998565" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.30409357" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32943925" />
+      <window_info anchor="bottom" id="Changes" order="2" weight="0.3292232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3292232" />
+      <window_info anchor="bottom" id="Application Servers" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.20935673" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3292232" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32865497" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="right" id="Ant Build" order="0" />
+      <window_info anchor="right" id="Commander" order="1" />
+      <window_info anchor="right" id="REPL" order="2" sideWeight="0.50061655" side_tool="true" visible="true" weight="0.52214324" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Leiningen" order="4" sideWeight="0.49815044" weight="0.32998565" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32998565" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Dynamic Properties" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.configurationType" implementationName="ClojureScriptRunConfiguration" />
@@ -885,9 +825,6 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -898,996 +835,185 @@
     <MESSAGE value="daily update" />
     <option name="LAST_COMMIT_MESSAGE" value="daily update" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="18" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2224" column="6" selection-start-line="2224" selection-start-column="6" selection-end-line="2224" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/lispcast/org.apache.commons.lang/2.5.0/org.apache.commons.lang-2.5.0.jar!/org/apache/commons/lang/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="595" column="25" selection-start-line="595" selection-start-column="25" selection-end-line="595" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lispcast/org.apache.commons.lang/2.5.0/org.apache.commons.lang-2.5.0.jar!/org/apache/commons/lang/StringUtils.class" />
     <entry file="file://$PROJECT_DIR$/.idea/replstate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/java/browse.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/string.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="232" column="44" selection-start-line="232" selection-start-column="44" selection-end-line="232" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/pprint/pprint_base.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/java/browse.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/string.clj" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/tools.trace/0.7.8/tools.trace-0.7.8.jar!/clojure/tools/trace.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/clojure-complete/clojure-complete/0.2.3/clojure-complete-0.2.3.jar!/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/tools.trace/0.7.8/tools.trace-0.7.8.jar!/clojure/tools/trace.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/clojure-complete/clojure-complete/0.2.3/clojure-complete-0.2.3.jar!/project.clj" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clojure-dominion.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/intro.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/lang/RT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/someFileName">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/lang/RT.class" />
     <entry file="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="12" column="32" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="27" selection-start-line="2" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state>
+          <caret line="22" column="27" selection-start-line="2" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/clojure_project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/foo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/interesting-stuff.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functional_patterns/patterns.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="559" column="10" selection-start-line="559" selection-start-column="10" selection-end-line="559" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/test.clj" />
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/action_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/optimize_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_dominion/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="2" column="48" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state>
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj" />
     <entry file="file://$PROJECT_DIR$/src/rushhour/solver.clj" />
     <entry file="file://$PROJECT_DIR$/test/rushhour/solver_test.clj" />
-    <entry file="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/3.0.0/elastisch-3.0.0.jar!/clojurewerkz/elastisch/rest/document.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="200" column="6" selection-start-line="200" selection-start-column="6" selection-end-line="200" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <marker date="1517149396000" expanded="true" signature="0:620" ph="(defproject clojure-dominion ...)" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/3.0.0/elastisch-3.0.0.jar!/clojurewerkz/elastisch/rest/document.clj" />
+    <entry file="file://$PROJECT_DIR$/src/git_digger/git_digger.clj">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <marker date="1433625418000" expanded="true" signature="0:111" ph="(ns csv-analyse.analyse ...)" />
-            <marker date="1433625418000" expanded="true" signature="113:218" ph="(defn file-&gt;lines ...)" />
-            <marker date="1433625418000" expanded="true" signature="220:315" ph="(defn line-&gt;entry-strings ...)" />
-            <marker date="1433625418000" expanded="true" signature="317:567" ph="(defn entry-string-&gt;entry ...)" />
-            <marker date="1433625418000" expanded="true" signature="569:849" ph="(defn calculate-total-time ...)" />
-            <marker date="1433625418000" expanded="true" signature="1164:1263" ph="(defn unique-head ...)" />
-            <marker date="1433625418000" expanded="true" signature="1265:1409" ph="(defn longest-unique ...)" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="2617" column="6" selection-start-line="2617" selection-start-column="6" selection-end-line="2617" selection-end-column="6" />
-          <folding>
-            <marker date="1506799829000" expanded="true" signature="464:549" ph="(ns clojure.core ...)" />
-            <marker date="1506799829000" expanded="true" signature="589:735" ph="(def list ...)" />
-            <marker date="1506799829000" expanded="true" signature="737:950" ph="(def cons ...)" />
-            <marker date="1506799829000" expanded="true" signature="1035:1128" ph="(def let ...)" />
-            <marker date="1506799829000" expanded="true" signature="1130:1223" ph="(def loop ...)" />
-            <marker date="1506799829000" expanded="true" signature="1225:1408" ph="(def fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="1410:1650" ph="(def first ...)" />
-            <marker date="1506799829000" expanded="true" signature="1652:1924" ph="(def next ...)" />
-            <marker date="1506799829000" expanded="true" signature="1926:2171" ph="(def rest ...)" />
-            <marker date="1506799829000" expanded="true" signature="2173:2702" ph="(def conj ...)" />
-            <marker date="1506799829000" expanded="true" signature="2704:2847" ph="(def second ...)" />
-            <marker date="1506799829000" expanded="true" signature="2849:2994" ph="(def ffirst ...)" />
-            <marker date="1506799829000" expanded="true" signature="2996:3139" ph="(def nfirst ...)" />
-            <marker date="1506799829000" expanded="true" signature="3141:3282" ph="(def fnext ...)" />
-            <marker date="1506799829000" expanded="true" signature="3284:3423" ph="(def nnext ...)" />
-            <marker date="1506799829000" expanded="true" signature="3425:3979" ph="(def seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="3981:4187" ph="(def instance? ...)" />
-            <marker date="1506799829000" expanded="true" signature="4189:4351" ph="(def seq? ...)" />
-            <marker date="1506799829000" expanded="true" signature="4353:4508" ph="(def char? ...)" />
-            <marker date="1506799829000" expanded="true" signature="4510:4663" ph="(def string? ...)" />
-            <marker date="1506799829000" expanded="true" signature="4665:4847" ph="(def map? ...)" />
-            <marker date="1506799829000" expanded="true" signature="4849:5043" ph="(def vector? ...)" />
-            <marker date="1506799829000" expanded="true" signature="5045:5815" ph="(def assoc ...)" />
-            <marker date="1506799829000" expanded="true" signature="5872:6126" ph="(def meta ...)" />
-            <marker date="1506799829000" expanded="true" signature="6128:6396" ph="(def with-meta ...)" />
-            <marker date="1506799829000" expanded="true" signature="6398:6468" ph="(def assert-valid-fdecl ...)" />
-            <marker date="1506799829000" expanded="true" signature="6470:8183" ph="(def sigs ...)" />
-            <marker date="1506799829000" expanded="true" signature="8186:8401" ph="(def last ...)" />
-            <marker date="1506799829000" expanded="true" signature="8403:8708" ph="(def butlast ...)" />
-            <marker date="1506799829000" expanded="true" signature="8710:11262" ph="(def defn ...)" />
-            <marker date="1506799829000" expanded="true" signature="11291:11550" ph="(defn to-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="11552:11694" ph="(defn cast ...)" />
-            <marker date="1506799829000" expanded="true" signature="11697:12067" ph="(defn vector ...)" />
-            <marker date="1506799829000" expanded="true" signature="12069:12447" ph="(defn vec ...)" />
-            <marker date="1506799829000" expanded="true" signature="12449:12725" ph="(defn hash-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="12727:12956" ph="(defn hash-set ...)" />
-            <marker date="1506799829000" expanded="true" signature="12958:13224" ph="(defn sorted-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="13226:13550" ph="(defn sorted-map-by ...)" />
-            <marker date="1506799829000" expanded="true" signature="13552:13774" ph="(defn sorted-set ...)" />
-            <marker date="1506799829000" expanded="true" signature="13776:14057" ph="(defn sorted-set-by ...)" />
-            <marker date="1506799829000" expanded="true" signature="14082:14293" ph="(defn nil? ...)" />
-            <marker date="1506799829000" expanded="true" signature="14295:16362" ph="(def defmacro ...)" />
-            <marker date="1506799829000" expanded="true" signature="16396:16549" ph="(defmacro when ...)" />
-            <marker date="1506799829000" expanded="true" signature="16551:16715" ph="(defmacro when-not ...)" />
-            <marker date="1506799829000" expanded="true" signature="16717:16883" ph="(defn false? ...)" />
-            <marker date="1506799829000" expanded="true" signature="16885:17048" ph="(defn true? ...)" />
-            <marker date="1506799829000" expanded="true" signature="17050:17190" ph="(defn not ...)" />
-            <marker date="1506799829000" expanded="true" signature="17192:17325" ph="(defn some? ...)" />
-            <marker date="1506799829000" expanded="true" signature="17327:17872" ph="(defn str ...)" />
-            <marker date="1506799829000" expanded="true" signature="17875:17995" ph="(defn symbol? ...)" />
-            <marker date="1506799829000" expanded="true" signature="17997:18120" ph="(defn keyword? ...)" />
-            <marker date="1506799829000" expanded="true" signature="18122:18373" ph="(defn symbol ...)" />
-            <marker date="1506799829000" expanded="true" signature="18375:18731" ph="(defn gensym ...)" />
-            <marker date="1506799829000" expanded="true" signature="18733:19323" ph="(defmacro cond ...)" />
-            <marker date="1506799829000" expanded="true" signature="19325:19782" ph="(defn keyword ...)" />
-            <marker date="1506799829000" expanded="true" signature="19784:20378" ph="(defn find-keyword ...)" />
-            <marker date="1506799829000" expanded="true" signature="20381:20574" ph="(defn spread ...)" />
-            <marker date="1506799829000" expanded="true" signature="20576:20950" ph="(defn list* ...)" />
-            <marker date="1506799829000" expanded="true" signature="20952:21481" ph="(defn apply ...)" />
-            <marker date="1506799829000" expanded="true" signature="21483:21697" ph="(defn vary-meta ...)" />
-            <marker date="1506799829000" expanded="true" signature="21699:22063" ph="(defmacro lazy-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="22069:22199" ph="(defn chunk-buffer ...)" />
-            <marker date="1506799829000" expanded="true" signature="22201:22274" ph="(defn chunk-append ...)" />
-            <marker date="1506799829000" expanded="true" signature="22276:22361" ph="(defn chunk ...)" />
-            <marker date="1506799829000" expanded="true" signature="22363:22483" ph="(defn chunk-first ...)" />
-            <marker date="1506799829000" expanded="true" signature="22485:22598" ph="(defn chunk-rest ...)" />
-            <marker date="1506799829000" expanded="true" signature="22600:22713" ph="(defn chunk-next ...)" />
-            <marker date="1506799829000" expanded="true" signature="22715:22873" ph="(defn chunk-cons ...)" />
-            <marker date="1506799829000" expanded="true" signature="22877:22950" ph="(defn chunked-seq? ...)" />
-            <marker date="1506799829000" expanded="true" signature="22952:23851" ph="(defn concat ...)" />
-            <marker date="1506799829000" expanded="true" signature="23945:24300" ph="(defmacro delay ...)" />
-            <marker date="1506799829000" expanded="true" signature="24302:24439" ph="(defn delay? ...)" />
-            <marker date="1506799829000" expanded="true" signature="24441:24616" ph="(defn force ...)" />
-            <marker date="1506799829000" expanded="true" signature="24618:24866" ph="(defmacro if-not ...)" />
-            <marker date="1506799829000" expanded="true" signature="24868:25076" ph="(defn identical? ...)" />
-            <marker date="1506799829000" expanded="true" signature="25091:25721" ph="(defn = ...)" />
-            <marker date="1506799829000" expanded="true" signature="26294:26469" ph="(defn not= ...)" />
-            <marker date="1506799829000" expanded="true" signature="26473:26908" ph="(defn compare ...)" />
-            <marker date="1506799829000" expanded="true" signature="26910:27284" ph="(defmacro and ...)" />
-            <marker date="1506799829000" expanded="true" signature="27286:27655" ph="(defmacro or ...)" />
-            <marker date="1506799829000" expanded="true" signature="27715:27892" ph="(defn zero? ...)" />
-            <marker date="1506799829000" expanded="true" signature="27894:28156" ph="(defn count ...)" />
-            <marker date="1506799829000" expanded="true" signature="28158:28342" ph="(defn int ...)" />
-            <marker date="1506799829000" expanded="true" signature="28344:28829" ph="(defn nth ...)" />
-            <marker date="1506799829000" expanded="true" signature="28831:29216" ph="(defn &lt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="29218:29431" ph="(defn inc' ...)" />
-            <marker date="1506799829000" expanded="true" signature="29433:29706" ph="(defn inc ...)" />
-            <marker date="1506799829000" expanded="true" signature="29768:30232" ph="(defn reduce1 ...)" />
-            <marker date="1506799829000" expanded="true" signature="30234:30384" ph="(defn reverse ...)" />
-            <marker date="1506799829000" expanded="true" signature="30399:30938" ph="(defn nary-inline ...)" />
-            <marker date="1506799829000" expanded="true" signature="31051:31346" ph="(defn +' ...)" />
-            <marker date="1506799829000" expanded="true" signature="31348:31678" ph="(defn + ...)" />
-            <marker date="1506799829000" expanded="true" signature="31680:31989" ph="(defn *' ...)" />
-            <marker date="1506799829000" expanded="true" signature="31991:32340" ph="(defn * ...)" />
-            <marker date="1506799829000" expanded="true" signature="32342:32651" ph="(defn / ...)" />
-            <marker date="1506799829000" expanded="true" signature="32653:33027" ph="(defn -' ...)" />
-            <marker date="1506799829000" expanded="true" signature="33029:33440" ph="(defn - ...)" />
-            <marker date="1506799829000" expanded="true" signature="33442:33836" ph="(defn &lt;= ...)" />
-            <marker date="1506799829000" expanded="true" signature="33838:34223" ph="(defn &gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="34225:34619" ph="(defn &gt;= ...)" />
-            <marker date="1506799829000" expanded="true" signature="34621:35025" ph="(defn == ...)" />
-            <marker date="1506799829000" expanded="true" signature="35027:35249" ph="(defn max ...)" />
-            <marker date="1506799829000" expanded="true" signature="35251:35470" ph="(defn min ...)" />
-            <marker date="1506799829000" expanded="true" signature="35472:35682" ph="(defn dec' ...)" />
-            <marker date="1506799829000" expanded="true" signature="35684:35954" ph="(defn dec ...)" />
-            <marker date="1506799829000" expanded="true" signature="35956:36224" ph="(defn unchecked-inc-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="36226:36482" ph="(defn unchecked-inc ...)" />
-            <marker date="1506799829000" expanded="true" signature="36484:36749" ph="(defn unchecked-dec-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="36751:37004" ph="(defn unchecked-dec ...)" />
-            <marker date="1506799829000" expanded="true" signature="37006:37273" ph="(defn unchecked-negate-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="37275:37528" ph="(defn unchecked-negate ...)" />
-            <marker date="1506799829000" expanded="true" signature="37530:37800" ph="(defn unchecked-add-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="37802:38061" ph="(defn unchecked-add ...)" />
-            <marker date="1506799829000" expanded="true" signature="38063:38355" ph="(defn unchecked-subtract-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="38357:38632" ph="(defn unchecked-subtract ...)" />
-            <marker date="1506799829000" expanded="true" signature="38634:38923" ph="(defn unchecked-multiply-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="38925:39203" ph="(defn unchecked-multiply ...)" />
-            <marker date="1506799829000" expanded="true" signature="39205:39490" ph="(defn unchecked-divide-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="39492:39799" ph="(defn unchecked-remainder-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="39801:39988" ph="(defn pos? ...)" />
-            <marker date="1506799829000" expanded="true" signature="39990:40174" ph="(defn neg? ...)" />
-            <marker date="1506799829000" expanded="true" signature="40176:40398" ph="(defn quot ...)" />
-            <marker date="1506799829000" expanded="true" signature="40400:40622" ph="(defn rem ...)" />
-            <marker date="1506799829000" expanded="true" signature="40624:40766" ph="(defn rationalize ...)" />
-            <marker date="1506799829000" expanded="true" signature="40779:40925" ph="(defn bit-not ...)" />
-            <marker date="1506799829000" expanded="true" signature="40928:41136" ph="(defn bit-and ...)" />
-            <marker date="1506799829000" expanded="true" signature="41138:41333" ph="(defn bit-or ...)" />
-            <marker date="1506799829000" expanded="true" signature="41335:41545" ph="(defn bit-xor ...)" />
-            <marker date="1506799829000" expanded="true" signature="41547:41798" ph="(defn bit-and-not ...)" />
-            <marker date="1506799829000" expanded="true" signature="41801:41921" ph="(defn bit-clear ...)" />
-            <marker date="1506799829000" expanded="true" signature="41923:42037" ph="(defn bit-set ...)" />
-            <marker date="1506799829000" expanded="true" signature="42039:42156" ph="(defn bit-flip ...)" />
-            <marker date="1506799829000" expanded="true" signature="42158:42275" ph="(defn bit-test ...)" />
-            <marker date="1506799829000" expanded="true" signature="42278:42452" ph="(defn bit-shift-left ...)" />
-            <marker date="1506799829000" expanded="true" signature="42454:42632" ph="(defn bit-shift-right ...)" />
-            <marker date="1506799829000" expanded="true" signature="42634:42862" ph="(defn unsigned-bit-shift-right ...)" />
-            <marker date="1506799829000" expanded="true" signature="42864:43130" ph="(defn integer? ...)" />
-            <marker date="1506799829000" expanded="true" signature="43132:43426" ph="(defn even? ...)" />
-            <marker date="1506799829000" expanded="true" signature="43428:43567" ph="(defn odd? ...)" />
-            <marker date="1506799829000" expanded="true" signature="43574:43886" ph="(defn complement ...)" />
-            <marker date="1506799829000" expanded="true" signature="43888:44033" ph="(defn constantly ...)" />
-            <marker date="1506799829000" expanded="true" signature="44035:44117" ph="(defn identity ...)" />
-            <marker date="1506799829000" expanded="true" signature="44152:44379" ph="(defn peek ...)" />
-            <marker date="1506799829000" expanded="true" signature="44381:44689" ph="(defn pop ...)" />
-            <marker date="1506799829000" expanded="true" signature="44704:44815" ph="(defn map-entry? ...)" />
-            <marker date="1506799829000" expanded="true" signature="44817:45269" ph="(defn contains? ...)" />
-            <marker date="1506799829000" expanded="true" signature="45271:45586" ph="(defn get ...)" />
-            <marker date="1506799829000" expanded="true" signature="45588:45933" ph="(defn dissoc ...)" />
-            <marker date="1506799829000" expanded="true" signature="45935:46311" ph="(defn disj ...)" />
-            <marker date="1506799829000" expanded="true" signature="46313:46466" ph="(defn find ...)" />
-            <marker date="1506799829000" expanded="true" signature="46468:46875" ph="(defn select-keys ...)" />
-            <marker date="1506799829000" expanded="true" signature="46877:47034" ph="(defn keys ...)" />
-            <marker date="1506799829000" expanded="true" signature="47036:47195" ph="(defn vals ...)" />
-            <marker date="1506799829000" expanded="true" signature="47197:47324" ph="(defn key ...)" />
-            <marker date="1506799829000" expanded="true" signature="47326:47457" ph="(defn val ...)" />
-            <marker date="1506799829000" expanded="true" signature="47459:47699" ph="(defn rseq ...)" />
-            <marker date="1506799829000" expanded="true" signature="47701:47883" ph="(defn name ...)" />
-            <marker date="1506799829000" expanded="true" signature="47885:48080" ph="(defn namespace ...)" />
-            <marker date="1506799829000" expanded="true" signature="48082:48376" ph="(defmacro locking ...)" />
-            <marker date="1506799829000" expanded="true" signature="48378:48857" ph="(defmacro .. ...)" />
-            <marker date="1506799829000" expanded="true" signature="48859:49412" ph="(defmacro -&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="49414:49947" ph="(defmacro -&gt;&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="49960:50371" ph="(defn check-valid-options ...)" />
-            <marker date="1506799829000" expanded="true" signature="50412:52705" ph="(defmacro defmulti ...)" />
-            <marker date="1506799829000" expanded="true" signature="52707:52961" ph="(defmacro defmethod ...)" />
-            <marker date="1506799829000" expanded="true" signature="52963:53120" ph="(defn remove-all-methods ...)" />
-            <marker date="1506799829000" expanded="true" signature="53122:53330" ph="(defn remove-method ...)" />
-            <marker date="1506799829000" expanded="true" signature="53332:53618" ph="(defn prefer-method ...)" />
-            <marker date="1506799829000" expanded="true" signature="53620:53801" ph="(defn methods ...)" />
-            <marker date="1506799829000" expanded="true" signature="53803:54074" ph="(defn get-method ...)" />
-            <marker date="1506799829000" expanded="true" signature="54076:54264" ph="(defn prefers ...)" />
-            <marker date="1506799829000" expanded="true" signature="54287:54616" ph="(defmacro assert-args ...)" />
-            <marker date="1506799829000" expanded="true" signature="54618:55220" ph="(defmacro if-let ...)" />
-            <marker date="1506799829000" expanded="true" signature="55222:55662" ph="(defmacro when-let ...)" />
-            <marker date="1506799829000" expanded="true" signature="55664:56279" ph="(defmacro if-some ...)" />
-            <marker date="1506799829000" expanded="true" signature="56281:56747" ph="(defmacro when-some ...)" />
-            <marker date="1506799829000" expanded="true" signature="56749:57293" ph="(defn push-thread-bindings ...)" />
-            <marker date="1506799829000" expanded="true" signature="57295:57516" ph="(defn pop-thread-bindings ...)" />
-            <marker date="1506799829000" expanded="true" signature="57518:57715" ph="(defn get-thread-bindings ...)" />
-            <marker date="1506799829000" expanded="true" signature="57717:58701" ph="(defmacro binding ...)" />
-            <marker date="1506799829000" expanded="true" signature="58703:59120" ph="(defn with-bindings* ...)" />
-            <marker date="1506799829000" expanded="true" signature="59122:59451" ph="(defmacro with-bindings ...)" />
-            <marker date="1506799829000" expanded="true" signature="59453:59898" ph="(defn bound-fn* ...)" />
-            <marker date="1506799829000" expanded="true" signature="59900:60250" ph="(defmacro bound-fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="60252:60443" ph="(defn find-var ...)" />
-            <marker date="1506799829000" expanded="true" signature="60445:61041" ph="(defn binding-conveyor-fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="61116:61363" ph="(defn setup-reference ...)" />
-            <marker date="1506799829000" expanded="true" signature="61365:62608" ph="(defn agent ...)" />
-            <marker date="1506799829000" expanded="true" signature="62610:62771" ph="(defn set-agent-send-executor! ...)" />
-            <marker date="1506799829000" expanded="true" signature="62773:62940" ph="(defn set-agent-send-off-executor! ...)" />
-            <marker date="1506799829000" expanded="true" signature="62942:63306" ph="(defn send-via ...)" />
-            <marker date="1506799829000" expanded="true" signature="63308:63659" ph="(defn send ...)" />
-            <marker date="1506799829000" expanded="true" signature="63661:64024" ph="(defn send-off ...)" />
-            <marker date="1506799829000" expanded="true" signature="64026:64531" ph="(defn release-pending-sends ...)" />
-            <marker date="1506799829000" expanded="true" signature="64533:65504" ph="(defn add-watch ...)" />
-            <marker date="1506799829000" expanded="true" signature="65506:65682" ph="(defn remove-watch ...)" />
-            <marker date="1506799829000" expanded="true" signature="65684:65920" ph="(defn agent-error ...)" />
-            <marker date="1506799829000" expanded="true" signature="65922:66704" ph="(defn restart-agent ...)" />
-            <marker date="1506799829000" expanded="true" signature="66706:67061" ph="(defn set-error-handler! ...)" />
-            <marker date="1506799829000" expanded="true" signature="67063:67257" ph="(defn error-handler ...)" />
-            <marker date="1506799829000" expanded="true" signature="67259:68052" ph="(defn set-error-mode! ...)" />
-            <marker date="1506799829000" expanded="true" signature="68054:68210" ph="(defn error-mode ...)" />
-            <marker date="1506799829000" expanded="true" signature="68212:68454" ph="(defn agent-errors ...)" />
-            <marker date="1506799829000" expanded="true" signature="68456:68732" ph="(defn clear-agent-errors ...)" />
-            <marker date="1506799829000" expanded="true" signature="68734:68970" ph="(defn shutdown-agents ...)" />
-            <marker date="1506799829000" expanded="true" signature="68972:70242" ph="(defn ref ...)" />
-            <marker date="1506799829000" expanded="true" signature="70244:70548" ph="(defn deref-future ...)" />
-            <marker date="1506799829000" expanded="true" signature="70555:71609" ph="(defn deref ...)" />
-            <marker date="1506799829000" expanded="true" signature="71611:72197" ph="(defn atom ...)" />
-            <marker date="1506799829000" expanded="true" signature="72199:72681" ph="(defn swap! ...)" />
-            <marker date="1506799829000" expanded="true" signature="72683:72980" ph="(defn compare-and-set! ...)" />
-            <marker date="1506799829000" expanded="true" signature="72982:73178" ph="(defn reset! ...)" />
-            <marker date="1506799829000" expanded="true" signature="73180:73748" ph="(defn set-validator! ...)" />
-            <marker date="1506799829000" expanded="true" signature="73750:73906" ph="(defn get-validator ...)" />
-            <marker date="1506799829000" expanded="true" signature="73908:74170" ph="(defn alter-meta! ...)" />
-            <marker date="1506799829000" expanded="true" signature="74172:74370" ph="(defn reset-meta! ...)" />
-            <marker date="1506799829000" expanded="true" signature="74372:74944" ph="(defn commute ...)" />
-            <marker date="1506799829000" expanded="true" signature="74946:75233" ph="(defn alter ...)" />
-            <marker date="1506799829000" expanded="true" signature="75235:75409" ph="(defn ref-set ...)" />
-            <marker date="1506799829000" expanded="true" signature="75411:75560" ph="(defn ref-history-count ...)" />
-            <marker date="1506799829000" expanded="true" signature="75562:75793" ph="(defn ref-min-history ...)" />
-            <marker date="1506799829000" expanded="true" signature="75795:76026" ph="(defn ref-max-history ...)" />
-            <marker date="1506799829000" expanded="true" signature="76028:76333" ph="(defn ensure ...)" />
-            <marker date="1506799829000" expanded="true" signature="76335:76848" ph="(defmacro sync ...)" />
-            <marker date="1506799829000" expanded="true" signature="76851:77359" ph="(defmacro io! ...)" />
-            <marker date="1506799829000" expanded="true" signature="77361:77528" ph="(defn volatile! ...)" />
-            <marker date="1506799829000" expanded="true" signature="77530:77719" ph="(defn vreset! ...)" />
-            <marker date="1506799829000" expanded="true" signature="77721:78011" ph="(defmacro vswap! ...)" />
-            <marker date="1506799829000" expanded="true" signature="78013:78127" ph="(defn volatile? ...)" />
-            <marker date="1506799829000" expanded="true" signature="78188:78710" ph="(defn comp ...)" />
-            <marker date="1506799829000" expanded="true" signature="78712:80005" ph="(defn juxt ...)" />
-            <marker date="1506799829000" expanded="true" signature="80007:80950" ph="(defn partial ...)" />
-            <marker date="1506799829000" expanded="true" signature="81011:81990" ph="(defn sequence ...)" />
-            <marker date="1506799829000" expanded="true" signature="81992:82246" ph="(defn every? ...)" />
-            <marker date="1506799829000" expanded="true" signature="82248:82430" ph="(def not-every? ...)" />
-            <marker date="1506799829000" expanded="true" signature="82432:82799" ph="(defn some ...)" />
-            <marker date="1506799829000" expanded="true" signature="82801:82977" ph="(def not-any? ...)" />
-            <marker date="1506799829000" expanded="true" signature="83018:83410" ph="(defmacro dotimes ...)" />
-            <marker date="1506799829000" expanded="true" signature="83412:85094" ph="(defn map ...)" />
-            <marker date="1506799829000" expanded="true" signature="85096:85301" ph="(defmacro declare ...)" />
-            <marker date="1506799829000" expanded="true" signature="85318:85638" ph="(defn mapcat ...)" />
-            <marker date="1506799829000" expanded="true" signature="85640:86563" ph="(defn filter ...)" />
-            <marker date="1506799829000" expanded="true" signature="86566:86881" ph="(defn remove ...)" />
-            <marker date="1506799829000" expanded="true" signature="86883:87020" ph="(defn reduced ...)" />
-            <marker date="1506799829000" expanded="true" signature="87022:87226" ph="(defn reduced? ...)" />
-            <marker date="1506799829000" expanded="true" signature="87228:87373" ph="(defn ensure-reduced ...)" />
-            <marker date="1506799829000" expanded="true" signature="87375:87502" ph="(defn unreduced ...)" />
-            <marker date="1506799829000" expanded="true" signature="87504:88297" ph="(defn take ...)" />
-            <marker date="1506799829000" expanded="true" signature="88299:88889" ph="(defn take-while ...)" />
-            <marker date="1506799829000" expanded="true" signature="88891:89597" ph="(defn drop ...)" />
-            <marker date="1506799829000" expanded="true" signature="89599:89789" ph="(defn drop-last ...)" />
-            <marker date="1506799829000" expanded="true" signature="89791:90104" ph="(defn take-last ...)" />
-            <marker date="1506799829000" expanded="true" signature="90106:90948" ph="(defn drop-while ...)" />
-            <marker date="1506799829000" expanded="true" signature="90950:91120" ph="(defn cycle ...)" />
-            <marker date="1506799829000" expanded="true" signature="91122:91269" ph="(defn split-at ...)" />
-            <marker date="1506799829000" expanded="true" signature="91271:91459" ph="(defn split-with ...)" />
-            <marker date="1506799829000" expanded="true" signature="91461:91661" ph="(defn repeat ...)" />
-            <marker date="1506799829000" expanded="true" signature="91663:91814" ph="(defn replicate ...)" />
-            <marker date="1506799829000" expanded="true" signature="91816:91993" ph="(defn iterate ...)" />
-            <marker date="1506799829000" expanded="true" signature="91995:92809" ph="(defn range ...)" />
-            <marker date="1506799829000" expanded="true" signature="92811:93140" ph="(defn merge ...)" />
-            <marker date="1506799829000" expanded="true" signature="93142:93752" ph="(defn merge-with ...)" />
-            <marker date="1506799829000" expanded="true" signature="93756:94087" ph="(defn zipmap ...)" />
-            <marker date="1506799829000" expanded="true" signature="94089:94362" ph="(defn line-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="94364:94557" ph="(defn comparator ...)" />
-            <marker date="1506799829000" expanded="true" signature="94559:95096" ph="(defn sort ...)" />
-            <marker date="1506799829000" expanded="true" signature="95098:95674" ph="(defn sort-by ...)" />
-            <marker date="1506799829000" expanded="true" signature="95676:96193" ph="(defn dorun ...)" />
-            <marker date="1506799829000" expanded="true" signature="96195:96696" ph="(defn doall ...)" />
-            <marker date="1506799829000" expanded="true" signature="96698:96919" ph="(defn nthnext ...)" />
-            <marker date="1506799829000" expanded="true" signature="96921:97145" ph="(defn nthrest ...)" />
-            <marker date="1506799829000" expanded="true" signature="97147:98034" ph="(defn partition ...)" />
-            <marker date="1506799829000" expanded="true" signature="98051:98216" ph="(defn eval ...)" />
-            <marker date="1506799829000" expanded="true" signature="98218:101198" ph="(defmacro doseq ...)" />
-            <marker date="1506799829000" expanded="true" signature="101200:101845" ph="(defn await ...)" />
-            <marker date="1506799829000" expanded="true" signature="101847:101948" ph="(defn await1 ...)" />
-            <marker date="1506799829000" expanded="true" signature="101950:102681" ph="(defn await-for ...)" />
-            <marker date="1506799829000" expanded="true" signature="102683:103186" ph="(defmacro dotimes ...)" />
-            <marker date="1506799829000" expanded="true" signature="103519:103709" ph="(defn transient ...)" />
-            <marker date="1506799829000" expanded="true" signature="103711:104012" ph="(defn persistent! ...)" />
-            <marker date="1506799829000" expanded="true" signature="104014:104304" ph="(defn conj! ...)" />
-            <marker date="1506799829000" expanded="true" signature="104306:104796" ph="(defn assoc! ...)" />
-            <marker date="1506799829000" expanded="true" signature="104798:105122" ph="(defn dissoc! ...)" />
-            <marker date="1506799829000" expanded="true" signature="105124:105338" ph="(defn pop! ...)" />
-            <marker date="1506799829000" expanded="true" signature="105341:105720" ph="(defn disj! ...)" />
-            <marker date="1506799829000" expanded="true" signature="105753:106049" ph="(defn into1 ...)" />
-            <marker date="1506799829000" expanded="true" signature="106051:106840" ph="(defmacro import ...)" />
-            <marker date="1506799829000" expanded="true" signature="106842:107350" ph="(defn into-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="107352:107416" ph="(defn array ...)" />
-            <marker date="1506799829000" expanded="true" signature="107418:107544" ph="(defn class ...)" />
-            <marker date="1506799829000" expanded="true" signature="107546:107693" ph="(defn type ...)" />
-            <marker date="1506799829000" expanded="true" signature="107695:107853" ph="(defn num ...)" />
-            <marker date="1506799829000" expanded="true" signature="107855:108001" ph="(defn long ...)" />
-            <marker date="1506799829000" expanded="true" signature="108003:108197" ph="(defn float ...)" />
-            <marker date="1506799829000" expanded="true" signature="108199:108353" ph="(defn double ...)" />
-            <marker date="1506799829000" expanded="true" signature="108355:108549" ph="(defn short ...)" />
-            <marker date="1506799829000" expanded="true" signature="108551:108740" ph="(defn byte ...)" />
-            <marker date="1506799829000" expanded="true" signature="108742:108927" ph="(defn char ...)" />
-            <marker date="1506799829000" expanded="true" signature="108929:109083" ph="(defn boolean ...)" />
-            <marker date="1506799829000" expanded="true" signature="109085:109295" ph="(defn unchecked-byte ...)" />
-            <marker date="1506799829000" expanded="true" signature="109297:109511" ph="(defn unchecked-short ...)" />
-            <marker date="1506799829000" expanded="true" signature="109513:109719" ph="(defn unchecked-char ...)" />
-            <marker date="1506799829000" expanded="true" signature="109721:109927" ph="(defn unchecked-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="109929:110139" ph="(defn unchecked-long ...)" />
-            <marker date="1506799829000" expanded="true" signature="110141:110341" ph="(defn unchecked-float ...)" />
-            <marker date="1506799829000" expanded="true" signature="110343:110547" ph="(defn unchecked-double ...)" />
-            <marker date="1506799829000" expanded="true" signature="110550:110660" ph="(defn number? ...)" />
-            <marker date="1506799829000" expanded="true" signature="110662:110884" ph="(defn mod ...)" />
-            <marker date="1506799829000" expanded="true" signature="110886:111004" ph="(defn ratio? ...)" />
-            <marker date="1506799829000" expanded="true" signature="111006:111160" ph="(defn numerator ...)" />
-            <marker date="1506799829000" expanded="true" signature="111162:111322" ph="(defn denominator ...)" />
-            <marker date="1506799829000" expanded="true" signature="111324:111441" ph="(defn decimal? ...)" />
-            <marker date="1506799829000" expanded="true" signature="111443:111598" ph="(defn float? ...)" />
-            <marker date="1506799829000" expanded="true" signature="111600:111743" ph="(defn rational? ...)" />
-            <marker date="1506799829000" expanded="true" signature="111745:112252" ph="(defn bigint ...)" />
-            <marker date="1506799829000" expanded="true" signature="112254:112730" ph="(defn biginteger ...)" />
-            <marker date="1506799829000" expanded="true" signature="112732:113235" ph="(defn bigdec ...)" />
-            <marker date="1506799829000" expanded="true" signature="113295:113447" ph="(defmulti print-method ...)" />
-            <marker date="1506799829000" expanded="true" signature="113496:113618" ph="(defn pr-on ...)" />
-            <marker date="1506799829000" expanded="true" signature="113620:114078" ph="(defn pr ...)" />
-            <marker date="1506799829000" expanded="true" signature="114080:114161" ph="(def system-newline ...)" />
-            <marker date="1506799829000" expanded="true" signature="114163:114309" ph="(defn newline ...)" />
-            <marker date="1506799829000" expanded="true" signature="114311:114458" ph="(defn flush ...)" />
-            <marker date="1506799829000" expanded="true" signature="114460:114658" ph="(defn prn ...)" />
-            <marker date="1506799829000" expanded="true" signature="114660:114916" ph="(defn print ...)" />
-            <marker date="1506799829000" expanded="true" signature="114918:115076" ph="(defn println ...)" />
-            <marker date="1506799829000" expanded="true" signature="115078:116120" ph="(defn read ...)" />
-            <marker date="1506799829000" expanded="true" signature="116122:116421" ph="(defn read-line ...)" />
-            <marker date="1506799829000" expanded="true" signature="116423:116846" ph="(defn read-string ...)" />
-            <marker date="1506799829000" expanded="true" signature="116848:117281" ph="(defn subvec ...)" />
-            <marker date="1506799829000" expanded="true" signature="117283:118100" ph="(defmacro with-open ...)" />
-            <marker date="1506799829000" expanded="true" signature="118102:118607" ph="(defmacro doto ...)" />
-            <marker date="1506799829000" expanded="true" signature="118609:119094" ph="(defmacro memfn ...)" />
-            <marker date="1506799829000" expanded="true" signature="119096:119383" ph="(defmacro time ...)" />
-            <marker date="1506799829000" expanded="true" signature="119424:119629" ph="(defn alength ...)" />
-            <marker date="1506799829000" expanded="true" signature="119631:119832" ph="(defn aclone ...)" />
-            <marker date="1506799829000" expanded="true" signature="119834:120202" ph="(defn aget ...)" />
-            <marker date="1506799829000" expanded="true" signature="120204:120551" ph="(defn aset ...)" />
-            <marker date="1506799829000" expanded="true" signature="120553:120894" ph="(defmacro def-aset ...)" />
-            <marker date="1506799829000" expanded="true" signature="120896:121031" ph="(def-aset aset-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="121033:121172" ph="(def-aset aset-long ...)" />
-            <marker date="1506799829000" expanded="true" signature="121174:121325" ph="(def-aset aset-boolean ...)" />
-            <marker date="1506799829000" expanded="true" signature="121327:121470" ph="(def-aset aset-float ...)" />
-            <marker date="1506799829000" expanded="true" signature="121472:121619" ph="(def-aset aset-double ...)" />
-            <marker date="1506799829000" expanded="true" signature="121621:121764" ph="(def-aset aset-short ...)" />
-            <marker date="1506799829000" expanded="true" signature="121766:121905" ph="(def-aset aset-byte ...)" />
-            <marker date="1506799829000" expanded="true" signature="121907:122046" ph="(def-aset aset-char ...)" />
-            <marker date="1506799829000" expanded="true" signature="122048:122732" ph="(defn make-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="122734:123226" ph="(defn to-array-2d ...)" />
-            <marker date="1506799829000" expanded="true" signature="123228:123421" ph="(defn macroexpand-1 ...)" />
-            <marker date="1506799829000" expanded="true" signature="123423:123768" ph="(defn macroexpand ...)" />
-            <marker date="1506799829000" expanded="true" signature="123770:123934" ph="(defn create-struct ...)" />
-            <marker date="1506799829000" expanded="true" signature="123936:124090" ph="(defmacro defstruct ...)" />
-            <marker date="1506799829000" expanded="true" signature="124092:124457" ph="(defn struct-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="124459:124761" ph="(defn struct ...)" />
-            <marker date="1506799829000" expanded="true" signature="124763:125178" ph="(defn accessor ...)" />
-            <marker date="1506799829000" expanded="true" signature="125180:125359" ph="(defn load-reader ...)" />
-            <marker date="1506799829000" expanded="true" signature="125361:125623" ph="(defn load-string ...)" />
-            <marker date="1506799829000" expanded="true" signature="125625:125765" ph="(defn set? ...)" />
-            <marker date="1506799829000" expanded="true" signature="125767:126106" ph="(defn set ...)" />
-            <marker date="1506799829000" expanded="true" signature="126108:126383" ph="(defn filter-key ...)" />
-            <marker date="1506799829000" expanded="true" signature="126385:126548" ph="(defn find-ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="126550:126793" ph="(defn create-ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="126795:127003" ph="(defn remove-ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="127005:127127" ph="(defn all-ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="127129:127473" ph="(defn the-ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="127475:127603" ph="(defn ns-name ...)" />
-            <marker date="1506799829000" expanded="true" signature="127605:127744" ph="(defn ns-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="127746:127892" ph="(defn ns-unmap ...)" />
-            <marker date="1506799829000" expanded="true" signature="127985:128342" ph="(defn ns-publics ...)" />
-            <marker date="1506799829000" expanded="true" signature="128344:128518" ph="(defn ns-imports ...)" />
-            <marker date="1506799829000" expanded="true" signature="128520:128823" ph="(defn ns-interns ...)" />
-            <marker date="1506799829000" expanded="true" signature="128825:130491" ph="(defn refer ...)" />
-            <marker date="1506799829000" expanded="true" signature="130493:130797" ph="(defn ns-refers ...)" />
-            <marker date="1506799829000" expanded="true" signature="130799:131146" ph="(defn alias ...)" />
-            <marker date="1506799829000" expanded="true" signature="131148:131285" ph="(defn ns-aliases ...)" />
-            <marker date="1506799829000" expanded="true" signature="131287:131438" ph="(defn ns-unalias ...)" />
-            <marker date="1506799829000" expanded="true" signature="131440:132006" ph="(defn take-nth ...)" />
-            <marker date="1506799829000" expanded="true" signature="132008:132560" ph="(defn interleave ...)" />
-            <marker date="1506799829000" expanded="true" signature="132562:132682" ph="(defn var-get ...)" />
-            <marker date="1506799829000" expanded="true" signature="132684:132859" ph="(defn var-set ...)" />
-            <marker date="1506799829000" expanded="true" signature="132861:133615" ph="(defmacro with-local-vars ...)" />
-            <marker date="1506799829000" expanded="true" signature="133617:134071" ph="(defn ns-resolve ...)" />
-            <marker date="1506799829000" expanded="true" signature="134073:134262" ph="(defn resolve ...)" />
-            <marker date="1506799829000" expanded="true" signature="134264:134558" ph="(defn array-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="134603:138357" ph="(defn destructure ...)" />
-            <marker date="1506799829000" expanded="true" signature="138359:138835" ph="(defmacro let ...)" />
-            <marker date="1506799829000" expanded="true" signature="138837:139402" ph="(defn maybe-destructured ...)" />
-            <marker date="1506799829000" expanded="true" signature="139460:142306" ph="(defmacro fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="142308:143364" ph="(defmacro loop ...)" />
-            <marker date="1506799829000" expanded="true" signature="143366:143777" ph="(defmacro when-first ...)" />
-            <marker date="1506799829000" expanded="true" signature="143779:144102" ph="(defmacro lazy-cat ...)" />
-            <marker date="1506799829000" expanded="true" signature="144104:149121" ph="(defmacro for ...)" />
-            <marker date="1506799829000" expanded="true" signature="149123:149198" ph="(defmacro comment ...)" />
-            <marker date="1506799829000" expanded="true" signature="149200:149492" ph="(defmacro with-out-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="149494:149791" ph="(defmacro with-in-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="149793:149934" ph="(defn pr-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="149936:150076" ph="(defn prn-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="150078:150228" ph="(defn print-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="150230:150386" ph="(defn println-str ...)" />
-            <marker date="1506799829000" expanded="true" signature="150452:150694" ph="(defn ex-info ...)" />
-            <marker date="1506799829000" expanded="true" signature="150696:150896" ph="(defn ex-data ...)" />
-            <marker date="1506799829000" expanded="true" signature="150898:151294" ph="(defmacro assert ...)" />
-            <marker date="1506799829000" expanded="true" signature="151296:151518" ph="(defn test ...)" />
-            <marker date="1506799829000" expanded="true" signature="151520:151792" ph="(defn re-pattern ...)" />
-            <marker date="1506799829000" expanded="true" signature="151794:152013" ph="(defn re-matcher ...)" />
-            <marker date="1506799829000" expanded="true" signature="152015:152531" ph="(defn re-groups ...)" />
-            <marker date="1506799829000" expanded="true" signature="152533:152893" ph="(defn re-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="152895:153198" ph="(defn re-matches ...)" />
-            <marker date="1506799829000" expanded="true" signature="153201:153551" ph="(defn re-find ...)" />
-            <marker date="1506799829000" expanded="true" signature="153553:153741" ph="(defn rand ...)" />
-            <marker date="1506799829000" expanded="true" signature="153743:153882" ph="(defn rand-int ...)" />
-            <marker date="1506799829000" expanded="true" signature="153884:154051" ph="(defmacro defn- ...)" />
-            <marker date="1506799829000" expanded="true" signature="154053:154690" ph="(defn tree-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="154692:154904" ph="(defn file-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="154906:155090" ph="(defn xml-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="155092:155249" ph="(defn special-symbol? ...)" />
-            <marker date="1506799829000" expanded="true" signature="155251:155382" ph="(defn var? ...)" />
-            <marker date="1506799829000" expanded="true" signature="155384:155668" ph="(defn subs ...)" />
-            <marker date="1506799829000" expanded="true" signature="155670:155896" ph="(defn max-key ...)" />
-            <marker date="1506799829000" expanded="true" signature="155898:156121" ph="(defn min-key ...)" />
-            <marker date="1506799829000" expanded="true" signature="156123:156957" ph="(defn distinct ...)" />
-            <marker date="1506799829000" expanded="true" signature="156961:157572" ph="(defn replace ...)" />
-            <marker date="1506799829000" expanded="true" signature="157574:157967" ph="(defmacro dosync ...)" />
-            <marker date="1506799829000" expanded="true" signature="157969:158632" ph="(defmacro with-precision ...)" />
-            <marker date="1506799829000" expanded="true" signature="158634:158782" ph="(defn mk-bound-fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="158784:159503" ph="(defn subseq ...)" />
-            <marker date="1506799829000" expanded="true" signature="159505:160234" ph="(defn rsubseq ...)" />
-            <marker date="1506799829000" expanded="true" signature="160236:160511" ph="(defn repeatedly ...)" />
-            <marker date="1506799829000" expanded="true" signature="160513:160761" ph="(defn add-classpath ...)" />
-            <marker date="1506799829000" expanded="true" signature="160765:161029" ph="(defn hash ...)" />
-            <marker date="1506799829000" expanded="true" signature="161032:161500" ph="(defn mix-collection-hash ...)" />
-            <marker date="1506799829000" expanded="true" signature="161502:161791" ph="(defn hash-ordered-coll ...)" />
-            <marker date="1506799829000" expanded="true" signature="161793:162198" ph="(defn hash-unordered-coll ...)" />
-            <marker date="1506799829000" expanded="true" signature="162200:162826" ph="(defn interpose ...)" />
-            <marker date="1506799829000" expanded="true" signature="162828:163328" ph="(defmacro definline ...)" />
-            <marker date="1506799829000" expanded="true" signature="163330:163568" ph="(defn empty ...)" />
-            <marker date="1506799829000" expanded="true" signature="163570:164045" ph="(defmacro amap ...)" />
-            <marker date="1506799829000" expanded="true" signature="164047:164450" ph="(defmacro areduce ...)" />
-            <marker date="1506799829000" expanded="true" signature="164452:164766" ph="(defn float-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="164768:165092" ph="(defn boolean-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="165094:165403" ph="(defn byte-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="165405:165714" ph="(defn char-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="165716:166030" ph="(defn short-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="166032:166351" ph="(defn double-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="166353:166569" ph="(defn object-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="166571:166875" ph="(defn int-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="166877:167186" ph="(defn long-array ...)" />
-            <marker date="1506799829000" expanded="true" signature="167188:167294" ph="(definline booleans ...)" />
-            <marker date="1506799829000" expanded="true" signature="167296:167394" ph="(definline bytes ...)" />
-            <marker date="1506799829000" expanded="true" signature="167396:167494" ph="(definline chars ...)" />
-            <marker date="1506799829000" expanded="true" signature="167496:167597" ph="(definline shorts ...)" />
-            <marker date="1506799829000" expanded="true" signature="167599:167699" ph="(definline floats ...)" />
-            <marker date="1506799829000" expanded="true" signature="167701:167795" ph="(definline ints ...)" />
-            <marker date="1506799829000" expanded="true" signature="167797:167900" ph="(definline doubles ...)" />
-            <marker date="1506799829000" expanded="true" signature="167902:167999" ph="(definline longs ...)" />
-            <marker date="1506799829000" expanded="true" signature="168069:170087" ph="(defn seque ...)" />
-            <marker date="1506799829000" expanded="true" signature="170089:170207" ph="(defn class? ...)" />
-            <marker date="1506799829000" expanded="true" signature="170209:170315" ph="(defn- is-annotation? ...)" />
-            <marker date="1506799829000" expanded="true" signature="170317:170595" ph="(defn- is-runtime-annotation? ...)" />
-            <marker date="1506799829000" expanded="true" signature="170692:171588" ph="(defn- add-annotation ...)" />
-            <marker date="1506799829000" expanded="true" signature="171590:171733" ph="(defn- process-annotation ...)" />
-            <marker date="1506799829000" expanded="true" signature="171735:172445" ph="(defn- add-annotations ...)" />
-            <marker date="1506799829000" expanded="true" signature="172447:172655" ph="(defn alter-var-root ...)" />
-            <marker date="1506799829000" expanded="true" signature="172657:172960" ph="(defn bound? ...)" />
-            <marker date="1506799829000" expanded="true" signature="172962:173265" ph="(defn thread-bound? ...)" />
-            <marker date="1506799829000" expanded="true" signature="173267:173432" ph="(defn make-hierarchy ...)" />
-            <marker date="1506799829000" expanded="true" signature="173434:173495" ph="(def global-hierarchy ...)" />
-            <marker date="1506799829000" expanded="true" signature="173497:173623" ph="(defn not-empty ...)" />
-            <marker date="1506799829000" expanded="true" signature="173625:173862" ph="(defn bases ...)" />
-            <marker date="1506799829000" expanded="true" signature="173864:174183" ph="(defn supers ...)" />
-            <marker date="1506799829000" expanded="true" signature="174185:175105" ph="(defn isa? ...)" />
-            <marker date="1506799829000" expanded="true" signature="175107:175584" ph="(defn parents ...)" />
-            <marker date="1506799829000" expanded="true" signature="175586:176239" ph="(defn ancestors ...)" />
-            <marker date="1506799829000" expanded="true" signature="176241:176775" ph="(defn descendants ...)" />
-            <marker date="1506799829000" expanded="true" signature="176777:178373" ph="(defn derive ...)" />
-            <marker date="1506799829000" expanded="true" signature="178394:179167" ph="(defn underive ...)" />
-            <marker date="1506799829000" expanded="true" signature="179170:179524" ph="(defn distinct? ...)" />
-            <marker date="1506799829000" expanded="true" signature="179526:180374" ph="(defn resultset-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="180376:180746" ph="(defn iterator-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="180748:180895" ph="(defn enumeration-seq ...)" />
-            <marker date="1506799829000" expanded="true" signature="180897:181107" ph="(defn format ...)" />
-            <marker date="1506799829000" expanded="true" signature="181109:181247" ph="(defn printf ...)" />
-            <marker date="1506799829000" expanded="true" signature="181270:181612" ph="(defmacro with-loading-context ...)" />
-            <marker date="1506799829000" expanded="true" signature="181614:184384" ph="(defmacro ns ...)" />
-            <marker date="1506799829000" expanded="true" signature="184386:184535" ph="(defmacro refer-clojure ...)" />
-            <marker date="1506799829000" expanded="true" signature="184537:184780" ph="(defmacro defonce ...)" />
-            <marker date="1506799829000" expanded="true" signature="184866:185009" ph="(defonce *loaded-libs* ...)" />
-            <marker date="1506799829000" expanded="true" signature="185011:185137" ph="(defonce *pending-paths* ...)" />
-            <marker date="1506799829000" expanded="true" signature="185139:185254" ph="(defonce *loading-verbosely* ...)" />
-            <marker date="1506799829000" expanded="true" signature="185256:185895" ph="(defn- throw-if ...)" />
-            <marker date="1506799829000" expanded="true" signature="185897:186077" ph="(defn- libspec? ...)" />
-            <marker date="1506799829000" expanded="true" signature="186079:186203" ph="(defn- prependss ...)" />
-            <marker date="1506799829000" expanded="true" signature="186205:186384" ph="(defn- root-resource ...)" />
-            <marker date="1506799829000" expanded="true" signature="186386:186529" ph="(defn- root-directory ...)" />
-            <marker date="1506799829000" expanded="true" signature="186562:187016" ph="(defn- load-one ...)" />
-            <marker date="1506799829000" expanded="true" signature="187018:187489" ph="(defn- load-all ...)" />
-            <marker date="1506799829000" expanded="true" signature="187491:189181" ph="(defn- load-lib ...)" />
-            <marker date="1506799829000" expanded="true" signature="189183:190124" ph="(defn- load-libs ...)" />
-            <marker date="1506799829000" expanded="true" signature="190126:190719" ph="(defn- check-cyclic-dependency ...)" />
-            <marker date="1506799829000" expanded="true" signature="190732:193388" ph="(defn require ...)" />
-            <marker date="1506799829000" expanded="true" signature="193390:193815" ph="(defn use ...)" />
-            <marker date="1506799829000" expanded="true" signature="193817:193941" ph="(defn loaded-libs ...)" />
-            <marker date="1506799829000" expanded="true" signature="193943:194688" ph="(defn load ...)" />
-            <marker date="1506799829000" expanded="true" signature="194690:195079" ph="(defn compile ...)" />
-            <marker date="1506799829000" expanded="true" signature="195131:195652" ph="(defn get-in ...)" />
-            <marker date="1506799829000" expanded="true" signature="195654:195996" ph="(defn assoc-in ...)" />
-            <marker date="1506799829000" expanded="true" signature="195998:196466" ph="(defn update-in ...)" />
-            <marker date="1506799829000" expanded="true" signature="196468:197033" ph="(defn update ...)" />
-            <marker date="1506799829000" expanded="true" signature="197035:197233" ph="(defn empty? ...)" />
-            <marker date="1506799829000" expanded="true" signature="197235:197390" ph="(defn coll? ...)" />
-            <marker date="1506799829000" expanded="true" signature="197392:197535" ph="(defn list? ...)" />
-            <marker date="1506799829000" expanded="true" signature="197537:197724" ph="(defn ifn? ...)" />
-            <marker date="1506799829000" expanded="true" signature="197726:197876" ph="(defn fn? ...)" />
-            <marker date="1506799829000" expanded="true" signature="197879:198027" ph="(defn associative? ...)" />
-            <marker date="1506799829000" expanded="true" signature="198029:198174" ph="(defn sequential? ...)" />
-            <marker date="1506799829000" expanded="true" signature="198176:198310" ph="(defn sorted? ...)" />
-            <marker date="1506799829000" expanded="true" signature="198312:198464" ph="(defn counted? ...)" />
-            <marker date="1506799829000" expanded="true" signature="198466:198612" ph="(defn reversible? ...)" />
-            <marker date="1506799829000" expanded="true" signature="198614:198716" ph="(def *1 ...)" />
-            <marker date="1506799829000" expanded="true" signature="198718:198827" ph="(def *2 ...)" />
-            <marker date="1506799829000" expanded="true" signature="198829:198937" ph="(def *3 ...)" />
-            <marker date="1506799829000" expanded="true" signature="198939:199056" ph="(def *e ...)" />
-            <marker date="1506799829000" expanded="true" signature="199058:199673" ph="(defn trampoline ...)" />
-            <marker date="1506799829000" expanded="true" signature="199675:200275" ph="(defn intern ...)" />
-            <marker date="1506799829000" expanded="true" signature="200277:200523" ph="(defmacro while ...)" />
-            <marker date="1506799829000" expanded="true" signature="200525:201048" ph="(defn memoize ...)" />
-            <marker date="1506799829000" expanded="true" signature="201050:202657" ph="(defmacro condp ...)" />
-            <marker date="1506799829000" expanded="true" signature="202870:203000" ph="(defmacro add-doc-and-meta ...)" />
-            <marker date="1506799829000" expanded="true" signature="203002:203169" ph="(add-doc-and-meta *file* ...)" />
-            <marker date="1506799829000" expanded="true" signature="203171:203312" ph="(add-doc-and-meta *command-line-args* ...)" />
-            <marker date="1506799829000" expanded="true" signature="203314:203522" ph="(add-doc-and-meta *warn-on-reflection* ...)" />
-            <marker date="1506799829000" expanded="true" signature="203524:203741" ph="(add-doc-and-meta *compile-path* ...)" />
-            <marker date="1506799829000" expanded="true" signature="203743:203849" ph="(add-doc-and-meta *compile-files* ...)" />
-            <marker date="1506799829000" expanded="true" signature="203851:204153" ph="(add-doc-and-meta *unchecked-math* ...)" />
-            <marker date="1506799829000" expanded="true" signature="204155:204526" ph="(add-doc-and-meta *compiler-options* ...)" />
-            <marker date="1506799829000" expanded="true" signature="204528:204640" ph="(add-doc-and-meta *ns* ...)" />
-            <marker date="1506799829000" expanded="true" signature="204642:204826" ph="(add-doc-and-meta *in* ...)" />
-            <marker date="1506799829000" expanded="true" signature="204828:205008" ph="(add-doc-and-meta *out* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205010:205181" ph="(add-doc-and-meta *err* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205183:205334" ph="(add-doc-and-meta *flush-on-newline* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205336:205542" ph="(add-doc-and-meta *print-meta* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205544:205724" ph="(add-doc-and-meta *print-dup* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205726:205950" ph="(add-doc-and-meta *print-readably* ...)" />
-            <marker date="1506799829000" expanded="true" signature="205952:207130" ph="(add-doc-and-meta *read-eval* ...)" />
-            <marker date="1506799829000" expanded="true" signature="207132:207261" ph="(defn future? ...)" />
-            <marker date="1506799829000" expanded="true" signature="207263:207399" ph="(defn future-done? ...)" />
-            <marker date="1506799829000" expanded="true" signature="207402:207932" ph="(defmacro letfn ...)" />
-            <marker date="1506799829000" expanded="true" signature="207934:208914" ph="(defn fnil ...)" />
-            <marker date="1506799829000" expanded="true" signature="208944:209025" ph="(defn- shift-mask ...)" />
-            <marker date="1506799829000" expanded="true" signature="209132:209498" ph="(defn- maybe-min-hash ...)" />
-            <marker date="1506799829000" expanded="true" signature="209500:209889" ph="(defn- case-map ...)" />
-            <marker date="1506799829000" expanded="true" signature="209891:210101" ph="(defn- fits-table? ...)" />
-            <marker date="1506799829000" expanded="true" signature="210103:210846" ph="(defn- prep-ints ...)" />
-            <marker date="1506799829000" expanded="true" signature="210848:212443" ph="(defn- merge-hash-collisions ...)" />
-            <marker date="1506799829000" expanded="true" signature="212445:213970" ph="(defn- prep-hashes ...)" />
-            <marker date="1506799829000" expanded="true" signature="213973:216848" ph="(defmacro case ...)" />
-            <marker date="1506799829000" expanded="true" signature="217217:218173" ph="(defn reduce ...)" />
-            <marker date="1506799829000" expanded="true" signature="218175:218475" ph="(extend-protocol clojure.core.protocols/IKVReduce ...)" />
-            <marker date="1506799829000" expanded="true" signature="218477:218963" ph="(defn reduce-kv ...)" />
-            <marker date="1506799829000" expanded="true" signature="218965:219287" ph="(defn completing ...)" />
-            <marker date="1506799829000" expanded="true" signature="219289:220140" ph="(defn transduce ...)" />
-            <marker date="1506799829000" expanded="true" signature="220142:220691" ph="(defn into ...)" />
-            <marker date="1506799829000" expanded="true" signature="220693:221312" ph="(defn mapv ...)" />
-            <marker date="1506799829000" expanded="true" signature="221314:221611" ph="(defn filterv ...)" />
-            <marker date="1506799829000" expanded="true" signature="221651:221852" ph="(defn- normalize-slurp-opts ...)" />
-            <marker date="1506799829000" expanded="true" signature="221854:222241" ph="(defn slurp ...)" />
-            <marker date="1506799829000" expanded="true" signature="222243:222507" ph="(defn spit ...)" />
-            <marker date="1506799829000" expanded="true" signature="222581:223584" ph="(defn future-call ...)" />
-            <marker date="1506799829000" expanded="true" signature="223588:224008" ph="(defmacro future ...)" />
-            <marker date="1506799829000" expanded="true" signature="224011:224153" ph="(defn future-cancel ...)" />
-            <marker date="1506799829000" expanded="true" signature="224155:224306" ph="(defn future-cancelled? ...)" />
-            <marker date="1506799829000" expanded="true" signature="224308:225275" ph="(defn pmap ...)" />
-            <marker date="1506799829000" expanded="true" signature="225277:225434" ph="(defn pcalls ...)" />
-            <marker date="1506799829000" expanded="true" signature="225436:225632" ph="(defmacro pvalues ...)" />
-            <marker date="1506799829000" expanded="true" signature="225714:226703" ph="(let ...)" />
-            <marker date="1506799829000" expanded="true" signature="226705:227052" ph="(add-doc-and-meta *clojure-version* ...)" />
-            <marker date="1506799829000" expanded="true" signature="227054:227470" ph="(defn clojure-version ...)" />
-            <marker date="1506799829000" expanded="true" signature="227472:228414" ph="(defn promise ...)" />
-            <marker date="1506799829000" expanded="true" signature="228416:228636" ph="(defn deliver ...)" />
-            <marker date="1506799829000" expanded="true" signature="228640:228952" ph="(defn flatten ...)" />
-            <marker date="1506799829000" expanded="true" signature="228954:229348" ph="(defn group-by ...)" />
-            <marker date="1506799829000" expanded="true" signature="229350:230756" ph="(defn partition-by ...)" />
-            <marker date="1506799829000" expanded="true" signature="230758:231031" ph="(defn frequencies ...)" />
-            <marker date="1506799829000" expanded="true" signature="231033:231512" ph="(defn reductions ...)" />
-            <marker date="1506799829000" expanded="true" signature="231514:231752" ph="(defn rand-nth ...)" />
-            <marker date="1506799829000" expanded="true" signature="231754:232824" ph="(defn partition-all ...)" />
-            <marker date="1506799829000" expanded="true" signature="232826:233067" ph="(defn shuffle ...)" />
-            <marker date="1506799829000" expanded="true" signature="233069:234222" ph="(defn map-indexed ...)" />
-            <marker date="1506799829000" expanded="true" signature="234224:235186" ph="(defn keep ...)" />
-            <marker date="1506799829000" expanded="true" signature="235188:236540" ph="(defn keep-indexed ...)" />
-            <marker date="1506799829000" expanded="true" signature="236542:238284" ph="(defn every-pred ...)" />
-            <marker date="1506799829000" expanded="true" signature="238286:239831" ph="(defn some-fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="239833:240834" ph="(defn- assert-valid-fdecl ...)" />
-            <marker date="1506799829000" expanded="true" signature="240836:241624" ph="(defn with-redefs-fn ...)" />
-            <marker date="1506799829000" expanded="true" signature="241626:242280" ph="(defmacro with-redefs ...)" />
-            <marker date="1506799829000" expanded="true" signature="242282:242453" ph="(defn realized? ...)" />
-            <marker date="1506799829000" expanded="true" signature="242455:243076" ph="(defmacro cond-&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="243078:243704" ph="(defmacro cond-&gt;&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="243706:244097" ph="(defmacro as-&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="244099:244523" ph="(defmacro some-&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="244525:244952" ph="(defmacro some-&gt;&gt; ...)" />
-            <marker date="1506799829000" expanded="true" signature="244954:245079" ph="(defn preserving-reduced ...)" />
-            <marker date="1506799829000" expanded="true" signature="245081:245381" ph="(defn cat ...)" />
-            <marker date="1506799829000" expanded="true" signature="245383:245872" ph="(defn dedupe ...)" />
-            <marker date="1506799829000" expanded="true" signature="245874:246150" ph="(defn random-sample ...)" />
-            <marker date="1506799829000" expanded="true" signature="246152:246494" ph="(deftype Eduction ...)" />
-            <marker date="1506799829000" expanded="true" signature="246496:246865" ph="(defn eduction ...)" />
-            <marker date="1506799829000" expanded="true" signature="246867:247018" ph="(defmethod print-method ...)" />
-            <marker date="1506799829000" expanded="true" signature="247020:247228" ph="(defn run! ...)" />
-            <marker date="1506799829000" expanded="true" signature="247231:247403" ph="(defn tagged-literal? ...)" />
-            <marker date="1506799829000" expanded="true" signature="247405:247612" ph="(defn tagged-literal ...)" />
-            <marker date="1506799829000" expanded="true" signature="247614:247798" ph="(defn reader-conditional? ...)" />
-            <marker date="1506799829000" expanded="true" signature="247800:248039" ph="(defn reader-conditional ...)" />
-            <marker date="1506799829000" expanded="true" signature="248109:248350" ph="(def default-data-readers ...)" />
-            <marker date="1506799829000" expanded="true" signature="248352:249458" ph="(def *data-readers* ...)" />
-            <marker date="1506799829000" expanded="true" signature="249460:249778" ph="(def *default-data-reader-fn* ...)" />
-            <marker date="1506799829000" expanded="true" signature="249780:250006" ph="(defn- data-reader-urls ...)" />
-            <marker date="1506799829000" expanded="true" signature="250008:250115" ph="(defn- data-reader-var ...)" />
-            <marker date="1506799829000" expanded="true" signature="250117:251349" ph="(defn- load-data-reader-file ...)" />
-            <marker date="1506799829000" expanded="true" signature="251351:251556" ph="(defn- load-data-readers ...)" />
-            <marker date="1506799829000" expanded="true" signature="251558:251642" ph="(try ...)" />
-          </folding>
+        <state relative-caret-position="46172">
+          <caret line="2716" column="6" selection-start-line="2716" selection-start-column="6" selection-end-line="2716" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someFileName">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
     </entry>
