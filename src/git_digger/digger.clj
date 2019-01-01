@@ -28,7 +28,6 @@
         (str/split x #"\n\n")
         (map parse-commit x)))
 
-;---------
 (def commits
   (git-log->commits))
 
