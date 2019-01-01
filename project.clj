@@ -8,7 +8,8 @@
                  [org.clojure/tools.trace "0.7.8"]
                  [clojurewerkz/elastisch "3.0.0"]
                  [clj-http "3.7.0"]
-								 [org.clojure/data.json "0.2.6"]]
+								 [org.clojure/data.json "0.2.6"]
+                 [metasoarous/oz "1.4.1"]]
   :main ^:skip-aot clojure-dominion.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

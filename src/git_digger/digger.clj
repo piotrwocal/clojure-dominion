@@ -1,7 +1,8 @@
 (ns git-digger.digger
   (:use clojure.pprint)
   (:use [clojure.java.shell :only [sh]])
-  (:require [clojure.string :as str]))
+  (:require [clojure.string :as str])
+  (:require [oz.core :as oz]))
 
 (defn call-git-log []
   (let [result (sh "git" "log" "--pretty=format:'[%h] %ae %ad'" "--date=short" "--numstat")]
@@ -38,7 +39,7 @@
   (reduce (fn [r [k v]] (assoc r k (apply f v args)))
           {} m))
 
-(defn most-changed-files [entries n]
+(defn get-most-changed-files [entries n]
   (as-> entries entries
     (group-by :file entries)
     (update-map-values entries count)
@@ -53,8 +54,28 @@
   (let [regex (java.util.regex.Pattern/compile regex-str)]
     (filter #(re-find regex (:file %)) entries)))
 
-(most-changed-files (remove-entries entries "^.idea/|^test/") 10)
+(def most-changed-files
+  (get-most-changed-files (remove-entries entries "^.idea/|^test/") 10))
 
 
+;-----------------------
+(oz/start-plot-server!)
 
+
+(def oz-input
+  (map (fn[[f s]] {:file f :changes s}) most-changed-files))
+
+(pprint oz-input)
+
+(def bar-plot
+  {:data {:values oz-input}
+   :encoding {:x {:field "changes" :type "quantitative" }
+               :y {:field "file" :type "ordinal" :sort { :field "changes"}}}
+   :mark "bar"
+   :title "Files with most git changes"
+   :width 500
+   :height 300
+   })
+
+(oz/v! bar-plot)
 
