@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Leiningen: com.lispcast/org.apache.commons.lang:2.5.0">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/lispcast/org.apache.commons.lang/2.5.0/org.apache.commons.lang-2.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/com/lispcast/org.apache.commons.lang/2.5.0/org.apache.commons.lang-2.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
