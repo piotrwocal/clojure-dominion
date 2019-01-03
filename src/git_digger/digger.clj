@@ -23,13 +23,16 @@
   (let [[x & xs] (str/split entry #"\n")]
     (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))
 
-(defn git-log->commits []
-  (as-> (call-git-log) x
+(defn git-log->commits [x]
+  (as-> x x
         (str/split x #"\n\n")
         (map parse-commit x)))
 
 (def commits
-  (git-log->commits))
+  (git-log->commits git-log))
+
+(def git-log
+	(slurp "/opt/data/payon/out.txt"))
 
 (def entries
   (mapcat :entries commits))
@@ -54,14 +57,14 @@
 				(take n entries)))
 
 (def commits-data
-(as-> commits commits
+	(as-> commits commits
 			(group-by :mail commits)
 			(update-map-values commits count)
 			(sort-by second > commits )
 			(take 20 commits)))
 
 
-(pprint (get-most-active-commiter entries 10))
+(pprint (get-most-changed-files entries 20))
 
 (defn remove-entries [entries regex-str]
   (let [regex (java.util.regex.Pattern/compile regex-str)]
@@ -80,7 +83,7 @@
 (oz/start-plot-server!)
 
 (def oz-input
-  (map (fn[[f s]] {:file f :changes s}) most-changed-files))
+  (map (fn[[f s]] {:file f :changes s}) get-most-active-commiter))
 
 (pprint oz-input)
 

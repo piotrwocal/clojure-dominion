@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target/base+system+user+dev" />
       <excludeFolder url="file://$MODULE_DIR$/target/default" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Leiningen: aleph:0.4.6" level="project" />
     <orderEntry type="library" name="Leiningen: args4j:2.33" level="project" />
@@ -125,6 +125,7 @@
     <orderEntry type="library" name="Leiningen: org.clojure/data.codec:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.7" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/data.zip:0.1.2" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library-third-party:0.0-20170519-fa0499ef" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library:0.0-20170519-fa0499ef" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/java.classpath:0.2.3" level="project" />

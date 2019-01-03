@@ -4,11 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/elastic/elastic_test.clj" line="21" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="added oz plotting">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_lispcast_org_apache_commons_lang_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_lispcast_org_apache_commons_lang_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_trace_0_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_trace_0_7_8.xml" afterDir="false" />
+    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_zip_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scrap.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clojure-dominion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-dominion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/git_digger/digger.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/git_digger/digger.clj" afterDir="false" />
     </list>
     <ignored path="clojure-dominion.iws" />
@@ -32,8 +34,17 @@
       <file leaf-file-name="elastic_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state>
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -41,76 +52,71 @@
       <file leaf-file-name="analyse.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
+      <file leaf-file-name="scrap.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scrap.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="257">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+      <file leaf-file-name="string.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/string.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+            <state relative-caret-position="260">
+              <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+      <file leaf-file-name="zip.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/zip.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
+            <state>
+              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45315">
-              <caret line="3021" column="50" selection-start-line="3021" selection-start-column="50" selection-end-line="3021" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shell.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="someFileName" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/someFileName">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="digger.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="digger.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="459">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="io.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/io.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="2673" column="6" selection-start-line="2673" selection-start-column="6" selection-end-line="2673" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xml.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/xml.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -127,6 +133,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>trace</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/git_digger/git_digger.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/git_digger/digger.clj" />
+        <option value="$PROJECT_DIR$/src/scrap.clj" />
       </list>
     </option>
   </component>
@@ -175,20 +183,18 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="27" />
-    <option name="width" value="962" />
-    <option name="height" value="1078" />
+    <option name="x" value="268" />
+    <option name="y" value="105" />
+    <option name="width" value="1390" />
+    <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,12 +211,33 @@
               <item name="clojure-dominion" type="b2602c69:ProjectViewProjectNode" />
               <item name="clojure-dominion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="clojure_dominion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-dominion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-dominion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="csv_analyse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-dominion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-dominion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="elastic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-dominion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-dominion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="git_digger" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -241,6 +268,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546381838856" />
     <property name="cursive.last.file.extension./home/piotr/Workplace/projects/clojure-dominion/src" value="clj" />
+    <property name="cursive.last.file.extension./home/tomcat/Workspace/clojure-dominion/src" value="clj" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
@@ -250,8 +278,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29229" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,7 +289,7 @@
       <recent name="$PROJECT_DIR$/test/clojure_programming" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1546424036017">{:repl-history {:ide [], :local [{:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n     entries))&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(call-git-log)&quot;, :offset 14, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n    (assoc header :entries entries)))&quot;, :offset 153, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (when (empty? err) out)))&quot;, :offset 196, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [header]\n  (zipmap [:hash :mail :date] (str/split header #\&quot; \&quot;)))&quot;, :offset 83, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [line]\n  (-&gt; (zipmap [:added :deleted :file] (str/split line #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 157, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-entry [entry]\n  (let [[x &amp; xs] (str/split entry #\&quot;\\n\&quot;)]\n    (let [header (parse-header x )\n          entries (map parse-line xs)]\n      (assoc header :entries entries))))&quot;, :offset 182, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (map parse-entry))&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 43, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    parse-entry)&quot;, :offset 59, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    0\n    parse-entry)&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 0)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 1)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    #(str/split % #\&quot;\\n\\n\&quot;))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (#(str/split % #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;))\n     )&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 54, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 51, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; x (call-git-log) \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; (call-git-log) x \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-log [] \n  (as-&gt; (call-git-log) x\n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x)))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-log)&quot;, :offset 11, :ns &quot;git-digger.digger&quot;} {:command &quot;(def parsed-log (parse-log))&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint parsed-log)&quot;, :offset 19, :ns &quot;git-digger.digger&quot;} {:command &quot;(count parsed-log)&quot;, :offset 18, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :entries parsed-log)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added (mapcat :entries parsed-log))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(mapcat :entries parsed-log)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (partial :added +) 0 (mapcat :entries parsed-log))&quot;, :offset 58, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp :added +)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :added flat-changes)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added flat-changes)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added) 0 flat-changes)&quot;, :offset 39, :ns &quot;git-digger.digger&quot;} {:command &quot;(print flat-changes)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file .idea/compiler.xml})&quot;, :offset 66, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file \&quot;.idea/compiler.xml\&quot;})&quot;, :offset 68, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (reduce +))&quot;, :offset 49, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added))&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added))&quot;, :offset 35, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added)\n     (apply +))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n  (map :deleted) \n  (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(def flat-changes (mapcat :entries parsed-log))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ _ (sh \&quot;cd\&quot; \&quot;/opt/data/payon\&quot;)\n\t\t\t\tresult (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot; \&quot;--after='2017-07-01 00:00:00\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 236, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd\&quot; \&quot;/opt/data/payon\&quot;)&quot;, :offset 27, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;ls)&quot;, :offset 7, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;ls\&quot;)&quot;, :offset 8, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd\&quot; \&quot;/opt/data//payon\&quot;)&quot;, :offset 26, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd .\&quot; \n\t\t)&quot;, :offset 14, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;less\n\&quot;)&quot;, :offset 10, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;less\&quot;)&quot;, :offset 9, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;pwd\&quot;)&quot;, :offset 8, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd /opt/data/payon; pwd\&quot;)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd /opt/data/payon\&quot;)&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd\&quot;)&quot;, :offset 7, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd\&quot; \&quot;/\n\&quot;)&quot;, :offset 12, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;echo\&quot; \&quot;test\&quot;)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;cd &amp;&amp; pwd\&quot;)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;} {:command &quot;(sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /etc; pwd\&quot;)&quot;, :offset 27, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ _ (sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /opt/data/payon\&quot;)\n\t\t\t\tresult (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot; \&quot;--after='2017-07-01 00:00:00\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 244, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ result (sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /opt/data/payon &amp;&amp;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot; \&quot;--after='2017-07-01 00:00:00\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 233, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ result (sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /opt/data/payon &amp;&amp; git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot; \&quot;--after='2017-07-01 00:00:00\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 234, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint call-git-log)&quot;, :offset 21, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint (call-git-log))&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(ns git-digger.digger\n  (:use clojure.pprint)\n  (:use [clojure.java.shell :only [sh]])\n  (:require [clojure.string :as str])\n  (:require [oz.core :as oz]))&quot;, :offset 155, :ns &quot;clojure-dominion.core&quot;} {:command &quot;(defn call-git-log []\n  (let [ result (sh \&quot;git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2017-07-01 00:00:00'\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 193, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ result (sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /opt/data/payon &amp;&amp; git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2017-07-01 00:00:00'\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 225, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-commit-header [header]\n  (zipmap [:hash :mail :date]\n          (str/split header #\&quot; \&quot;)))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-commit-line [line]\n  (-&gt; (zipmap [:added :deleted :file]\n              (str/split line #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 178, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-commit [entry]\n  (let [[x &amp; xs] (str/split entry #\&quot;\\n\&quot;)]\n    (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))&quot;, :offset 142, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn git-log-&gt;commits []\n  (as-&gt; (call-git-log) x\n        (str/split x #\&quot;\\n\\n\&quot;)\n        (map parse-commit x)))&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn update-map-values [m f &amp; args]\n  (reduce (fn [r [k v]] (assoc r k (apply f v args)))\n          {} m))&quot;, :offset 107, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn get-most-changed-files [entries n]\n  (as-&gt; entries entries\n    (group-by :file entries)\n    (update-map-values entries count)\n    (sort-by second &gt; entries)\n    (take n entries)))&quot;, :offset 185, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn remove-entries [entries regex-str]\n  (let [regex (java.util.regex.Pattern/compile regex-str)]\n    (remove #(re-find regex (:file %)) entries)))&quot;, :offset 149, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn filter-entries [entries regex-str]\n  (let [regex (java.util.regex.Pattern/compile regex-str)]\n    (filter #(re-find regex (:file %)) entries)))&quot;, :offset 149, :ns &quot;git-digger.digger&quot;} {:command &quot;(def most-changed-files\n  (get-most-changed-files (remove-entries entries \&quot;^.idea/|^test/\&quot;) 10))&quot;, :offset 96, :ns &quot;git-digger.digger&quot;} {:command &quot;(oz/start-plot-server!)&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint oz-input)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(def most-changed-files\n  (get-most-changed-files (remove-entries entries \&quot;^.idea/|^test/|.gradle|.xml|.properties\&quot;) 10))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(def oz-input\n  (map (fn[[f s]] {:file f :changes s}) most-changed-files))&quot;, :offset 74, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 500\n   :height 300\n   })&quot;, :offset 266, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 800\n   :height 600\n   })&quot;, :offset 266, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :labelLimit 400 :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 800\n   :height 600\n   })&quot;, :offset 282, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :axis{ :labelLimit 400} :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 800\n   :height 600\n   })&quot;, :offset 290, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :axis{ :labelLimit 600} :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 1200\n   :height 600\n   })&quot;, :offset 291, :ns &quot;git-digger.digger&quot;} {:command &quot;(count commits)&quot;, :offset 15, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint entries)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint (count entries))&quot;, :offset 24, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :axis{ :labelLimit 600} :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 1100\n   :height 600\n   })&quot;, :offset 291, :ns &quot;git-digger.digger&quot;} {:command &quot;(oz/v! bar-plot)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;} {:command &quot;(def entries\n  (mapcat :entries commits))&quot;, :offset 41, :ns &quot;git-digger.digger&quot;} {:command &quot;(def most-changed-files\n  (get-most-changed-files (remove-entries entries \&quot;^.idea/|^test/|.gradle|.xml|.properties\&quot;) 50))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint most-changed-files)&quot;, :offset 27, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [ result (sh \&quot;sh\&quot; \&quot;-c\&quot; \&quot;cd /opt/data/payon &amp;&amp; git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2015-01-01 00:00:00'\&quot;)]\n    (when (empty? (:err result))\n      (:out result))))&quot;, :offset 225, :ns &quot;git-digger.digger&quot;} {:command &quot;(def commits\n  (git-log-&gt;commits))&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint (count commits))&quot;, :offset 24, :ns &quot;git-digger.digger&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1546546980993">{:repl-history {:ide [], :local [{:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;) x\n\t\t\t (:content x)\n\t\t\t (map :attrs x)\n\t\t\t (count x))&quot;, :offset 125, :ns &quot;scrap&quot;} {:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x \n\t\t\t (:content x))&quot;, :offset 127, :ns &quot;scrap&quot;} {:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x \n\t\t\t (:content x)\n\t\t\t (map :attrs x))&quot;, :offset 146, :ns &quot;scrap&quot;} {:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x \n\t\t\t (:content x)\n\t\t\t (map :attrs x)\n\t\t\t (map :name))&quot;, :offset 162, :ns &quot;scrap&quot;} {:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;) x\n\t\t\t (:content x)\n\t\t\t (map :attrs x))&quot;, :offset 111, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(map :attrs x)\n\t\t\t(map :name x))&quot;, :offset 126, :ns &quot;scrap&quot;} {:command &quot;(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x \n\t\t\t (:content x)\n\t\t\t (map :attrs x)\n\t\t\t (map :name x))&quot;, :offset 164, :ns &quot;scrap&quot;} {:command &quot;(def eh-config\n\t(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(map :attrs x)\n\t\t\t(map :name x)\n\t\t\t\t(set x)))&quot;, :offset 155, :ns &quot;scrap&quot;} {:command &quot;(def hazelcast-config\n\t(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x \n\t\t\t(:content x)\n\t\t\t(map :attrs x)\n\t\t\t(map :name x)\n \t\t\t(set x)))&quot;, :offset 197, :ns &quot;scrap&quot;} {:command &quot;(def eh-config\n\t(-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;)\n\t\t\t:content\n\t\t\t(map :attrs)\n\t\t\t(map :name)\n\t\t\t(set)))&quot;, :offset 140, :ns &quot;scrap&quot;} {:command &quot;(def eh-config\n\t(-&gt;&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;)\n\t\t\t:content\n\t\t\t(map :attrs)\n\t\t\t(map :name)\n\t\t\t(set)))&quot;, :offset 141, :ns &quot;scrap&quot;} {:command &quot;(def eh-config\n\t(-&gt;&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;)\n\t\t\t:content\n\t\t\t(map :attrs)\n\t\t\t(map :name)\n\t\t\tset))&quot;, :offset 139, :ns &quot;scrap&quot;} {:command &quot;(pprint eh-config)&quot;, :offset 18, :ns &quot;scrap&quot;} {:command &quot;(disj eh-config hazelcast-config)&quot;, :offset 33, :ns &quot;scrap&quot;} {:command &quot;(disj hazelcast-config eh-config)&quot;, :offset 33, :ns &quot;scrap&quot;} {:command &quot;(aply disj hazelcast-config eh-config)&quot;, :offset 38, :ns &quot;scrap&quot;} {:command &quot;(apply disj eh-config hazelcast-config)&quot;, :offset 39, :ns &quot;scrap&quot;} {:command &quot;(apply disj hazelcast-config eh-config)&quot;, :offset 39, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t:content)&quot;, :offset 124, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t:content x)&quot;, :offset 126, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(take 3))&quot;, :offset 140, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t)&quot;, :offset 132, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter (:tag :class =)))&quot;, :offset 156, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= :class (:tag %))))&quot;, :offset 161, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x))&quot;, :offset 128, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= :class (:tag %))) x)&quot;, :offset 163, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(map :tag x))&quot;, :offset 144, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x))&quot;, :offset 212, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(:content x))&quot;, :offset 179, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x))&quot;, :offset 163, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(count x))&quot;, :offset 176, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\tfirst\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x))&quot;, :offset 221, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\tfirst\n\t\t\t(:content x))&quot;, :offset 188, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(map #(get-in % :content :attrs :class) x))&quot;, :offset 271, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(map #(get-in % [:content :attrs :class]) x))&quot;, :offset 273, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x))&quot;, :offset 225, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(map :content x))&quot;, :offset 245, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(mapcat :content x)\n\t\t\t(map #(get-in % [:attrs :class]) x))&quot;, :offset 287, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(mapcat :content x)\n\t\t\t(map #(get-in % [:attrs :class]) x)\n\t\t\t(filter (partial not nil?) x))&quot;, :offset 320, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(mapcat :content x)\n\t\t\t(map #(get-in % [:attrs :class]) x)\n\t\t\t(filter not-empty x))&quot;, :offset 311, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(mapcat :content x))&quot;, :offset 248, :ns &quot;scrap&quot;} {:command &quot;(def merchant-hbm-xml\n\t(xml/parse \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;))&quot;, :offset 127, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; merchant-hbm-xml x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(mapcat :content x))&quot;, :offset 161, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; merchant-hbm-xml x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x))&quot;, :offset 138, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; merchant-hbm-xml x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x))&quot;, :offset 76, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; merchant-hbm-xml x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x)\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :set) x)\n\t\t\t(map #(get-in % [:attrs :name]) x)\n\t\t\t(filter not-empty x))&quot;, :offset 200, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; merchant-hbm-xml x\n\t\t\t(:content x)\n\t\t\t(filter #(= (:tag %) :class) x)\n\t\t\t(first x))&quot;, :offset 89, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml :content (filter #(= (:tag %) :class)) first)]\n\t\tclass-tag))&quot;, :offset 157, :ns &quot;scrap&quot;} {:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml \n\t\t\t\t\t\t\t\t\t\t\t :content \n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tset-names (-&gt;&gt; class-tag \n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\tset-names))&quot;, :offset 363, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml \n\t\t\t\t\t\t\t\t\t\t\t :content \n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tset-names (-&gt;&gt; class-tag \n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\tclass-tag))&quot;, :offset 363, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml \n\t\t\t\t\t\t\t\t\t\t\t :content \n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tclass-name (get-in class-tag [:attrs :name])\n\t\t\t\tset-names (-&gt;&gt; class-tag \n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\tclass-name))&quot;, :offset 413, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml \n\t\t\t\t\t\t\t\t\t\t\t :content \n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tclass-name (get-in class-tag [:attrs :name])\n\t\t\t\tset-names (-&gt;&gt; class-tag \n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\t(map #(str class-name \&quot;.\&quot; %) set-names)))&quot;, :offset 442, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;cache-proxies [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tclass-name (get-in class-tag [:attrs :name])\n\t\t\t\tset-names (-&gt;&gt; class-tag\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\t(cons class-name\n\t\t\t(map #(str class-name \&quot;.\&quot; %) set-names))))&quot;, :offset 460, :ns &quot;scrap&quot;} {:command &quot;(pprint (hbm-xml-&gt;cache-proxies \n\t\t\t\t\t\&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;))&quot;, :offset 131, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-xml-&gt;hbm-cache-names [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tclass-name (get-in class-tag [:attrs :name])\n\t\t\t\tset-names (-&gt;&gt; class-tag\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\t(cons class-name\n\t\t\t(map #(str class-name \&quot;.\&quot; %) set-names))))&quot;, :offset 462, :ns &quot;scrap&quot;} {:command &quot;(pprint (hbm-xml-&gt;hbm-cache-names\n\t\t\t\t\t\&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;))&quot;, :offset 132, :ns &quot;scrap&quot;} {:command &quot;(ns scrap\n\t(:use clojure.pprint)\n\t(:use [clojure.java.shell :only [sh]])\n\t(:require [clojure.java.io :as io]\n\t\t\t\t\t\t[clojure.xml :as xml]\n\t\t\t\t\t\t[clojure.data.zip.xml :as zip-xml]\n\t\t  \t\t\t[clojure.zip :as zip]\n\t\t\t\t\t\t[clojure.string :as str]))&quot;, :offset 239, :ns &quot;clojure-dominion.core&quot;} {:command &quot;(sh \&quot;ls\&quot;)&quot;, :offset 9, :ns &quot;scrap&quot;} {:command &quot;(sh :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot; \&quot;ls\&quot;)&quot;, :offset 89, :ns &quot;scrap&quot;} {:command &quot;(sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;)&quot;, :offset 89, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;) x\n\t\t\t(:out x))&quot;, :offset 110, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;) x\n\t\t\t(:out x)\n\t\t\t(str/split x #\&quot;\\n\\n\&quot;))&quot;, :offset 135, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;) x\n\t\t\t(:out x)\n\t\t\t(str/split x #\&quot;\\n\&quot;))&quot;, :offset 133, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;) x\n\t\t\t(:out x)\n\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x))&quot;, :offset 173, :ns &quot;scrap&quot;} {:command &quot;(defn dir-&gt;hbm-file-names [dir]\n\t(as-&gt; (sh \&quot;ls\&quot; :dir dir) x\n\t\t\t\t(:out x)\n\t\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x)))&quot;, :offset 139, :ns &quot;scrap&quot;} {:command &quot;(def file-names \n\t(dir-&gt;hbm-file-names \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;))&quot;, :offset 115, :ns &quot;scrap&quot;} {:command &quot;(defn hbm-file-name-&gt;cache-names [file-name]\n\t(let [xml (xml/parse file-name)\n\t\t\t\tclass-tag (-&gt;&gt; xml\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :class))\n\t\t\t\t\t\t\t\t\t\t\t first)\n\t\t\t\tclass-name (get-in class-tag [:attrs :name])\n\t\t\t\tset-names (-&gt;&gt; class-tag\n\t\t\t\t\t\t\t\t\t\t\t :content\n\t\t\t\t\t\t\t\t\t\t\t (filter #(= (:tag %) :set))\n\t\t\t\t\t\t\t\t\t\t\t (map #(get-in % [:attrs :name]))\n\t\t\t\t\t\t\t\t\t\t\t (filter not-empty))]\n\t\t(cons class-name\n\t\t\t(map #(str class-name \&quot;.\&quot; %) set-names))))&quot;, :offset 464, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir dir) x\n\t\t\t\t(:out x)\n\t\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x))&quot;, :offset 105, :ns &quot;scrap&quot;} {:command &quot;(as-&gt; (sh \&quot;ls\&quot; :dir \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;) x\n\t\t\t\t(:out x)\n\t\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x))&quot;, :offset 176, :ns &quot;scrap&quot;} {:command &quot;(defn dir-&gt;hbm-file-names [dir]\n\t(as-&gt; (sh \&quot;ls\&quot; :dir dir) x\n\t\t\t\t(:out x)\n\t\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x)\n\t\t\t\t(map #(str dir %) x)))&quot;, :offset 164, :ns &quot;scrap&quot;} {:command &quot;(defn dir-&gt;hbm-file-names [dir]\n\t(as-&gt; (sh \&quot;ls\&quot; :dir dir) x\n\t\t\t\t(:out x)\n\t\t\t\t(str/split x #\&quot;\\n\&quot;)\n\t\t\t\t(filter #(.contains % \&quot;.hbm.xml\&quot;) x)\n\t\t\t\t(map #(str dir \&quot;/\&quot; %) x)))&quot;, :offset 168, :ns &quot;scrap&quot;} {:command &quot;(pprint (hbm-file-name-&gt;cache-names\n\t\t\t\t\t\&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm/Merchant.hbm.xml\&quot;))&quot;, :offset 134, :ns &quot;scrap&quot;} {:command &quot;(dir-&gt;hbm-file-names \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;)&quot;, :offset 96, :ns &quot;scrap&quot;} {:command &quot;(def file-names\n\t(take 2 (dir-&gt;hbm-file-names \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;)))&quot;, :offset 123, :ns &quot;scrap&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;scrap&quot;} {:command &quot;(def file-names\n\t(take 5 (dir-&gt;hbm-file-names \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;)))&quot;, :offset 123, :ns &quot;scrap&quot;} {:command &quot;(-&gt;&gt; file-names\n\t\t(mapcat hbm-file-name-&gt;cache-names))&quot;, :offset 54, :ns &quot;scrap&quot;} {:command &quot;(def file-names\n\t(dir-&gt;hbm-file-names \&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;))&quot;, :offset 114, :ns &quot;scrap&quot;} {:command &quot;(def cache-names \n\t(-&gt;&gt; file-names\n\t\t\t(mapcat hbm-file-name-&gt;cache-names)))&quot;, :offset 75, :ns &quot;scrap&quot;} {:command &quot;(count hazelcast-config)&quot;, :offset 24, :ns &quot;scrap&quot;} {:command &quot;(count cache-names)&quot;, :offset 19, :ns &quot;scrap&quot;} {:command &quot;(def cache-names\n\t(-&gt;&gt; file-names\n\t\t\t(mapcat hbm-file-name-&gt;cache-names)))&quot;, :offset 74, :ns &quot;scrap&quot;} {:command &quot;(pprint file-names)&quot;, :offset 19, :ns &quot;scrap&quot;} {:command &quot;(print 1)&quot;, :offset 8, :ns &quot;clojure-dominion.core&quot;} {:command &quot;(pprint cache-names)&quot;, :offset 20, :ns &quot;scrap&quot;} {:command &quot;(def cache-names-set \n\t(set cache-names))&quot;, :offset 41, :ns &quot;scrap&quot;} {:command &quot;(disj cache-names-set hazelcast-config)&quot;, :offset 39, :ns &quot;scrap&quot;} {:command &quot;(pprint cache-names-set)&quot;, :offset 24, :ns &quot;scrap&quot;} {:command &quot;(apply disj cache-names-set hazelcast-config)&quot;, :offset 45, :ns &quot;scrap&quot;} {:command &quot;(apply disj hazelcast-config cache-names-set)&quot;, :offset 45, :ns &quot;scrap&quot;} {:command &quot;(pprint hazelcast-config)&quot;, :offset 25, :ns &quot;scrap&quot;} {:command &quot;(def hazelcast-cache-names\n\t(as-&gt;\t(xml/parse \&quot;/opt/data/payon/hazelcast_config/src/main/resources/hazelcast/ps-hazelcast-default.xml\&quot;) x\n\t\t\t(:content x)\n\t\t\t(map :attrs x)\n\t\t\t(map :name x)\n \t\t\t(set x)))&quot;, :offset 201, :ns &quot;scrap&quot;} {:command &quot;(def eh-cache-names\n\t(-&gt;&gt; (xml/parse \&quot;/opt/data/payon/ctpc/config/templates/ps-ehcache.xml\&quot;)\n\t\t\t:content\n\t\t\t(map :attrs)\n\t\t\t(map :name)\n\t\t\tset))&quot;, :offset 144, :ns &quot;scrap&quot;} {:command &quot;(apply disj hazelcast-cache-names eh-cache-names)&quot;, :offset 49, :ns &quot;scrap&quot;} {:command &quot;(apply disj eh-cache-names hazelcast-cache-names)&quot;, :offset 49, :ns &quot;scrap&quot;} {:command &quot;(def ctpc-hbm-dir\n\t\&quot;/opt/data/payon/ctpc/src/main/resources/org/pragmatico/ctpc/entities/hbm\&quot;)&quot;, :offset 94, :ns &quot;scrap&quot;} {:command &quot;(def cache-names-set\n\t(-&gt;&gt; (dir-&gt;hbm-file-names ctpc-hbm-dir)\n\t\t\t (mapcat hbm-file-name-&gt;cache-names)\n\t\t\t set))&quot;, :offset 111, :ns &quot;scrap&quot;} {:command &quot;(apply disj hazelcast-cache-names cache-names-set)&quot;, :offset 50, :ns &quot;scrap&quot;} {:command &quot;(apply disj cache-names-set hazelcast-cache-names)&quot;, :offset 50, :ns &quot;scrap&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -292,33 +319,11 @@
       <module name="clojure-dominion" />
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
+      <setting name="jvmArgs" value="-Xmx8g -Xms2g" />
+      <setting name="parameters" value="-Xmx8g -Xms2g" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
-    </configuration>
-    <configuration name="REPL for clojure_dominion" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="clojure_dominion" />
-      <setting name="replType" value="NREPL" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Local REPL Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Local REPL Run" />
-      <method>
-        <option name="Synchronize Leiningen" enabled="true" />
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -533,7 +538,6 @@
       <item itemvalue="Clojure Application.clojure_programming" />
       <item itemvalue="Clojure Application.optimize" />
       <item itemvalue="Clojure REPL.REPL for clojure-dominion" />
-      <item itemvalue="Clojure REPL.REPL for clojure_dominion" />
     </list>
     <recent_temporary>
       <list>
@@ -748,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546381612333</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="get some stats oz plotting">
+      <created>1546424279807</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1546424279807</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -772,8 +783,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1078" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="950" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32943925" />
       <window_info id="Palette&#9;" order="3" />
@@ -782,27 +792,27 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.3292232" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32998565" />
-      <window_info active="true" anchor="right" id="REPL" order="2" sideWeight="0.50061655" side_tool="true" visible="true" weight="0.5032017" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.30409357" />
+      <window_info anchor="right" id="REPL" order="2" sideWeight="0.50061655" side_tool="true" weight="0.51387405" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.20935673" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.30409357" />
       <window_info anchor="right" id="Leiningen" order="4" sideWeight="0.49815044" weight="0.32998565" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32977587" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.15901814" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32865497" />
       <window_info id="Learn" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.32998565" />
       <window_info anchor="right" id="Ant Build" order="0" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3292232" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3292232" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3292232" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" />
       <window_info anchor="right" id="Dynamic Properties" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32865497" />
       <window_info anchor="bottom" id="Changes" order="2" weight="0.3292232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -870,55 +880,14 @@
     <MESSAGE value="daily update" />
     <MESSAGE value="added git-digger part" />
     <MESSAGE value="added oz plotting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added oz plotting" />
+    <MESSAGE value="get some stats oz plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="get some stats oz plotting" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45315">
-          <caret line="3021" column="50" lean-forward="true" selection-start-line="3021" selection-start-column="50" selection-end-line="3021" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -1040,26 +1009,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.6.0/clojure-1.6.0.jar!/clojure/core.clj" />
     <entry file="file://$PROJECT_DIR$/src/rushhour/solver.clj" />
     <entry file="file://$PROJECT_DIR$/test/rushhour/solver_test.clj" />
     <entry file="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/3.0.0/elastisch-3.0.0.jar!/clojurewerkz/elastisch/rest/document.clj" />
     <entry file="file://$PROJECT_DIR$/src/git_digger/git_digger.clj">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
       <provider selected="true" editor-type-id="text-editor">
@@ -1068,10 +1023,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+    <entry file="file://$PROJECT_DIR$/someFileName">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        <state relative-caret-position="45315">
+          <caret line="3021" column="50" selection-start-line="3021" selection-start-column="50" selection-end-line="3021" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1082,41 +1047,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        <state relative-caret-position="1920">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/someFileName">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/xml.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45315">
-          <caret line="3021" column="50" selection-start-line="3021" selection-start-column="50" selection-end-line="3021" selection-end-column="50" />
+        <state>
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/zip.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/io.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="459">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/string.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="2673" column="6" selection-start-line="2673" selection-start-column="6" selection-end-line="2673" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scrap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>
