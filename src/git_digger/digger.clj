@@ -4,35 +4,43 @@
   (:require [clojure.string :as str])
   (:require [oz.core :as oz]))
 
-(defn call-git-log []
+(defn call-git-log
+  "Calls directly 'git log' command and returns logout if call was successful"
+  []
   (let [ result (sh "sh" "-c" "cd /opt/data/payon && git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2018-01-01 00:00:00'")]
     (when (empty? (:err result))
       (:out result))))
 
-(defn parse-commit-header [header]
+(defn- parse-commit-header [header]
   (zipmap [:hash :mail :date]
           (str/split header #" ")))
 
-(defn parse-commit-line [line]
+(defn- parse-commit-line [line]
   (-> (zipmap [:added :deleted :file]
               (str/split line #"\t"))
       (update :added read-string)
       (update :deleted read-string)))
 
-(defn parse-commit [entry]
+(defn parse-commit
+  "Parse single commit logout to map"
+  [entry]
   (let [[x & xs] (str/split entry #"\n")]
     (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))
 
-(defn git-log->commits [x]
+(defn git-log->commits
+  "Parse input string git logout to commit maps"
+  [x]
   (as-> x x
         (str/split x #"\n\n")
         (map parse-commit x)))
 
+
+; -- data to play
+(def git-log
+  (slurp "/opt/data/payon/out.txt"))
+
 (def commits
   (git-log->commits git-log))
-
-(def git-log
-	(slurp "/opt/data/payon/out.txt"))
 
 (def entries
   (mapcat :entries commits))
