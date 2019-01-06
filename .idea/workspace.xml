@@ -4,10 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/elastic/elastic_test.clj" line="21" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="194df5fc-3bda-4f2a-86e3-7798a6af0666" name="Default" comment="some comments added">
+      <change afterPath="$PROJECT_DIR$/src/git_digger/custering.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojure-dominion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-dominion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/git_digger/digger.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/git_digger/digger.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/git_digger/git_digger.clj" beforeDir="false" />
     </list>
     <ignored path="clojure-dominion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,15 +47,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2176">
@@ -74,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="2961" column="6" selection-start-line="2961" selection-start-column="6" selection-end-line="2961" selection-end-column="6" />
+            <state relative-caret-position="294">
+              <caret line="2504" column="6" selection-start-line="2504" selection-start-column="6" selection-end-line="2504" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -97,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="272">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -106,8 +99,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="595">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/git_digger/custering.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -159,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/git_digger/git_digger.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/scrap.clj" />
+        <option value="$PROJECT_DIR$/src/git_digger/custering.clj" />
         <option value="$PROJECT_DIR$/src/git_digger/digger.clj" />
       </list>
     </option>
@@ -173,11 +176,11 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="268" />
-    <option name="y" value="105" />
-    <option name="width" value="1390" />
-    <option name="height" value="934" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="45" />
+    <option name="y" value="25" />
+    <option name="width" value="972" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,10 +229,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +259,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546693945203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546810862524" />
     <property name="cursive.last.file.extension./home/piotr/Workplace/projects/clojure-dominion/src" value="clj" />
     <property name="cursive.last.file.extension./home/tomcat/Workspace/clojure-dominion/src" value="clj" />
     <property name="dynamic.classpath" value="false" />
@@ -280,7 +282,7 @@
       <recent name="$PROJECT_DIR$/test/clojure_programming" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1546693940533">{:repl-history {:ide [], :local [{:command &quot;(apply disj cache-names-set hazelcast-cache-names)&quot;, :offset 50, :ns &quot;scrap&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\&quot;))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(def single-entry\n  \&quot;'[82fe42f] piotr.wocal@gmail.com 2015-01-26'\n    1\\t1\\t.idea/replstate.xml\n    44\\t21\\t.idea/workspace.xml\n    20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 174, :ns &quot;git-digger.digger&quot;} {:command &quot;(print single-entry)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;(str/split single-entry #\&quot;\\n\&quot;)&quot;, :offset 30, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [header entry-lines] (str/split single-entry #\&quot;\\n\&quot;))&quot;, :offset 57, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  )&quot;, :offset 62, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; entry-lines))&quot;, :offset 103, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; (count entry-lines)))&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp;entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println (count entry-lines))))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;))&quot;, :offset 101, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;giit\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;logg\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;---pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 194, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;))]\n    header))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [x]\n  (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;)))&quot;, :offset 73, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n    header))&quot;, :offset 93, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot; \&quot;)))&quot;, :offset 77, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;)))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] int)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] str)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))))&quot;, :offset 81, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] str)&quot;, :offset 117, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/valueOf)&quot;, :offset 129, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/getInteger)&quot;, :offset 132, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/parseInt)&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(Integer/parseInt \&quot;12\&quot;)&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] #(Integer/parseInt %))&quot;, :offset 135, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] read-string)&quot;, :offset 125, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 122, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 120, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] identity)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] Integer/parseInt)&quot;, :offset 119, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted ] read-string)&quot;, :offset 124, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] read-string)&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted] read-string)&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted :added] read-string)&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(update  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            :deleted read-string)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 151, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-line \&quot;20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 55, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n       [entries (map parse-line xs)]\n       entries))&quot;, :offset 134, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n     entries))&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(call-git-log)&quot;, :offset 14, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n    (assoc header :entries entries)))&quot;, :offset 153, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (when (empty? err) out)))&quot;, :offset 196, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [header]\n  (zipmap [:hash :mail :date] (str/split header #\&quot; \&quot;)))&quot;, :offset 83, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [line]\n  (-&gt; (zipmap [:added :deleted :file] (str/split line #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 157, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-entry [entry]\n  (let [[x &amp; xs] (str/split entry #\&quot;\\n\&quot;)]\n    (let [header (parse-header x )\n          entries (map parse-line xs)]\n      (assoc header :entries entries))))&quot;, :offset 182, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (map parse-entry))&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 43, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    parse-entry)&quot;, :offset 59, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    0\n    parse-entry)&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 0)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 1)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    #(str/split % #\&quot;\\n\\n\&quot;))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (#(str/split % #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;))\n     )&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 54, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 51, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; x (call-git-log) \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; (call-git-log) x \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-log [] \n  (as-&gt; (call-git-log) x\n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x)))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-log)&quot;, :offset 11, :ns &quot;git-digger.digger&quot;} {:command &quot;(def parsed-log (parse-log))&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint parsed-log)&quot;, :offset 19, :ns &quot;git-digger.digger&quot;} {:command &quot;(count parsed-log)&quot;, :offset 18, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :entries parsed-log)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added (mapcat :entries parsed-log))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(mapcat :entries parsed-log)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (partial :added +) 0 (mapcat :entries parsed-log))&quot;, :offset 58, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp :added +)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :added flat-changes)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added flat-changes)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added) 0 flat-changes)&quot;, :offset 39, :ns &quot;git-digger.digger&quot;} {:command &quot;(print flat-changes)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file .idea/compiler.xml})&quot;, :offset 66, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file \&quot;.idea/compiler.xml\&quot;})&quot;, :offset 68, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (reduce +))&quot;, :offset 49, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added))&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added))&quot;, :offset 35, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added)\n     (apply +))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n  (map :deleted) \n  (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(def flat-changes (mapcat :entries parsed-log))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(+ 2 2)&quot;, :offset 6, :ns &quot;clojure-dominion.core&quot;} {:command &quot;(def most-changed-files\n  (get-most-changed-files (remove-entries entries \&quot;^.idea/|^test/\&quot;) 10))&quot;, :offset 96, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint most-changed-files)&quot;, :offset 27, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint oz-input)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(def oz-input\n  (map (fn[[f s]] {:file f :changes s}) most-changed-files))&quot;, :offset 74, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 500\n   :height 300\n   })&quot;, :offset 266, :ns &quot;git-digger.digger&quot;} {:command &quot;(oz/v! bar-plot)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1546810799354">{:repl-history {:ide [], :local [{:command &quot;(apply disj cache-names-set hazelcast-cache-names)&quot;, :offset 50, :ns &quot;scrap&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\&quot;))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(def single-entry\n  \&quot;'[82fe42f] piotr.wocal@gmail.com 2015-01-26'\n    1\\t1\\t.idea/replstate.xml\n    44\\t21\\t.idea/workspace.xml\n    20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 174, :ns &quot;git-digger.digger&quot;} {:command &quot;(print single-entry)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;(str/split single-entry #\&quot;\\n\&quot;)&quot;, :offset 30, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [header entry-lines] (str/split single-entry #\&quot;\\n\&quot;))&quot;, :offset 57, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  )&quot;, :offset 62, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; entry-lines))&quot;, :offset 103, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (println header \&quot; and line \&quot; (count entry-lines)))&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp;entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do \n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println entry-lines)))&quot;, :offset 115, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[header &amp; entry-lines] (str/split single-entry #\&quot;\\n\&quot;)]\n  (do\n    (println header)\n    (println (count entry-lines))))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n    (:out)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;))&quot;, :offset 101, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;giit\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;logg\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;---pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 195, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (if (empty? err) out)))&quot;, :offset 194, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;))]\n    header))&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [x]\n  (zipmap [:hash :mail :date] (str/split x #\&quot; \&quot;)))&quot;, :offset 73, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n    header))&quot;, :offset 93, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot; \&quot;)))&quot;, :offset 77, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n    (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;)))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] int)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update-in [:added :deleted] str)))&quot;, :offset 121, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))))&quot;, :offset 81, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] str)&quot;, :offset 117, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/valueOf)&quot;, :offset 129, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/getInteger)&quot;, :offset 132, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] Integer/parseInt)&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(Integer/parseInt \&quot;12\&quot;)&quot;, :offset 23, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] #(Integer/parseInt %))&quot;, :offset 135, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] read-string)&quot;, :offset 125, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot;, :deleted \&quot;4\&quot;, :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 122, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted] identity)&quot;, :offset 120, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] identity)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] Integer/parseInt)&quot;, :offset 119, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added :deleted ] read-string)&quot;, :offset 124, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:added] read-string)&quot;, :offset 114, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted] read-string)&quot;, :offset 116, :ns &quot;git-digger.digger&quot;} {:command &quot;(update-in  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            [:deleted :added] read-string)&quot;, :offset 123, :ns &quot;git-digger.digger&quot;} {:command &quot;(update  {:added \&quot;20\&quot; :deleted \&quot;4\&quot; :file \&quot;src/clojure_dominion/optimize.clj\&quot;}\n            :deleted read-string)&quot;, :offset 111, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [x]\n  (-&gt; (zipmap [:added :deleted :file] (str/split x #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 151, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-line \&quot;20\\t4\\tsrc/clojure_dominion/optimize.clj\&quot;)&quot;, :offset 55, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )]\n       [entries (map parse-line xs)]\n       entries))&quot;, :offset 134, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n     entries))&quot;, :offset 130, :ns &quot;git-digger.digger&quot;} {:command &quot;(call-git-log)&quot;, :offset 14, :ns &quot;git-digger.digger&quot;} {:command &quot;(let [[x &amp; xs] (str/split single-entry #\&quot;\\n\&quot;)]\n  (let [header (parse-header x )\n       entries (map parse-line xs)]\n    (assoc header :entries entries)))&quot;, :offset 153, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn call-git-log []\n  (let [result (sh \&quot;git\&quot; \&quot;log\&quot; \&quot;--pretty=format:'[%h] %ae %ad'\&quot; \&quot;--date=short\&quot; \&quot;--numstat\&quot;)\n        err (:err result)\n        out (:out result)]\n    (when (empty? err) out)))&quot;, :offset 196, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-header [header]\n  (zipmap [:hash :mail :date] (str/split header #\&quot; \&quot;)))&quot;, :offset 83, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-line [line]\n  (-&gt; (zipmap [:added :deleted :file] (str/split line #\&quot;\\t\&quot;))\n      (update :added read-string)\n      (update :deleted read-string)))&quot;, :offset 157, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-entry [entry]\n  (let [[x &amp; xs] (str/split entry #\&quot;\\n\&quot;)]\n    (let [header (parse-header x )\n          entries (map parse-line xs)]\n      (assoc header :entries entries))))&quot;, :offset 182, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (map parse-entry))&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 43, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    parse-entry)&quot;, :offset 59, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    0\n    parse-entry)&quot;, :offset 65, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 0)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;)\n    (get 1)\n    parse-entry)&quot;, :offset 71, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    (str/split #\&quot;\\n\\n\&quot;))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n    #(str/split % #\&quot;\\n\\n\&quot;))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (#(str/split % #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;)))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; (str/split #\&quot;\\n\\n\&quot;))\n     )&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (-&gt; str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 54, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; (call-git-log)\n     (str/split #\&quot;\\n\\n\&quot;)\n     )&quot;, :offset 51, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; x (call-git-log) \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(as-&gt; (call-git-log) x \n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x))&quot;, :offset 78, :ns &quot;git-digger.digger&quot;} {:command &quot;(defn parse-log [] \n  (as-&gt; (call-git-log) x\n      (str/split x #\&quot;\\n\\n\&quot;)\n      (map parse-entry x)))&quot;, :offset 100, :ns &quot;git-digger.digger&quot;} {:command &quot;(parse-log)&quot;, :offset 11, :ns &quot;git-digger.digger&quot;} {:command &quot;(def parsed-log (parse-log))&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint parsed-log)&quot;, :offset 19, :ns &quot;git-digger.digger&quot;} {:command &quot;(count parsed-log)&quot;, :offset 18, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :entries parsed-log)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added (mapcat :entries parsed-log))&quot;, :offset 44, :ns &quot;git-digger.digger&quot;} {:command &quot;(mapcat :entries parsed-log)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (partial :added +) 0 (mapcat :entries parsed-log))&quot;, :offset 58, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp :added +)  0 (mapcat :entries parsed-log))&quot;, :offset 56, :ns &quot;git-digger.digger&quot;} {:command &quot;(map :added flat-changes)&quot;, :offset 25, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce :added flat-changes)&quot;, :offset 28, :ns &quot;git-digger.digger&quot;} {:command &quot;(reduce (comp + :added) 0 flat-changes)&quot;, :offset 39, :ns &quot;git-digger.digger&quot;} {:command &quot;(print flat-changes)&quot;, :offset 20, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file .idea/compiler.xml})&quot;, :offset 66, :ns &quot;git-digger.digger&quot;} {:command &quot;((comp + :added) {:added 4, :deleted 0, :file \&quot;.idea/compiler.xml\&quot;})&quot;, :offset 68, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added)\n    (reduce +))&quot;, :offset 49, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt; flat-changes\n    (map :added))&quot;, :offset 34, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added))&quot;, :offset 35, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n    (map :added)\n     (apply +))&quot;, :offset 50, :ns &quot;git-digger.digger&quot;} {:command &quot;(-&gt;&gt; flat-changes\n  (map :deleted) \n  (apply +))&quot;, :offset 48, :ns &quot;git-digger.digger&quot;} {:command &quot;(def flat-changes (mapcat :entries parsed-log))&quot;, :offset 47, :ns &quot;git-digger.digger&quot;} {:command &quot;(+ 2 2)&quot;, :offset 6, :ns &quot;clojure-dominion.core&quot;} {:command &quot;(def most-changed-files\n  (get-most-changed-files (remove-entries entries \&quot;^.idea/|^test/\&quot;) 10))&quot;, :offset 96, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint most-changed-files)&quot;, :offset 27, :ns &quot;git-digger.digger&quot;} {:command &quot;(pprint oz-input)&quot;, :offset 17, :ns &quot;git-digger.digger&quot;} {:command &quot;(def oz-input\n  (map (fn[[f s]] {:file f :changes s}) most-changed-files))&quot;, :offset 74, :ns &quot;git-digger.digger&quot;} {:command &quot;(def bar-plot\n  {:data {:values oz-input}\n   :encoding {:x {:field \&quot;changes\&quot; :type \&quot;quantitative\&quot; }\n               :y {:field \&quot;file\&quot; :type \&quot;ordinal\&quot; :sort { :field \&quot;changes\&quot;}}}\n   :mark \&quot;bar\&quot;\n   :title \&quot;Files with most git changes\&quot;\n   :width 500\n   :height 300\n   })&quot;, :offset 266, :ns &quot;git-digger.digger&quot;} {:command &quot;(oz/v! bar-plot)&quot;, :offset 16, :ns &quot;git-digger.digger&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -736,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546424279807</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="some comments added">
+      <created>1546693959093</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1546693959093</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -760,10 +769,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="25" width="1875" height="960" extended-state="6" />
+    <frame x="0" y="-30" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15901814" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15901814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.32998565" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -789,7 +798,7 @@
       <window_info anchor="right" id="Ant Build" order="0" />
       <window_info anchor="right" id="Commander" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="REPL" order="3" sideWeight="0.50061655" side_tool="true" weight="0.43685073" />
+      <window_info active="true" anchor="right" id="REPL" order="3" sideWeight="0.50061655" side_tool="true" visible="true" weight="0.38580576" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Leiningen" order="5" sideWeight="0.49815044" weight="0.32998565" />
       <window_info anchor="right" id="Palette" order="6" />
@@ -856,7 +865,8 @@
     <MESSAGE value="added git-digger part" />
     <MESSAGE value="added oz plotting" />
     <MESSAGE value="get some stats oz plotting" />
-    <option name="LAST_COMMIT_MESSAGE" value="get some stats oz plotting" />
+    <MESSAGE value="some comments added" />
+    <option name="LAST_COMMIT_MESSAGE" value="some comments added" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -964,9 +974,6 @@
     <entry file="file://$PROJECT_DIR$/src/rushhour/solver.clj" />
     <entry file="file://$PROJECT_DIR$/test/rushhour/solver_test.clj" />
     <entry file="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/3.0.0/elastisch-3.0.0.jar!/clojurewerkz/elastisch/rest/document.clj" />
-    <entry file="file://$PROJECT_DIR$/src/git_digger/git_digger.clj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/file.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -974,41 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/someFileName">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_dominion/optimize.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1026,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/io.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -1047,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scrap.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -1061,17 +1023,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/git_digger/git_digger.clj" />
+    <entry file="file://$PROJECT_DIR$/src/elastic/elastic_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csv_analyse/analyse.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_dominion/action.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/java/shell.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someFileName">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/git_digger/custering.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="2961" column="6" selection-start-line="2961" selection-start-column="6" selection-end-line="2961" selection-end-column="6" />
+        <state relative-caret-position="294">
+          <caret line="2504" column="6" selection-start-line="2504" selection-start-column="6" selection-end-line="2504" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/git_digger/digger.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="595">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
