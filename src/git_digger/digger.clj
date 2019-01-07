@@ -2,6 +2,7 @@
   (:use clojure.pprint)
   (:use [clojure.java.shell :only [sh]])
   (:require [clojure.string :as str])
+  (:require [clojure.set :as set])
   (:require [oz.core :as oz]))
 
 (defn call-git-log
@@ -74,6 +75,22 @@
 
 (sort-by (comp count second) > file-to-commit-hashes)
 
+
+; -- correlation
+(defn jaccard-similarity [set-1 set-2]
+  (/
+    (count (set/intersection set-1 set-2))
+    (count (set/union set-1 set-2))))
+
+(defn pairs [[x & xs]]
+  (when-not (empty? xs)
+    (concat
+      (map #(list x %) xs)
+      (pairs xs))))
+
+(count (pairs (range 10000)))
+
+(pprint file-to-commit-hashes)
 ; -- analyze functions
 
 (defn get-most-changed-files [entries n]
@@ -113,7 +130,7 @@
 (oz/start-plot-server!)
 
 (def oz-input
-  (map (fn[[f s]] {:file f :changes s}) most-changed-files))
+  (map (fn[[f s]] {:file f :changes s}) filtered-most-changed-files))
 
 (pprint oz-input)
 
