@@ -82,13 +82,14 @@
     (count (set/intersection set-1 set-2))
     (count (set/union set-1 set-2))))
 
-(defn pairs [[x & xs]]
-  (when-not (empty? xs)
-    (concat
-      (map #(list x %) xs)
-      (pairs xs))))
 
-(count (pairs (range 10000)))
+(defn pairs [xs]
+  (loop [result [] [x & xs] xs]
+    (if (empty? xs) result
+      (recur (into result (map #(vector x %) xs))
+             xs))))
+
+(count (pairs (range 3000)))
 
 (pprint file-to-commit-hashes)
 ; -- analyze functions
