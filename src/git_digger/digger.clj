@@ -35,14 +35,14 @@
         (str/split x #"\n\n")
         (map parse-commit x)))
 
-(defn- commit->ext-entries [commit]
+(defn- commit->entries [commit]
   (map #(assoc % :hash (:hash commit)
                  :mail (:mail commit)
                  :date (:date commit))
        (:entries commit)))
 
-(defn commits->ext-entries [commits]
-  (mapcat commit->ext-entries commits))
+(defn commits->entries [commits]
+  (mapcat commit->entries commits))
 
 (defn update-map-values [m f & args]
   (reduce (fn [r [k v]] (assoc r k (apply f v args)))
@@ -52,30 +52,33 @@
 ;(def git-log
 ;  (slurp "/opt/data/payon/out.txt"))
 
-(def commits
-  (git-log->commits (call-git-log)))
-
-(def entries
-  (mapcat :entries commits))
-
-(def ext-entries
-  (commits->ext-entries commits))
-
-(defn ext-entries->file-to-commit-hashes [ext-entries]
-  (as-> ext-entries x
+(defn entries->file-to-commit-hashes [entries]
+  (as-> entries x
       (map #(select-keys % [:file :hash]) x)
       (group-by :file x)
       (update-map-values x (partial map :hash))
       (update-map-values x set)))
 
-(def file-to-commit-hashes
-  (ext-entries->file-to-commit-hashes ext-entries))
-
-(pprint file-to-commit-hashes)
-
 (sort-by (comp count second) > file-to-commit-hashes)
 
+(def files-hashes
+  (->> (git-log->commits (call-git-log))
+       commits->entries
+       ;(remove-entries "^.idea/|^test/|.gradle|.xml|.properties")
+       entries->file-to-commit-hashes
+       (reduce merge {})))
 
+(as-> files-hashes x
+      (map first x)
+      (pairs x)
+      (zipmap x (map (fn[[f s]] (jaccard-similarity
+                                  (files-hashes f)
+                                  (files-hashes s))) x))
+      (sort-by second > x)
+      (take 50 x))
+
+
+(pprint files-hashes)
 ; -- correlation
 (defn jaccard-similarity [set-1 set-2]
   (/
@@ -89,9 +92,6 @@
       (recur (into result (map #(vector x %) xs))
              xs))))
 
-(count (pairs (range 3000)))
-
-(pprint file-to-commit-hashes)
 ; -- analyze functions
 
 (defn get-most-changed-files [entries n]
@@ -108,24 +108,14 @@
 				(sort-by second > commits)
 				(take n commits)))
 
-(pprint
-  (get-most-changed-files entries 5))
-
-(pprint
-  (get-most-active-commiter commits 5))
-
-(defn remove-entries [entries regex-str]
+(defn remove-entries [regex-str entries]
   (let [regex (java.util.regex.Pattern/compile regex-str)]
     (remove #(re-find regex (:file %)) entries)))
 
-(defn filter-entries [entries regex-str]
+(defn filter-entries [regex-str entries]
   (let [regex (java.util.regex.Pattern/compile regex-str)]
     (filter #(re-find regex (:file %)) entries)))
 
-(def filtered-most-changed-files
-  (get-most-changed-files (remove-entries entries "^.idea/|^test/|.gradle|.xml|.properties") 50))
-
-(pprint filtered-most-changed-files)
 
 ;-----------------------
 (oz/start-plot-server!)
