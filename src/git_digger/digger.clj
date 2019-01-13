@@ -1,14 +1,15 @@
 (ns git-digger.digger
   (:use clojure.pprint)
-  (:use [clojure.java.shell :only [sh]])
+  (:require [clojure.java.shell :as sh])
   (:require [clojure.string :as str])
   (:require [clojure.set :as set])
-  (:require [oz.core :as oz]))
+  (:require [oz.core :as oz])
+  (:require [clojure.data.json :as json]))
 
 (defn call-git-log
   "Calls command line 'git log' command and returns logout if call was successful"
   []
-  (let [ result (sh "sh" "-c" "cd /home/piotr/Workplace/projects/clojure-dominion && git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2018-01-01 00:00:00'")]
+  (let [ result (sh/sh "sh" "-c" "cd /home/piotr/Workspace/clojure-dominion && git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2018-01-01 00:00:00'")]
     (when (empty? (:err result))
       (:out result))))
 
@@ -48,65 +49,12 @@
   (reduce (fn [r [k v]] (assoc r k (apply f v args)))
           {} m))
 
-; -- data to play
-;(def git-log
-;  (slurp "/opt/data/payon/out.txt"))
-
 (defn entries->file-to-commit-hashes [entries]
   (as-> entries x
-      (map #(select-keys % [:file :hash]) x)
-      (group-by :file x)
-      (update-map-values x (partial map :hash))
-      (update-map-values x set)))
-
-(sort-by (comp count second) > file-to-commit-hashes)
-
-(def files-hashes
-  (->> (git-log->commits (call-git-log))
-       commits->entries
-       ;(remove-entries "^.idea/|^test/|.gradle|.xml|.properties")
-       entries->file-to-commit-hashes
-       (reduce merge {})))
-
-(as-> files-hashes x
-      (map first x)
-      (pairs x)
-      (zipmap x (map (fn[[f s]] (jaccard-similarity
-                                  (files-hashes f)
-                                  (files-hashes s))) x))
-      (sort-by second > x)
-      (take 50 x))
-
-
-(pprint files-hashes)
-; -- correlation
-(defn jaccard-similarity [set-1 set-2]
-  (/
-    (count (set/intersection set-1 set-2))
-    (count (set/union set-1 set-2))))
-
-
-(defn pairs [xs]
-  (loop [result [] [x & xs] xs]
-    (if (empty? xs) result
-      (recur (into result (map #(vector x %) xs))
-             xs))))
-
-; -- analyze functions
-
-(defn get-most-changed-files [entries n]
-  (as-> entries entries
-    (group-by :file entries)
-    (update-map-values entries count)
-    (sort-by second > entries)
-    (take n entries)))
-
-(defn get-most-active-commiter [commits n]
-	(as-> commits commits
-				(group-by :mail commits)
-				(update-map-values commits count)
-				(sort-by second > commits)
-				(take n commits)))
+        (map #(select-keys % [:file :hash]) x)
+        (group-by :file x)
+        (update-map-values x (partial map :hash))
+        (update-map-values x set)))
 
 (defn remove-entries [regex-str entries]
   (let [regex (java.util.regex.Pattern/compile regex-str)]
@@ -116,16 +64,77 @@
   (let [regex (java.util.regex.Pattern/compile regex-str)]
     (filter #(re-find regex (:file %)) entries)))
 
+; -- data to play
+;(def git-log
+;  (slurp "/opt/data/payon/out.txt"))
+
+(def commits
+  (git-log->commits (call-git-log)))
+
+(def entries
+  (commits->entries commits))
+
+(def files-hashes
+  (->> entries
+       (remove-entries "^.idea/|^test/|.gradle|.xml|.properties")
+       entries->file-to-commit-hashes))
+
+; -- correlation
+(defn jaccard-similarity [set-1 set-2]
+  (/
+    (count (set/intersection set-1 set-2))
+    (count (set/union set-1 set-2))))
+
+(defn pairs [xs]
+  (loop [result [] [x & xs] xs]
+    (if (empty? xs) result
+      (recur (into result (map (fn [y] [x y]) xs))
+               xs))))
+
+; -- analyze functions
+(defn get-most-changed-files [entries]
+  (as-> (group-by :file entries) x
+    (update-map-values x count)
+    (sort-by second > x)))
+
+(defn get-most-active-commiter [commits]
+	(as-> (group-by :mail commits) x
+				(update-map-values x count)
+				(sort-by second > x)))
+
+(defn get-most-similar-files [files-hashes sim-f]
+  (as-> (map first files-hashes) x
+        (pairs x)
+        (zipmap x (map (fn[[k1 k2]] (sim-f (files-hashes k1) (files-hashes k2)))
+                       x))
+        (sort-by second > x)))
+
+
+; TODO:
+; - find files with high similarity and filter out the same package
+; - introduce distance/category based on java package - like higher similarity in the same shared package part
+; - usage of  https://vega.github.io/vega/examples/arc-diagram/
+;           - https://vega.github.io/vega/examples/force-directed-layout/
+; read:
+;   - https://en.wikipedia.org/wiki/Graph_drawing
+;   - https://en.wikipedia.org/wiki/Force-directed_graph_drawing
+;   - https://en.wikipedia.org/wiki/Hierarchical_clustering
+;   - https://en.wikipedia.org/wiki/Dimensionality_reduction
+
+(as-> (group-by :date entries) x
+      (update-map-values x count)
+      (sort-by key x))
+
+(get-most-similar-files
+  files-hashes jaccard-similarity)
 
 ;-----------------------
 (oz/start-plot-server!)
 
 (def oz-input
-  (map (fn[[f s]] {:file f :changes s}) filtered-most-changed-files))
+  (map (fn[[f s]] {:file f :changes s}) (get-most-changed-files entries)))
 
-(pprint oz-input)
-
-(def bar-plot
+(defn bar-plot [oz-input]
   {:data {:values oz-input}
    :encoding {:x {:field "changes" :type "quantitative" }
                :y {:field "file" :type "ordinal" :axis{ :labelLimit 600} :sort { :field "changes"}}}
@@ -135,7 +144,55 @@
    :height 400
    })
 
-(oz/v! bar-plot)
+(oz/v!
+  (bar-plot oz-input))
 
-;--- correlations
+(oz/v!
+  (json/read-json (slurp "./vega/bar-chart.vg.json"))
+  :mode :vega)
+
+;-----
+(def miserables-data
+  (json/read-json (slurp "./vega/data/miserables.json")))
+
+(def arc-diagram-vg
+  (json/read-json (slurp "./vega/arc-diagram.vg.json")))
+
+(def arc-data
+  (update-map-values miserables-data (partial take 10)))
+
+(oz/v!
+  (-> arc-diagram-vg
+      (assoc-in [:data 0 :values] arc-data )
+      (update-in [:data 0] dissoc :url )
+      (assoc-in [:data 3 :values] arc-data )
+      (update-in [:data 3] dissoc :url ))
+  :mode :vega)
+
+
+(defn scale-similar-files-values [sim-files scale]
+  (->> sim-files
+      (filter (fn[[k v]] (> v 0)))
+      (map (fn [[name value]] [name (* value scale)]))))
+
+(scale-similar-files-values
+  (get-most-similar-files files-hashes jaccard-similarity)
+  20)
+
+(defn get-index-map[]
+  (iterate #(update % :index inc) {:index 0}))
+
+(defn get-vg-nodes[files-hashes]
+  (as-> (map first files-hashes) x
+        (map #(hash-map :name % :group 1) x)
+        (sort-by :name x)
+        (map merge x (get-index-map))))
+
+(get-vg-nodes files-hashes)
+  (pprint arc-data)
+
+
+(oz/v!
+  (json/read-json (slurp "./vega/arc-diagram.vg.json"))
+  :mode :vega)
 
