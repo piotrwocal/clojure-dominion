@@ -125,14 +125,12 @@
       (update-map-values x count)
       (sort-by key x))
 
-(get-most-similar-files
-  files-hashes jaccard-similarity)
-
 ;-----------------------
 (oz/start-plot-server!)
 
 (def oz-input
-  (map (fn[[f s]] {:file f :changes s}) (get-most-changed-files entries)))
+  (map (fn[[f s]] {:file f :changes s})
+       (get-most-changed-files entries)))
 
 (defn bar-plot [oz-input]
   {:data {:values oz-input}
@@ -173,23 +171,34 @@
 (defn scale-similar-files-values [sim-files scale]
   (->> sim-files
       (filter (fn[[k v]] (> v 0)))
-      (map (fn [[name value]] [name (* value scale)]))))
+      (map (fn [[name value]]
+             [name (int (* value scale))]))))
 
-(scale-similar-files-values
-  (get-most-similar-files files-hashes jaccard-similarity)
-  20)
-
-(defn get-index-map[]
-  (iterate #(update % :index inc) {:index 0}))
+(defn files-hashes->files-index[files-hashes]
+  (as-> (map first files-hashes) x
+        (sort x)
+        (zipmap x (iterate inc 0))))
 
 (defn get-vg-nodes[files-hashes]
-  (as-> (map first files-hashes) x
-        (map #(hash-map :name % :group 1) x)
-        (sort-by :name x)
-        (map merge x (get-index-map))))
+  (->> (files-hashes->files-index files-hashes)
+        (map #(hash-map :name (first %) :group 1 :index (second %)))
+        (sort-by :index)))
 
+
+(let [files-index (files-hashes->files-index files-hashes)
+      file-pairs-sim (-> (get-most-similar-files files-hashes jaccard-similarity)
+                         (scale-similar-files-values 20))]
+  (as-> file-pairs-sim x
+        (map (fn[[[f1 f2] sim]]
+               (hash-map :source f1 :target f2 :value sim)) x )))
+
+
+;------- data playground
 (get-vg-nodes files-hashes)
-  (pprint arc-data)
+(pprint files-hashes)
+(pprint arc-data)
+
+
 
 
 (oz/v!
