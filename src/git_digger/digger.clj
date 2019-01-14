@@ -9,7 +9,7 @@
 (defn call-git-log
   "Calls command line 'git log' command and returns logout if call was successful"
   []
-  (let [ result (sh/sh "sh" "-c" "cd /home/piotr/Workspace/clojure-dominion && git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2018-01-01 00:00:00'")]
+  (let [ result (sh/sh "sh" "-c" "cd /opt/data/payon && git log --pretty=format:'[%h] %ae %ad' --date=short --numstat --after='2018-01-01 00:00:00'")]
     (when (empty? (:err result))
       (:out result))))
 
@@ -109,7 +109,6 @@
                        x))
         (sort-by second > x)))
 
-
 ; TODO:
 ; - find files with high similarity and filter out the same package
 ; - introduce distance/category based on java package - like higher similarity in the same shared package part
@@ -185,20 +184,35 @@
         (sort-by :index)))
 
 
-(let [files-index (files-hashes->files-index files-hashes)
-      file-pairs-sim (-> (get-most-similar-files files-hashes jaccard-similarity)
-                         (scale-similar-files-values 20))]
-  (as-> file-pairs-sim x
-        (map (fn[[[f1 f2] sim]]
-               (hash-map :source f1 :target f2 :value sim)) x )))
-
-
 ;------- data playground
-(get-vg-nodes files-hashes)
+(def ps-files-hashes
+  (as-> files-hashes x
+        (filter #(re-find #".java$" (first %)) x)
+        (sort-by (comp count second) > x)
+				(take 50 x)
+				(flatten x)
+				(apply sorted-map-by (comp count second) x)))
+
+(pprint ps-files-hashes)
+
+
+(get-most-similar-files files-hashes jaccard-similarity)
+;
+;(let [files-index (files-hashes->files-index files-hashes)
+;      file-pairs-sim (-> (get-most-similar-files files-hashes jaccard-similarity)
+;                         (scale-similar-files-values 20))]
+;  (as-> file-pairs-sim x
+;        (map (fn[[[f1 f2] sim]] (hash-map :source f1 :target f2 :value sim))
+;             x)
+;        (take 10 x)))
+
+
+
+(count (get-vg-nodes files-hashes))
 (pprint files-hashes)
 (pprint arc-data)
-
-
+(count commits)
+(count files-hashes)
 
 
 (oz/v!
