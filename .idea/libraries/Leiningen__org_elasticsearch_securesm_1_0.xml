@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.elasticsearch/securesm:1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/securesm/1.0/securesm-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

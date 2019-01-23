@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.twitter/jsr166e:1.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
