@@ -1,4 +1,5 @@
 (ns git-digger.git
+
   (:require [clojure.string :as str])
   (:require [clojure.java.shell :as sh]))
 
@@ -18,13 +19,21 @@
 (defn- parse-commit-line [line]
   (-> (zipmap [:added :deleted :file]
               (str/split line #"\t"))
-      (update :added read-string)
-      (update :deleted read-string)))
+      (update :added #(Integer/parseInt %))
+      (update :deleted #(Integer/parseInt %))))
+
+(defn commit-header? [line]
+  (.startsWith line "["))
+
 
 (defn parse-commit
   "Parse single commit logout to map"
   [entry]
-  (let [[x & xs] (str/split entry #"\n")]
+  (parse-commit-lines (str/split entry #"\n")))
+
+(defn parse-commit-lines [[x & xs]]
+  (if (commit-header? (first xs))
+    (parse-commit-lines xs)
     (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))
 
 (defn log->commits
@@ -38,6 +47,36 @@
                  :date (:date commit))
        (:entries commit)))
 
-(defn commits->entries
-  [commits]
+(defn commits->entries [commits]
   (mapcat commit->entries commits))
+
+
+(defn update-map-values [m f & args]
+  (reduce (fn [r [k v]] (assoc r k (apply f v args)))
+          {} m))
+
+(defn pairs [xs]
+  (loop [result [] [x & xs] xs]
+    (if (empty? xs) result
+                    (recur (into result (map (fn [y] [x y]) xs))
+                           xs))))
+
+(defn entries->file-to-commit-hashes [entries]
+  (as-> entries x
+        (map #(select-keys % [:file :hash]) x)
+        (group-by :file x)
+        (update-map-values x (partial map :hash))
+        (update-map-values x set)))
+
+(defn files-hashes->files-index[files-hashes]
+  (as-> (map first files-hashes) x
+        (sort x)
+        (zipmap x (iterate inc 0))))
+
+(defn remove-entries [regex-str entries]
+  (let [regex (java.util.regex.Pattern/compile regex-str)]
+    (remove #(re-find regex (:file %)) entries)))
+
+(defn filter-entries [regex-str entries]
+  (let [regex (java.util.regex.Pattern/compile regex-str)]
+    (filter #(re-find regex (:file %)) entries)))
