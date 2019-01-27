@@ -170,7 +170,7 @@
                                      (take 5 (get-most-changed-files entries))))
       most-changed-entries (filter #(most-changed-files (:file %)) entries)
       files-hashes (entries->file-to-commit-hashes most-changed-entries)
-      vg-data (get-vg-data files-hashes 10)]
+      vg-data (get-vg-data files-hashes 20)]
     (oz/v!
       (-> vg-template
           (assoc-in [:data 0 :values] vg-data)
