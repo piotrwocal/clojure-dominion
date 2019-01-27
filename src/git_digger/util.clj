@@ -1,3 +1,0 @@
-(ns git-digger.util)
-
-

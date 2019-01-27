@@ -25,16 +25,15 @@
 (defn commit-header? [line]
   (.startsWith line "["))
 
+(defn parse-commit-lines [[x & xs]]
+  (if (commit-header? (first xs))
+    (parse-commit-lines xs)
+    (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))
 
 (defn parse-commit
   "Parse single commit logout to map"
   [entry]
   (parse-commit-lines (str/split entry #"\n")))
-
-(defn parse-commit-lines [[x & xs]]
-  (if (commit-header? (first xs))
-    (parse-commit-lines xs)
-    (assoc (parse-commit-header x) :entries (map parse-commit-line xs))))
 
 (defn log->commits
   "Parse input string git logout to commit maps"

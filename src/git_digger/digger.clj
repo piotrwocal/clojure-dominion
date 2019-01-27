@@ -53,9 +53,9 @@
 
 
 ; time scale example
-(as-> (group-by :date entries) x
-      (update-map-values x count)
-      (sort-by key x))
+;(as-> (group-by :date entries) x
+;      (update-map-values x count)
+;      (sort-by key x))
 
 
 ; TODO:
@@ -161,12 +161,21 @@
 
 
 ;-------
-(let [log (call-git-log  "/home/piotr/Workspace/commons-lang" "2018-01-15 00:00:00")
+(let [vg-template (json/read-json (slurp "./vega/arc-diagram.vg.json"))
+      log (call-git-log  "/home/piotr/Workspace/commons-lang" "2018-01-15 00:00:00")
       commits (log->commits log)
-      entries (remove-entries "^.idea/|^src/test/|.gradle|.xml|.yml|.properties" (commits->entries commits))
-      files-hashes (entries->file-to-commit-hashes entries)]
-  files-hashes)
-
-
-
-
+      entries (filter-entries ".java$" (commits->entries commits))
+      most-changed-files (apply hash-set
+                                (map first
+                                     (take 5 (get-most-changed-files entries))))
+      most-changed-entries (filter #(most-changed-files (:file %)) entries)
+      files-hashes (entries->file-to-commit-hashes most-changed-entries)
+      vg-data (get-vg-data files-hashes 10)]
+    (oz/v!
+      (-> vg-template
+          (assoc-in [:data 0 :values] vg-data)
+          (update-in [:data 0] dissoc :url )
+          (assoc-in [:data 3 :values] vg-data)
+          (update-in [:data 3] dissoc :url ))
+            :mode :vega)
+    vg-data)
