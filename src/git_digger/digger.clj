@@ -4,10 +4,25 @@
   (:use git-digger.git)
   (:require [clojure.set :as set])
   (:require [oz.core :as oz])
-  (:require [clojure.data.json :as json]
-            [clojure.string :as str]))
+  (:require [clojure.data.json :as json]))
+
+
+; --- data to play
+
+(def commits
+  (log->commits (call-git-log "/home/piotr/Workspace/commons-lang" "2017-01-01 00:00:00")))
+
+(def entries
+  (commits->entries commits))
+
+(def files-hashes
+  (->> entries
+       (remove-entries "^.idea/|^test/|.gradle|.xml|.properties")
+       entries->file-to-commit-hashes))
+
 
 ; --- correlations
+
 (defn scale-similar-files-values [sim-files scale]
   (->> sim-files
        (filter (comp pos? second))
@@ -35,22 +50,6 @@
         (zipmap x (map (fn[[k1 k2]] (sim-f (files-hashes k1) (files-hashes k2)))
                        x))
         (sort-by second > x)))
-
-; --- data to play
-;(def git-log
-;  (slurp "/opt/data/payon/out.txt"))
-
-(def commits
-  (log->commits (call-git-log)))
-
-(def entries
-  (commits->entries commits))
-
-(def files-hashes
-  (->> entries
-       (remove-entries "^.idea/|^test/|.gradle|.xml|.properties")
-       entries->file-to-commit-hashes))
-
 
 ; time scale example
 ;(as-> (group-by :date entries) x
@@ -84,98 +83,112 @@
    :height 400
    })
 
+; --- most changed files
 (oz/v!
   (bar-plot
     (map (fn[[f s]] {:file f :changes s})
-         (->> (filter-entries ".clj$" entries)
+         (->> (filter-entries ".java$" entries)
               get-most-changed-files
-              (take 5)))))
+              (take 20)))))
 
-; --- bar plot from file
-;(oz/v!
-;  (json/read-json (slurp "./vega/bar-chart.vg.json"))
-;  :mode :vega)
 
-; --- miserables arch-example
-;(def miserables-data
-;  (json/read-json (slurp "./vega/data/miserables.json")))
-;
-;(def arc-diagram-vg
-;  (json/read-json (slurp "./vega/arc-diagram.vg.json")))
-;
-;(def arc-data
-;  (update-map-values miserables-data (partial take 10)))
-;
-;(def git-arc-data
-;  (get-vg-data files-hashes 20))
-;
-;(oz/v!
-;  (-> arc-diagram-vg
-;      (assoc-in [:data 0 :values] git-arc-data )
-;      (update-in [:data 0] dissoc :url )
-;      (assoc-in [:data 3 :values] git-arc-data )
-;      (update-in [:data 3] dissoc :url ))
-;  :mode :vega)
-
+; --- most active commiter, works with commits and entries for single files
+(oz/v!
+  (bar-plot
+    (map (fn[[f s]] {:file f :changes s})
+         (->> (get-most-active-commiter commits)
+              (take 20)))))
 
 
 ; ---- vg-transformations
 
-(defn get-vg-nodes[files-hashes]
+(defn get-vg-nodes [files-hashes]
   (->> (files-hashes->files-index files-hashes)
         (map #(hash-map :name (first %) :group 1 :index (second %)))
         (sort-by :index)))
 
-(defn get-vg-links[files-hashes scale]
-  (let [files-index (files-hashes->files-index files-hashes)
-        file-pairs-sim (-> (get-most-similar-files files-hashes jaccard-similarity)
-                           (scale-similar-files-values scale))]
-    (as-> file-pairs-sim x
-          (map (fn[[[f1 f2] sim]]
-                 (hash-map :source (files-index f1) :target (files-index f2) :value sim)) x ))))
+(defn file-pairs-sim [files-hashes sim-f scale]
+  (-> (get-most-similar-files files-hashes sim-f)
+      (scale-similar-files-values scale)))
 
-(defn get-vg-data[files-hashes scale]
+(defn get-vg-links [files-hashes scale]
+  (let [files-index (files-hashes->files-index files-hashes)]
+    (as-> (file-pairs-sim files-hashes jaccard-similarity scale) x
+          (map (fn[[[f1 f2] sim]]
+                 (hash-map :source (files-index f1) :target (files-index f2) :value sim)) x)
+          (filter #(pos? (:value %)) x)
+          )))
+
+(defn get-vg-data [files-hashes scale]
   {:nodes (get-vg-nodes files-hashes)
    :links (get-vg-links files-hashes scale)})
 
-(defn file-similarity-arc-diagram [path cut-date remove-regex scale]
+(defn file-similarity-arc-diagram
+  [path cut-date & {:keys [filter-regex remove-regex top-files scale]
+                    :or { filter-regex ""
+                          remove-regex "\\b\\B"
+                          top-files 10
+                          scale 5 }}]
   (let [vg-template (json/read-json (slurp "./vega/arc-diagram.vg.json"))
-        log (call-git-log path cut-date)
-        commits (log->commits log)
-        entries (remove-entries remove-regex (commits->entries commits))
-        files-hashes (entries->file-to-commit-hashes entries)
+        commits (log->commits (call-git-log path cut-date))
+        entries (->> (commits->entries commits)
+                     (filter-entries filter-regex)
+                     (remove-entries remove-regex))
+        most-changed-files (->> (get-most-changed-files entries)
+                           (take top-files)
+                           (map first)
+                           (apply hash-set))
+        most-changed-entries (filter #(most-changed-files (:file %))
+                                     entries)
+        files-hashes (entries->file-to-commit-hashes most-changed-entries)
         vg-data (get-vg-data files-hashes scale)]
     (oz/v!
       (-> vg-template
           (assoc-in [:data 0 :values] vg-data)
-          (update-in [:data 0] dissoc :url )
+          (update-in [:data 0] dissoc :url)
           (assoc-in [:data 3 :values] vg-data)
-          (update-in [:data 3] dissoc :url ))
-      :mode :vega)))
+          (update-in [:data 3] dissoc :url))
+      :mode :vega)
+    (-> vg-data)))
 
+; -- fire me up baby !
 (file-similarity-arc-diagram
-  "/home/piotr/Workspace/commons-lang"
+  "/home/piotr/Workspace/clojure-dominion"
   "2018-01-15 00:00:00"
-  "^.idea/|^src/test/|.gradle|.xml|.yml|.txt|.properties"
-  6)
+  :filter-regex ".clj$"
+  :remove-regex ".xml$"
+  :top-files 30
+  :scale 10)
 
 
-;-------
-(let [vg-template (json/read-json (slurp "./vega/arc-diagram.vg.json"))
-      log (call-git-log  "/home/piotr/Workspace/commons-lang" "2018-01-15 00:00:00")
-      commits (log->commits log)
-      entries (filter-entries ".java$" (commits->entries commits))
-      most-changed-files (apply hash-set
-                                (map first
-                                     (take 5 (get-most-changed-files entries))))
-      most-changed-entries (filter #(most-changed-files (:file %)) entries)
+(let [commits (log->commits (call-git-log  "/home/piotr/Workspace/clojure-dominion" "2016-01-01 00:00:00"))
+      entries (->> (commits->entries commits)
+                   (filter-entries ".clj$")
+                   (remove-entries ".*Test.*"))
+      most-changed-files (->> (get-most-changed-files entries)
+                              (take 20)
+                              (map first)
+                              (apply hash-set))
+      most-changed-entries (filter #(most-changed-files (:file %))
+                                   entries)
       files-hashes (entries->file-to-commit-hashes most-changed-entries)
-      vg-data (get-vg-data files-hashes 20)]
-    (oz/v!
-      (-> vg-template
-          (assoc-in [:data 0 :values] vg-data)
-          (update-in [:data 0] dissoc :url )
-          (assoc-in [:data 3 :values] vg-data)
-          (update-in [:data 3] dissoc :url ))
-            :mode :vega)
-    vg-data)
+      vg-data (get-vg-data files-hashes 10)]
+  (spit "./vega/out.json"
+        (json/write-str vg-data))
+  (-> vg-data))
+
+
+(def vg-data
+   {:nodes [        {:group 1, :index 0, :name "0"}
+                    {:group 1, :index 1, :name "1"}
+                    {:group 1, :index 2, :name "2"}
+                    {:group 1, :index 3, :name "3"}
+                    {:group 1, :index 4, :name "4"}],
+            :links [{:value 1, :source 0, :target 1}
+                    {:value 1, :source 1, :target 2}
+                    {:value 1, :source 2, :target 3}
+                    {:value 1, :source 3, :target 4}
+                    {:value 5, :source 0, :target 2}
+                    ]})
+
+(spit "./vega/out.json" (json/write-str vg-data))
